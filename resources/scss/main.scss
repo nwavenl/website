@@ -2,7 +2,8 @@
 @import "vendor/bootstrap-fix";
 
 //standard style
-@import "container/global";
+@import "global/global";
+@import "global/variable";
 
 //styling
 @import "container/nav";
