@@ -2,9 +2,12 @@
 @import "vendor/bootstrap-fix";
 
 //standard style
-@import "global/global";
 @import "global/variable";
+@import "global/global";
+@import "global/typography";
+@import "global/button";
 
 //styling
 @import "container/nav";
 @import "container/hero";
+@import "container/homepage";

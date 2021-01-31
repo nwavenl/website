@@ -1,4 +1,39 @@
 nav.main {
     height: 60px;
     background: #ffffff;
+    position: sticky;
+    top: 0;
+
+    .container {
+        height: 60px;
+    }
+
+    .branding {
+        h4 {
+            font-size: 24px;
+        }
+    }
+
+    .navigation {
+        ul {
+            display: flex;
+            justify-content: end;
+            justify-items: center;
+            align-items: center;
+
+            li {
+                margin-left: 20px;
+
+                &.btn {
+                    background: $main;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
 }
