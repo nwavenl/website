@@ -1,0 +1,44 @@
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1240px !important;
+  }
+}
+@media (min-width: 1640px) {
+  .container {
+    max-width: 1440px !important;
+  }
+}
+@media (min-width: 1840px) {
+  .container {
+    max-width: 1640px !important;
+  }
+}
+@media (min-width: 2040px) {
+  .container {
+    max-width: 1840px !important;
+  }
+}
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+nav.main {
+  height: 60px;
+  background: #ffffff;
+}
+
+section.hero {
+  height: 100%;
+}
