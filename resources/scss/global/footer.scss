@@ -19,6 +19,11 @@ footer {
     }
     a {
         color: #fff;
+        transition: .2s;
+
+        &:hover {
+            color: #fff !important;
+        }
     }
     .row-1 {
         height: 159px;
@@ -41,7 +46,7 @@ footer {
             margin: 0 !important;
             padding: 0 !important;
             position: absolute;
-            bottom: 0;
+            bottom: 4px;
             li {
                 font-size: 18px;
                 line-height: 30px;
@@ -66,7 +71,7 @@ footer {
 
             &.under {
                 position: absolute;
-                bottom: 0;
+                bottom: -4px;
             }
         }
     }
