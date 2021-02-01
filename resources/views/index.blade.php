@@ -26,15 +26,34 @@
     </section>
     <section class="about">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
-                    <div class="content">
+                    <div class="content image">
                         <img src="{{asset('/images/homepage/services_2.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="content">
+                        <h2>Over nwave, en wat wij doen.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi delectus error
+                            fugiat laudantium nobis officia repellendus rerum veniam. Consequuntur ipsam nulla quod.
+                            Aliquid amet deserunt doloremque iste, molestiae officia. Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. A, aliquam architecto cumque debitis, dicta dolores ducimus ea
+                            exercitationem facilis hic id maxime minima natus neque nulla ratione sint totam
+                            veritatis.</p>
+                        <a class="btn white" href="#">Bekijk ons werk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <div class="intro-header">
+                        <h2>Wat wij doen.</h2>
                     </div>
                 </div>
             </div>
