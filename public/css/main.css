@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
 @media (min-width: 1440px) {
   .container {
     max-width: 1240px !important;
@@ -27,6 +28,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -44,7 +46,8 @@ ul {
 
 h1 {
   font-size: 48px;
-  font-family: "SFproBold", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
 
 p {
@@ -56,44 +59,54 @@ p {
   padding: 10px 20px;
   border-radius: 10px;
   color: #fff;
+  font-weight: 500;
+}
+.btn :hover {
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 nav.main {
-  height: 60px;
+  padding: 10px 0;
   background: #ffffff;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
-nav.main .container {
-  height: 60px;
-}
 nav.main .branding h4 {
   font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  top: 8px;
+}
+nav.main .branding h4 a {
+  color: #000;
 }
 nav.main .navigation ul {
   display: flex;
   justify-content: end;
   justify-items: center;
   align-items: center;
+  margin: 0 !important;
 }
 nav.main .navigation ul li {
   margin-left: 20px;
+  font-weight: 500;
 }
-nav.main .navigation ul li.btn {
+nav.main .navigation ul li.btn-nav {
   background: #FF824C;
   padding: 10px 20px;
   border-radius: 10px;
 }
-nav.main .navigation ul li.btn a {
+nav.main .navigation ul li.btn-nav a {
   color: #fff;
 }
 
 section.hero .row {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 64px);
 }
 section.hero .row .hero-content {
-  max-width: 540px;
+  max-width: 580px;
 }
 section.hero .row .hero-content p {
   color: #7E7E7E;
@@ -107,6 +120,5 @@ section.hero .hero_under {
 }
 
 .about {
-  height: 500px;
   background: linear-gradient(180deg, #ff824c 0%, #f5af19 100%);
 }

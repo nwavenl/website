@@ -3,4 +3,10 @@
     padding: 10px 20px;
     border-radius: 10px;
     color: #fff;
+    font-weight: 500;
+
+    :hover {
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,.3);
+    }
 }

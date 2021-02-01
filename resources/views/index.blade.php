@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="content">
-                        <img src="" alt="">
+                        <img src="{{asset('/images/homepage/services_2.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">

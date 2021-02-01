@@ -9,7 +9,7 @@
                     <li><a href="">Over ons</a></li>
                     <li><a href="">Projecten</a></li>
                     <li><a href="">Offerte</a></li>
-                    <li class="btn"><a href="">Contact</a></li>
+                    <li class="btn-nav"><a href="">Contact</a></li>
                 </ul>
             </div>
         </div>

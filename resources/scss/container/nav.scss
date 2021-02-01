@@ -1,16 +1,18 @@
 nav.main {
-    height: 60px;
+    padding: 10px 0;
     background: #ffffff;
     position: sticky;
     top: 0;
 
-    .container {
-        height: 60px;
-    }
-
     .branding {
         h4 {
             font-size: 24px;
+            font-weight: 700;
+            position: relative;
+            top: 8px;
+            a {
+                color: #000;
+            }
         }
     }
 
@@ -20,11 +22,13 @@ nav.main {
             justify-content: end;
             justify-items: center;
             align-items: center;
+            margin: 0 !important;
 
             li {
                 margin-left: 20px;
+                font-weight: 500;
 
-                &.btn {
+                &.btn-nav {
                     background: $main;
                     padding: 10px 20px;
                     border-radius: 10px;
