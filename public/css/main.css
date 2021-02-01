@@ -55,7 +55,7 @@ h2 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -128,13 +128,16 @@ footer p {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.7);
   line-height: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 footer p.highlight {
   color: #fff !important;
 }
 footer a {
   color: #fff;
+}
+footer .row-1 {
+  height: 159px;
 }
 footer .row-1 a {
   text-decoration: underline;
@@ -145,6 +148,41 @@ footer .row-1 .copyright {
 footer .row-1 .copyright p {
   font-size: 15px;
   line-height: 2px;
+}
+footer .row-2 {
+  height: 159px;
+  position: relative;
+}
+footer .row-2 ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  bottom: 0;
+}
+footer .row-2 ul li {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+footer .row-3 {
+  position: relative;
+  left: -100px;
+  height: 159px;
+}
+footer .row-3 img {
+  width: 25px;
+  margin-bottom: 20px;
+}
+footer .row-3 p {
+  font-size: 16px;
+}
+footer .row-3 p a {
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+}
+footer .row-3 p.under {
+  position: absolute;
+  bottom: 0;
 }
 
 section.hero .row {
