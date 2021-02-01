@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'SFproRegular', sans-serif;
+    src: url("regular.woff") format("woff"),
+}
+@font-face {
+    font-family: 'SFproBold', sans-serif;
+    src: url("bold.woff") format("woff"),
+}
+@font-face {
+    font-family: 'SFproLight', sans-serif;
+    src: url("light.woff") format("woff"),
+}
