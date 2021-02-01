@@ -24,4 +24,5 @@ Homestead.json
 
 # styling
 public/css
+public/css/main.css
 public/js
