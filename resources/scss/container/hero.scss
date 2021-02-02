@@ -17,5 +17,18 @@ section.hero {
         left: 0;
         width: 100%;
         height: 200px;
+
+        @media (max-height: 820px) {
+            height: 30px;
+        }
+    }
+
+    .image-holder-fix {
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+    img {
+        max-width: 100%;
     }
 }

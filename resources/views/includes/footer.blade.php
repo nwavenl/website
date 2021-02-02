@@ -7,7 +7,7 @@
         </div>
         <div class="row">
 
-            <div class="col-2">
+            <div class="col-xxl-2 col-md-4">
                 <div class="content row-1">
                     <p>Neem contact op</p>
                     <p><a href="mailto:contact@nwave.nl">contact@nwave.nl</a></p>
@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-xxl-2 col-md-4">
                 <div class="content row-2">
                     <p>Sitemap</p>
                     <ul>
@@ -31,12 +31,12 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="col-xxl-2 col-md-4">
                 <div class="content row-3">
                     <img src="{{asset('/images/global/linkedin.png')}}" alt="">
                     <p><a href="#">Algemene voorwaarden</a></p>
                     <p><a href="#">Privacy policy</a></p>
-                    <p class="under">KVK: 123456789</p>
+                    <p class="under">KVK: 81766483</p>
                 </div>
             </div>
 
