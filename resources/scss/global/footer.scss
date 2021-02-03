@@ -1,0 +1,104 @@
+footer {
+    background: $grey;
+    padding: 20px 0;
+    color: #fff;
+    position: relative;
+
+    h5 {
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgba(255, 255, 255, .7);
+        line-height: 15px;
+        font-weight: 600;
+
+        &.highlight {
+            color: #fff !important;
+        }
+    }
+    a {
+        color: #fff;
+        transition: .2s;
+
+        &:hover {
+            color: #fff !important;
+        }
+    }
+
+    .content {
+        @media (max-width: 768px) {
+            padding: 20px 0;
+        }
+    }
+    .row-1 {
+        height: 159px;
+        a {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            padding-top: 30px;
+            p {
+                font-size: 15px;
+                line-height: 2px;
+            }
+
+            @media (max-width: 768px) {
+                position: absolute;
+                bottom: 0;
+                //left: 0;
+            }
+        }
+    }
+    .row-2 {
+        height: 159px;
+        position: relative;
+        ul {
+            margin: 0 !important;
+            padding: 0 !important;
+            position: absolute;
+            bottom: 4px;
+            li {
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
+            }
+        }
+        @media (max-width: 768px) {
+            position: relative;
+            top: -50px;
+        }
+    }
+    .row-3 {
+        position: relative;
+        left: -100px;
+        height: 159px;
+        @media (max-width: 1640px) {
+            left: -50px;
+        }
+        @media (max-width: 768px) {
+            left: 0;
+            margin: 0 0 40px !important;
+            position: relative;
+            top: -35px;
+        }
+        img {
+            width: 25px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            a {
+                color: rgba(255, 255, 255, .7);
+                text-transform: uppercase;
+            }
+
+            &.under {
+                position: absolute;
+                bottom: -4px;
+            }
+        }
+    }
+}
