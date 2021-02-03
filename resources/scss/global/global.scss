@@ -1,6 +1,10 @@
 body {
     overflow-x: hidden;
     min-height: 100vh;
+
+    &.scroll {
+        overflow: hidden !important;
+    }
 }
 * {
     box-sizing: border-box;

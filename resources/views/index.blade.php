@@ -27,12 +27,12 @@
     <section class="about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-lg-rm ">
                     <div class="content image">
                         <img src="{{asset('/images/homepage/services_2.png')}}" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Over nwave, en wat wij doen.</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi delectus error

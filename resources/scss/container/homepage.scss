@@ -9,6 +9,13 @@ section.about {
             max-width: 640px;
             padding: 10px 0 30px;
         }
+
+        &.image {
+            max-width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
     }
 }
 
