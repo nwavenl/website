@@ -130,14 +130,68 @@ aside.mobile-nav {
     right: 0;
     z-index: 80;
     display: none;
-    transition: .5s ease-in-out;
     padding: 100px 20px;
     max-height: 100vh;
+    animation: mobile-fadeout .5s;
+
+    img.background-img {
+        display: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        li {
+            margin: 10px 0;
+            font-weight: 500;
+            font-size: 23px;
+            transition: .3s;
+
+            &.btn-nav {
+                background: $main;
+                padding: 8px 20px;
+                border-radius: 10px;
+
+                a {
+                    color: #fff;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+
+            a {
+                &:hover {
+                    color: $main;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        padding-top: 30px;
+        position: absolute;
+        bottom: 20px;
+
+        p {
+            font-size: 15px;
+            line-height: 2px;
+            color: rgba(0, 0, 0, .7)
+        }
+    }
 
     @media (min-width: 992px) {
         display: none;
     }
 
+    &.opened {
+        display: block !important;
+    }
 
     &.active {
         display: block;
@@ -150,6 +204,7 @@ aside.mobile-nav {
 
         img.background-img {
             position: absolute;
+            display: block !important;
             height: 500px;
             width: 500px;
             top: 50%;
@@ -166,53 +221,6 @@ aside.mobile-nav {
                 display: none;
             }
         }
-
-        ul {
-            margin: 0;
-            padding: 0;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-
-            li {
-                margin: 10px 0;
-                font-weight: 500;
-                font-size: 23px;
-                transition: .3s;
-
-                &.btn-nav {
-                    background: $main;
-                    padding: 8px 20px;
-                    border-radius: 10px;
-
-                    a {
-                        color: #fff;
-
-                        &:hover {
-                            color: #fff;
-                        }
-                    }
-                }
-
-                a {
-                    &:hover {
-                        color: $main;
-                    }
-                }
-            }
-        }
-
-        .copyright {
-            padding-top: 30px;
-            position: absolute;
-            bottom: 20px;
-
-            p {
-                font-size: 15px;
-                line-height: 2px;
-                color: rgba(0, 0, 0, .7)
-            }
-        }
     }
 }
 
@@ -224,6 +232,16 @@ aside.mobile-nav {
     }
     100% {
         left: 0;
+    }
+}
+
+//menu fadein animatie
+@keyframes mobile-fadeout {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100vw;
     }
 }
 //foto rechts animatie

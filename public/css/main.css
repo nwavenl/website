@@ -87,6 +87,11 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
 h5 {
   font-size: 22px;
   font-weight: 600;
@@ -220,14 +225,58 @@ aside.mobile-nav {
   right: 0;
   z-index: 80;
   display: none;
-  transition: 0.5s ease-in-out;
   padding: 100px 20px;
   max-height: 100vh;
+  -webkit-animation: mobile-fadeout 0.5s;
+          animation: mobile-fadeout 0.5s;
+}
+aside.mobile-nav img.background-img {
+  display: none;
+}
+aside.mobile-nav ul {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+aside.mobile-nav ul li {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 23px;
+  transition: 0.3s;
+}
+aside.mobile-nav ul li.btn-nav {
+  background: #FF824C;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+aside.mobile-nav ul li.btn-nav a {
+  color: #fff;
+}
+aside.mobile-nav ul li.btn-nav a:hover {
+  color: #fff;
+}
+aside.mobile-nav ul li a:hover {
+  color: #FF824C;
+}
+aside.mobile-nav .copyright {
+  padding-top: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+aside.mobile-nav .copyright p {
+  font-size: 15px;
+  line-height: 2px;
+  color: rgba(0, 0, 0, 0.7);
 }
 @media (min-width: 992px) {
   aside.mobile-nav {
     display: none;
   }
+}
+aside.mobile-nav.opened {
+  display: block !important;
 }
 aside.mobile-nav.active {
   display: block;
@@ -242,6 +291,7 @@ aside.mobile-nav.active {
 }
 aside.mobile-nav.active img.background-img {
   position: absolute;
+  display: block !important;
   height: 500px;
   width: 500px;
   top: 50%;
@@ -265,43 +315,6 @@ aside.mobile-nav.active img.background-img {
     display: none;
   }
 }
-aside.mobile-nav.active ul {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-aside.mobile-nav.active ul li {
-  margin: 10px 0;
-  font-weight: 500;
-  font-size: 23px;
-  transition: 0.3s;
-}
-aside.mobile-nav.active ul li.btn-nav {
-  background: #FF824C;
-  padding: 8px 20px;
-  border-radius: 10px;
-}
-aside.mobile-nav.active ul li.btn-nav a {
-  color: #fff;
-}
-aside.mobile-nav.active ul li.btn-nav a:hover {
-  color: #fff;
-}
-aside.mobile-nav.active ul li a:hover {
-  color: #FF824C;
-}
-aside.mobile-nav.active .copyright {
-  padding-top: 30px;
-  position: absolute;
-  bottom: 20px;
-}
-aside.mobile-nav.active .copyright p {
-  font-size: 15px;
-  line-height: 2px;
-  color: rgba(0, 0, 0, 0.7);
-}
 
 @-webkit-keyframes mobile-fadein {
   0% {
@@ -318,6 +331,22 @@ aside.mobile-nav.active .copyright p {
   }
   100% {
     left: 0;
+  }
+}
+@-webkit-keyframes mobile-fadeout {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+@keyframes mobile-fadeout {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100vw;
   }
 }
 @-webkit-keyframes mr-animation {
@@ -495,6 +524,11 @@ section.subhero .overlay {
 section.subhero .row {
   height: calc(50vh - 64px);
 }
+@media (max-height: 959px) {
+  section.subhero .row {
+    height: calc(100vh - 64px);
+  }
+}
 section.subhero .row .content {
   position: relative;
   z-index: 10;
@@ -549,4 +583,135 @@ section.cta .cta-content {
 }
 section.cta .cta-content .btn {
   margin: 0;
+}
+
+body.offerte section.services {
+  padding: 50px 0;
+}
+body.offerte section.services .section-intro p {
+  color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 1399px) {
+  body.offerte section.services .card-parent {
+    margin: 20px 0;
+  }
+}
+body.offerte section.services .card {
+  background: #F1F1F1;
+  padding: 30px 25px;
+  margin: 0 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  height: 100%;
+}
+@media (max-width: 2055px) {
+  body.offerte section.services .card {
+    margin: 0;
+  }
+}
+@media (max-width: 1399px) {
+  body.offerte section.services .card {
+    margin: 0 15px;
+  }
+}
+body.offerte section.services .card .card-title span {
+  display: flex;
+}
+body.offerte section.services .card .card-title span img {
+  height: 40px;
+}
+@media (max-width: 1645px) {
+  body.offerte section.services .card .card-title span img {
+    height: 30px;
+  }
+}
+@media (max-width: 1399px) {
+  body.offerte section.services .card .card-title span img {
+    height: 35px;
+  }
+}
+body.offerte section.services .card .card-title span h3 {
+  margin-left: 20px;
+  position: relative;
+  top: -3px;
+}
+@media (max-width: 1645px) {
+  body.offerte section.services .card .card-title span h3 {
+    font-size: 25px;
+    top: 2px;
+  }
+}
+@media (max-width: 1399px) {
+  body.offerte section.services .card .card-title span h3 {
+    font-size: 30px;
+    top: -1px;
+  }
+}
+body.offerte section.services .card .card-title .divider {
+  width: 100%;
+  height: 5px;
+  background: #DADADA;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+body.offerte section.services .card .card-content p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  height: 90px;
+}
+@media (max-width: 1857px) {
+  body.offerte section.services .card .card-content p {
+    height: 120px;
+  }
+}
+@media (max-width: 1645px) {
+  body.offerte section.services .card .card-content p {
+    font-size: 12px;
+    height: 90px;
+  }
+}
+@media (max-width: 1399px) {
+  body.offerte section.services .card .card-content p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  body.offerte section.services .card .card-content p {
+    font-size: 12px;
+  }
+}
+body.offerte section.services .card .card-content .btn {
+  margin: 10px 0 20px;
+}
+body.offerte section.services .card .card-content ul {
+  margin: 20px 0;
+  padding: 0;
+}
+body.offerte section.services .card .card-content ul li {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+}
+@media (max-width: 1645px) {
+  body.offerte section.services .card .card-content ul li {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1399px) {
+  body.offerte section.services .card .card-content ul li {
+    font-size: 15px;
+  }
+}
+body.offerte section.services .card .card-content ul li img {
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+  top: -1px;
+}
+body.offerte section.services p.disclaimer {
+  margin: 20px 30px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.25);
 }

@@ -22,7 +22,7 @@
         </div>
     </div>
 </nav>
-<aside class="mobile-nav">
+<aside id="mobile-nav" class="mobile-nav">
     <img class="background-img" src="{{asset('/images/homepage/services_2.png')}}" alt="">
     <div class="container">
         <div class="row vh-100">
