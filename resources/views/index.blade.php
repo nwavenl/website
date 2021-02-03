@@ -2,6 +2,8 @@
 
 @section('title') Websites op maat voor elk platform @endsection
 
+@section('bodyClass') home @endsection
+
 @section('content')
 
     <section class="hero">

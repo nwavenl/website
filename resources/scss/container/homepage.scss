@@ -1,28 +1,31 @@
-section.about {
-    background: linear-gradient(180deg, rgba(255,130,76,1) 0%, rgba(245,175,25,1) 100%);
+body.home {
+    section.about {
+        background: linear-gradient(180deg, rgba(255,130,76,1) 0%, rgba(245,175,25,1) 100%);
 
-    .content {
-        padding: 80px 0;
-        color: #fff;
+        .content {
+            padding: 80px 0;
+            color: #fff;
 
-        p {
-            max-width: 640px;
-            padding: 10px 0 30px;
-        }
+            p {
+                max-width: 640px;
+                padding: 10px 0 30px;
+            }
 
-        &.image {
-            max-width: 100%;
-            img {
+            &.image {
                 max-width: 100%;
+                img {
+                    max-width: 100%;
+                }
             }
         }
     }
-}
 
-section.services {
-    padding: 30px 0;
+    section.services {
+        padding: 30px 0;
 
-    .intro-header {
-        padding: 70px 0 40px;
+        .intro-header {
+            padding: 70px 0 40px;
+        }
     }
+
 }

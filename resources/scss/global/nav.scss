@@ -138,23 +138,6 @@ aside.mobile-nav {
         display: none;
     }
 
-    img.background-img {
-        position: absolute;
-        height: 500px;
-        width: 500px;
-        top: 50%;
-        right: -200px;
-        transform: translateY(-50%);
-        @media (max-width: 653px) {
-            right: -300px;
-        }
-        @media (max-width: 400px) {
-            right: -350px;
-        }
-        @media (max-width: 315px) {
-            display: none;
-        }
-    }
 
     &.active {
         display: block;
@@ -163,6 +146,25 @@ aside.mobile-nav {
 
         @media (min-width: 992px) {
             display: none;
+        }
+
+        img.background-img {
+            position: absolute;
+            height: 500px;
+            width: 500px;
+            top: 50%;
+            right: -200px;
+            transform: translateY(-50%);
+            animation: mr-animation .7s;
+            @media (max-width: 653px) {
+                right: -300px;
+            }
+            @media (max-width: 400px) {
+                right: -350px;
+            }
+            @media (max-width: 315px) {
+                display: none;
+            }
         }
 
         ul {
@@ -214,13 +216,26 @@ aside.mobile-nav {
     }
 }
 
-//animations
+////animations
+//menu fadein animatie
 @keyframes mobile-fadein {
     0% {
         left: 100vw;
     }
     100% {
         left: 0;
+    }
+}
+//foto rechts animatie
+@keyframes mr-animation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 

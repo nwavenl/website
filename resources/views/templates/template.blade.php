@@ -12,7 +12,7 @@
     <title>nwave - @yield('title')</title>
 
 </head>
-    <body>
+    <body class="@yield('bodyClass')">
         @include('includes.nav')
 
         <main>
