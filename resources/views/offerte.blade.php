@@ -140,10 +140,12 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <p class="disclaimer">* SEO wordt standaard geleverd bij elk project, heeft u een website via een ander
-                        bedrijf, neem eerst contact met hen op voor de website code. Anders kunnen wij helaas niks voor
-                        uw betekenen</p>
-                    <p class="disclaimer">** Alleen voor al bestaande klanten</p>
+                    <div class="disclaimer-parent">
+                        <p class="disclaimer">* SEO wordt standaard geleverd bij elk project, heeft u een website via een ander
+                            bedrijf, neem eerst contact met hen op voor de website code. Anders kunnen wij helaas niks voor
+                            uw betekenen</p>
+                        <p class="disclaimer">** Alleen voor al bestaande klanten</p>
+                    </div>
                 </div>
 
                 <div class="col-12">
