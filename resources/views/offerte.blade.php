@@ -154,4 +154,16 @@
         </div>
     </section>
 
+    <section class="offerte-under">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Niet gevonden waar u naar zocht?</h2>
+                    <p>Neem contact op en bekijk wat wij alsnog voor u kunnen betekeken</p>
+                    <a class="btn" href="#">Contact opnemen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 @endsection
