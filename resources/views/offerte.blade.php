@@ -40,7 +40,7 @@
                         <div class="card-title">
                             <span>
                                 <img src="{{asset('/images/icons/analysis.png')}}" alt="SEO">
-                                <h3>SEO</h3>
+                                <h3>SEO*</h3>
                             </span>
                             <div class="divider"></div>
                         </div>
@@ -50,8 +50,11 @@
                                 (bestaande) Website makkelijker vinden.</p>
                             <a class="btn" href="">Bekijk</a>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Hogere ranking bij Search Engines</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Meer bereik voor uw doelgroep</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Hogere ranking bij Search
+                                    Engines
+                                </li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Meer bereik voor uw doelgroep
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +77,8 @@
                             <a class="btn" href="">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Website op maat</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
+                                </li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Design naar uw keuze</li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support</li>
                             </ul>
@@ -98,10 +102,12 @@
                                 op de website terecht komen.</p>
                             <a class="btn" href="">Bekijk</a>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Veranderingen die uw wilt</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Veranderingen die uw wilt
+                                </li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
+                                </li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Design naar keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support*</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support**</li>
                             </ul>
                         </div>
                     </div>
@@ -125,7 +131,8 @@
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Wordpress custom webshop</li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Webshop op maat</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
+                                </li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Design naar uw keuze</li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support</li>
                             </ul>
@@ -133,7 +140,14 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <p class="disclaimer">* Alleen voor al bestaande klanten</p>
+                    <p class="disclaimer">* SEO wordt standaard geleverd bij elk project, heeft u een website via een ander
+                        bedrijf, neem eerst contact met hen op voor de website code. Anders kunnen wij helaas niks voor
+                        uw betekenen</p>
+                    <p class="disclaimer">** Alleen voor al bestaande klanten</p>
+                </div>
+
+                <div class="col-12">
+                    <div class="divider-under"></div>
                 </div>
 
             </div>

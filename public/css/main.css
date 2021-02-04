@@ -151,12 +151,21 @@ nav.main .navigation .desktop ul li {
   margin-left: 20px;
   font-weight: 500;
 }
+nav.main .navigation .desktop ul li a {
+  color: #000;
+}
+nav.main .navigation .desktop ul li a:hover {
+  color: #000;
+}
 nav.main .navigation .desktop ul li.btn-nav {
   background: #FF824C;
   padding: 8px 20px;
   border-radius: 10px;
 }
 nav.main .navigation .desktop ul li.btn-nav a {
+  color: #fff;
+}
+nav.main .navigation .desktop ul li.btn-nav a:hover {
   color: #fff;
 }
 @media (min-width: 992px) {
@@ -714,4 +723,17 @@ body.offerte section.services p.disclaimer {
   margin: 20px 30px;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.25);
+  line-height: 0;
+}
+body.offerte section.services .divider-under {
+  height: 10px;
+  width: 90%;
+  background: #f3f3f3;
+  border-radius: 5px;
+  margin: 50px auto 20px;
+}
+@media (max-width: 1100px) {
+  body.offerte section.services .divider-under {
+    padding: 0;
+  }
 }
