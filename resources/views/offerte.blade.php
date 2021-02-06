@@ -162,7 +162,7 @@
                 <div class="col-12">
                     <h2>Niet gevonden waar u naar zocht?</h2>
                     <p>Neem contact op en bekijk wat wij alsnog voor u kunnen betekeken</p>
-                    <a class="btn" href="#">Contact opnemen</a>
+                    <a class="btn" href="/contact">Contact opnemen</a>
                 </div>
             </div>
         </div>

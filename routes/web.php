@@ -22,3 +22,6 @@ Route::get('/offerte-aanvragen', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/test', function () {
+    return view('test');
+});
