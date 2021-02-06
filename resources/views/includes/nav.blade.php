@@ -10,7 +10,7 @@
                         <li><a href="">Over ons</a></li>
                         <li><a href="">Projecten</a></li>
                         <li><a href="/offerte-aanvragen">Offerte</a></li>
-                        <li class="btn-nav"><a href="">Contact</a></li>
+                        <li class="btn-nav"><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="hamburger">
@@ -31,7 +31,7 @@
                     <li><a href="">Over ons</a></li>
                     <li><a href="">Projecten</a></li>
                     <li><a href="/offerte-aanvragen">Offerte</a></li>
-                    <li class="btn-nav"><a href="">Contact</a></li>
+                    <li class="btn-nav"><a href="/contact">Contact</a></li>
                 </ul>
                 <div class="copyright">
                     <p>© 2021 NWAVE</p>

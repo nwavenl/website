@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/offerte-aanvragen', function () {
     return view('offerte');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});

@@ -26,6 +26,13 @@ section.subhero {
             z-index: 10;
             padding-top: 32px;
             color: #fff;
+
+            h2 {
+              text-shadow: 0 10px 10px rgba(0,0,0,.3);
+            }
+            p {
+                text-shadow: 0 0 6px rgba(0,0,0,.3);
+            }
         }
     }
 }

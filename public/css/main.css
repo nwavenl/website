@@ -77,6 +77,11 @@ ul {
   color: #FF824C !important;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 800;
@@ -160,7 +165,7 @@ nav.main .navigation .desktop ul li a:hover {
 nav.main .navigation .desktop ul li.btn-nav {
   background: #FF824C;
   padding: 8px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 nav.main .navigation .desktop ul li.btn-nav a {
   color: #fff;
@@ -544,6 +549,12 @@ section.subhero .row .content {
   padding-top: 32px;
   color: #fff;
 }
+section.subhero .row .content h2 {
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+section.subhero .row .content p {
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
 
 body.home section.about {
   background: linear-gradient(180deg, #ff824c 0%, #f5af19 100%);
@@ -759,4 +770,48 @@ body.offerte section.offerte-under p {
 }
 body.offerte section.offerte-under .btn {
   margin-top: 10px;
+}
+
+body.contact section.contact {
+  padding: 50px 0;
+}
+body.contact section.contact .content-parent {
+  background: #F1F1F1;
+  padding: 20px;
+  border-radius: 10px;
+}
+body.contact section.contact .content-parent .card-parent {
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(180deg, #ff824c 0%, #f5af19 100%);
+  color: #fff;
+  height: 100%;
+  position: relative;
+}
+body.contact section.contact .content-parent .card-parent .card-title p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+body.contact section.contact .content-parent .card-parent .card-content {
+  padding: 0 0 30px;
+}
+body.contact section.contact .content-parent .card-parent .card-content ul li {
+  margin: 40px 0;
+}
+body.contact section.contact .content-parent .card-parent .card-content ul li a {
+  color: #fff;
+}
+body.contact section.contact .content-parent .card-parent .card-content ul li img {
+  height: 25px;
+  margin-right: 15px;
+}
+body.contact section.contact .content-parent .card-parent .card-content a.social {
+  position: absolute;
+  bottom: 20px;
+}
+body.contact section.contact .content-parent .card-parent .card-content a.social img {
+  height: 25px;
+}
+body.contact section.contact .form-parent {
+  padding: 20px;
 }
