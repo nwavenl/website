@@ -23,10 +23,10 @@
     <section class="contact">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-md-10 col-12">
                     <div class="content-parent">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-xl-4 col-12">
                                 <div class="card-parent">
                                     <div class="card-title">
                                         <h3>Contact informatie</h3>
@@ -41,20 +41,35 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-xl-8 col-12">
                                 <div class="form-parent">
-                                    <div class="form">
+                                    <form>
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-md-6 col-12 form-item">
                                                 <label for="voornaam">Voornaam*</label>
-                                                <input name="voornaam" type="text">
+                                                <input required name="voornaam" type="text">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-md-6 col-12 form-item">
                                                 <label for="achternaam">Achternaam*</label>
-                                                <input name="achternaam" type="text">
+                                                <input required name="achternaam" type="text">
+                                            </div>
+                                            <div class="col-md-6 col-12 form-item">
+                                                <label for="email">E-mail*</label>
+                                                <input required name="email" type="email">
+                                            </div>
+                                            <div class="col-md-6 col-12 form-item">
+                                                <label for="telefoon">Telefoon</label>
+                                                <input name="telefoon" type="text">
+                                            </div>
+                                            <div class="col-12 form-item">
+                                                <label for="bericht">Stel uw vraag</label>
+                                                <textarea name="bericht" id="" cols="30" rows="10"></textarea>
                                             </div>
                                         </div>
-                                    </div>
+                                        <div class="row btn-right">
+                                            <button class="btn">Verstuur bericht</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>

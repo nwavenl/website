@@ -773,12 +773,22 @@ body.offerte section.offerte-under .btn {
 }
 
 body.contact section.contact {
-  padding: 50px 0;
+  padding: 100px 0;
+}
+@media (max-width: 1100px) {
+  body.contact section.contact {
+    padding: 60px 0;
+  }
 }
 body.contact section.contact .content-parent {
   background: #F1F1F1;
   padding: 20px;
   border-radius: 10px;
+}
+@media (max-width: 1100px) {
+  body.contact section.contact .content-parent {
+    padding: 10px;
+  }
 }
 body.contact section.contact .content-parent .card-parent {
   border-radius: 10px;
@@ -814,4 +824,53 @@ body.contact section.contact .content-parent .card-parent .card-content a.social
 }
 body.contact section.contact .form-parent {
   padding: 20px;
+}
+@media (max-width: 1100px) {
+  body.contact section.contact .form-parent {
+    padding: 10px;
+  }
+}
+body.contact section.contact .form-parent form .form-item {
+  margin: 0 0 25px;
+}
+body.contact section.contact .form-parent form .form-item label {
+  display: block;
+}
+body.contact section.contact .form-parent form .form-item input, body.contact section.contact .form-parent form .form-item textarea {
+  width: 100%;
+  padding: 4px 20px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  border-radius: 10px;
+  resize: none;
+}
+body.contact section.contact .form-parent form .form-item textarea {
+  height: 300px;
+}
+body.contact section.contact .form-parent form .btn-right {
+  position: relative;
+  padding: 15px 0;
+}
+@media (max-width: 1100px) {
+  body.contact section.contact .form-parent form .btn-right {
+    padding: 20px 0;
+  }
+}
+body.contact section.contact .form-parent form .btn-right button.btn {
+  width: 260px;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+}
+@media (max-width: 517px) {
+  body.contact section.contact .form-parent form .btn-right button.btn {
+    width: calc(100% - 20px);
+  }
+}
+@media (max-width: 1100px) {
+  body.contact section.contact .form-parent form .btn-right button.btn {
+    bottom: 0;
+    right: 10px;
+  }
 }
