@@ -72,7 +72,7 @@
                             <a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
                         </div>
                         <h5>Marco Bruijns</h5>
-                        <p>Back-end developer</p>
+                        <p>Fullstack developer</p>
                     </div>
                 </div>
 

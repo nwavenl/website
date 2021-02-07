@@ -6,13 +6,13 @@
 
 @section('content')
 
-    <section class="subhero" style="background-image: url('{{asset('/images/offerte/subhero.jpg')}}')">
+    <section class="subhero" style="background-image: url('{{asset('/images/services/subhero.jpg')}}')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content">
-                        <h1>Offerte aanvragen, <br> Zo gedaan.</h1>
+                        <h1>onze services</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolores doloribus est in
                             ipsam
                             ipsum modi molestias neque quisquam. Aliquam aperiam at facilis harum laudantium nihil
@@ -74,7 +74,7 @@
                                 informatieve website. Wij maken een
                                 website voor u en zorgen dat deze
                                 website op elk platform te bekijken is.</p>
-                            <a class="btn" href="">Bekijk</a>
+                            <a class="btn" href="/services/websites">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Website op maat</li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform

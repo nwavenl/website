@@ -985,3 +985,114 @@ body.about section.team .member .image-holder a img {
      object-fit: initial;
   height: 30px;
 }
+
+body.services-item section.intro {
+  padding: 120px 0 60px;
+}
+body.services-item section.intro .image-holder {
+  height: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+body.services-item section.contact {
+  padding: 100px 0;
+}
+@media (max-width: 1100px) {
+  body.services-item section.contact {
+    padding: 60px 0;
+  }
+}
+body.services-item section.contact .content-parent {
+  background: #F1F1F1;
+  padding: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 1100px) {
+  body.services-item section.contact .content-parent {
+    padding: 10px;
+  }
+}
+body.services-item section.contact .content-parent .card-parent {
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(180deg, #ff824c 0%, #f5af19 100%);
+  color: #fff;
+  height: 100%;
+  position: relative;
+}
+body.services-item section.contact .content-parent .card-parent .card-title p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+body.services-item section.contact .content-parent .card-parent .card-content {
+  padding: 0 0 30px;
+}
+body.services-item section.contact .content-parent .card-parent .card-content ul li {
+  margin: 40px 0;
+}
+body.services-item section.contact .content-parent .card-parent .card-content ul li a {
+  color: #fff;
+}
+body.services-item section.contact .content-parent .card-parent .card-content ul li img {
+  height: 25px;
+  margin-right: 15px;
+}
+body.services-item section.contact .content-parent .card-parent .card-content a.social {
+  position: absolute;
+  bottom: 20px;
+}
+body.services-item section.contact .content-parent .card-parent .card-content a.social img {
+  height: 25px;
+}
+body.services-item section.contact .form-parent {
+  padding: 20px;
+}
+@media (max-width: 1100px) {
+  body.services-item section.contact .form-parent {
+    padding: 10px;
+  }
+}
+body.services-item section.contact .form-parent form .form-item {
+  margin: 0 0 25px;
+}
+body.services-item section.contact .form-parent form .form-item label {
+  display: block;
+}
+body.services-item section.contact .form-parent form .form-item input, body.services-item section.contact .form-parent form .form-item textarea, body.services-item section.contact .form-parent form .form-item select {
+  width: 100%;
+  padding: 4px 20px;
+  outline: none;
+  border: none;
+  background: #ffffff;
+  border-radius: 10px;
+  resize: none;
+}
+body.services-item section.contact .form-parent form .form-item textarea {
+  height: 300px;
+}
+body.services-item section.contact .form-parent form .btn-right {
+  position: relative;
+  padding: 15px 0;
+}
+@media (max-width: 1100px) {
+  body.services-item section.contact .form-parent form .btn-right {
+    padding: 20px 0;
+  }
+}
+body.services-item section.contact .form-parent form .btn-right button.btn {
+  width: 260px;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+}
+@media (max-width: 517px) {
+  body.services-item section.contact .form-parent form .btn-right button.btn {
+    width: calc(100% - 20px);
+  }
+}
+@media (max-width: 1100px) {
+  body.services-item section.contact .form-parent form .btn-right button.btn {
+    bottom: 0;
+    right: 10px;
+  }
+}

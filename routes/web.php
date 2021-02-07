@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/offerte-aanvragen', function () {
-    return view('offerte');
+Route::get('/services', function () {
+    return view('services');
 });
 Route::get('/contact', function () {
     return view('contact');
@@ -27,4 +27,8 @@ Route::get('/projecten', function () {
 });
 Route::get('/over-ons', function () {
     return view('about');
+});
+/* services */
+Route::get('/services/websites', function () {
+    return view('services/website');
 });

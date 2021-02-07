@@ -25,7 +25,7 @@
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="/projecten">Projecten</a></li>
-                        <li><a href="/offerte-aanvragen">Offerte</a></li>
+                        <li><a href="/services">Services</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
