@@ -25,3 +25,6 @@ Route::get('/contact', function () {
 Route::get('/projecten', function () {
     return view('projecten');
 });
+Route::get('/over-ons', function () {
+    return view('about');
+});
