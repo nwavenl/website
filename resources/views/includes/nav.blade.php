@@ -7,8 +7,8 @@
             <div class="col-9 navigation">
                 <div class="desktop">
                     <ul>
-                        <li><a href="">Over ons</a></li>
-                        <li><a href="">Projecten</a></li>
+                        <li><a href="/over-ons">Over ons</a></li>
+                        <li><a href="/projecten">Projecten</a></li>
                         <li><a href="/offerte-aanvragen">Offerte</a></li>
                         <li class="btn-nav"><a href="/contact">Contact</a></li>
                     </ul>
@@ -28,8 +28,8 @@
         <div class="row vh-100">
             <div class="col-12 col-mobile">
                 <ul>
-                    <li><a href="">Over ons</a></li>
-                    <li><a href="">Projecten</a></li>
+                    <li><a href="/over-ons">Over ons</a></li>
+                    <li><a href="/projecten">Projecten</a></li>
                     <li><a href="/offerte-aanvragen">Offerte</a></li>
                     <li class="btn-nav"><a href="/contact">Contact</a></li>
                 </ul>

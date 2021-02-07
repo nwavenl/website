@@ -1,6 +1,5 @@
 body {
     overflow-x: hidden;
-    min-height: 100vh;
 
     &.scroll {
         overflow: hidden !important;
@@ -21,6 +20,9 @@ ul {
 }
 .main {
     color: $main !important;
+}
+main {
+    min-height: calc(100vh - 60px);
 }
 ul {
     margin: 0;

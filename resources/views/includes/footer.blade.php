@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-auto">
-                <h5>NWAVE</h5>
+                <h5><a href="/">NWAVE</a></h5>
             </div>
         </div>
         <div class="row">
@@ -23,10 +23,10 @@
                 <div class="content row-2">
                     <p>Sitemap</p>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="#">Over ons</a></li>
-                        <li><a href="#">Projecten</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/over-ons">Over ons</a></li>
+                        <li><a href="/projecten">Projecten</a></li>
+                        <li><a href="/offerte-aanvragen">Offerte</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

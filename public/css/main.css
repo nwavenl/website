@@ -51,7 +51,6 @@
 
 body {
   overflow-x: hidden;
-  min-height: 100vh;
 }
 body.scroll {
   overflow: hidden !important;
@@ -77,6 +76,10 @@ ul {
   color: #FF824C !important;
 }
 
+main {
+  min-height: calc(100vh - 60px);
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -88,7 +91,12 @@ h1 {
 }
 @media (max-width: 989px) {
   h1 {
-    font-size: 40px;
+    font-size: 39px;
+  }
+}
+@media (max-width: 537px) {
+  h1 {
+    font-size: 34px;
   }
 }
 
@@ -101,6 +109,11 @@ h2 {
     font-size: 33px;
   }
 }
+@media (max-width: 537px) {
+  h2 {
+    font-size: 29px;
+  }
+}
 
 h3 {
   font-size: 35px;
@@ -109,6 +122,11 @@ h3 {
 @media (max-width: 989px) {
   h3 {
     font-size: 29px;
+  }
+}
+@media (max-width: 537px) {
+  h3 {
+    font-size: 26px;
   }
 }
 
@@ -121,6 +139,11 @@ h4 {
     font-size: 26px;
   }
 }
+@media (max-width: 537px) {
+  h4 {
+    font-size: 20px;
+  }
+}
 
 h5 {
   font-size: 22px;
@@ -129,6 +152,11 @@ h5 {
 @media (max-width: 989px) {
   h5 {
     font-size: 20px;
+  }
+}
+@media (max-width: 537px) {
+  h5 {
+    font-size: 18px;
   }
 }
 
@@ -575,7 +603,7 @@ section.subhero .row {
 }
 @media (max-height: 959px) {
   section.subhero .row {
-    height: calc(100vh - 64px);
+    height: 480px !important;
   }
 }
 section.subhero .row .content {
