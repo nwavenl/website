@@ -13,11 +13,7 @@
                 <div class="col-lg-5 col-12">
                     <div class="content">
                         <h1>onze services</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolores doloribus est in
-                            ipsam
-                            ipsum modi molestias neque quisquam. Aliquam aperiam at facilis harum laudantium nihil
-                            obcaecati
-                            perferendis sint voluptatem?</p>
+                        <p>Bekijk wat wij voor u kunnen betekenen op online gebied.</p>
                     </div>
                 </div>
             </div>

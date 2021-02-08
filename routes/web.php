@@ -42,3 +42,10 @@ Route::get('/services/onderhoud', function () {
     return view('services/onderhoud');
 });
 
+/* Juridisch */
+Route::get('/algemene-voorwaarden', function () {
+    return view('voorwaarden');
+});
+Route::get('/privacybeleid', function () {
+    return view('privacy');
+});

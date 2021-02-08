@@ -34,8 +34,8 @@
             <div class="col-xxl-2 col-md-4">
                 <div class="content row-3">
                     <img src="{{asset('/images/icons/linkedin.png')}}" alt="">
-                    <p><a href="#">Algemene voorwaarden</a></p>
-                    <p><a href="#">Privacy policy</a></p>
+                    <p><a href="/algemene-voorwaarden">Algemene voorwaarden</a></p>
+                    <p><a href="/privacybeleid">Privacybeleid</a></p>
                     <p class="under">KVK: 81766483</p>
                 </div>
             </div>
