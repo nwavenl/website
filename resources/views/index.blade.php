@@ -14,7 +14,7 @@
                         <h1><span class="main">n</span>wave, websites op maat voor elk platform</h1>
                         <p>wij bij nwave kunnen al uw online vraagstukken oplossen en verwerken in digitale form zoals
                             websites en webshops voor beide bedrijf en particulier</p>
-                        <a class="btn" href="#">Bekijk ons werk</a>
+                        <a class="btn" href="/projecten">Bekijk ons werk</a>
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix">
@@ -56,6 +56,24 @@
                     </div>
                 </div>
             </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/globe.png')}}" alt="SEO">
+                    <h4>Website's</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/webshop.png')}}" alt="SEO">
+                    <h4>Webshops</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/wrench.png')}}" alt="SEO">
+                    <h4>Onderhoud</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/analysis.png')}}" alt="SEO">
+                    <h4>SEO</h4>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -67,7 +85,7 @@
                     <div class="cta-content">
                         <h2>Geïnteresseerd? Bekijk ons werk.</h2>
                         <p>Bekijk ons werk laatste werk om er achter te komen of wij geschikt zijn voor u</p>
-                        <a class="btn white" href="#">Projecten</a>
+                        <a class="btn white" href="/projecten">Projecten</a>
                     </div>
                 </div>
             </div>
