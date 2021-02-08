@@ -6,13 +6,17 @@
     font-weight: 600;
     margin-top: 20px;
 
-    &.white {
-        color: #000;
-        background: #fff;
-    }
-
     &:hover {
         color: #fff;
         box-shadow: 0 0 10px rgba(0,0,0,.3);
+    }
+
+    &.white {
+        color: #000;
+        background: #fff;
+
+        &:hover {
+            color: #000 !important;
+        }
     }
 }

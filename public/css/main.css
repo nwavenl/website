@@ -192,13 +192,16 @@ p {
   font-weight: 600;
   margin-top: 20px;
 }
+.btn:hover {
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .btn.white {
   color: #000;
   background: #fff;
 }
-.btn:hover {
-  color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+.btn.white:hover {
+  color: #000 !important;
 }
 
 nav.main {
