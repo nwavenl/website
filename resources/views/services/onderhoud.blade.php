@@ -12,8 +12,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content">
-                        <h1>Service: website</h1>
-                        <p>Bekijk een korte uitleg van de functies van een website, en vraag eventueel een offerte
+                        <h1>Service: onderhoud</h1>
+                        <p>Bekijk een korte uitleg over onderhoud, en vraag eventueel een offerte
                             aan</p>
                     </div>
                 </div>
@@ -26,18 +26,15 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-rm">
                     <div class="image-holder">
-                        <img src="{{asset('/images/services/website.jpg')}}" alt="">
+                        <img src="{{asset('/images/services/onderhoud.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Waarom een website?</h2>
-                        <p>Website’s zijn de beste manier om jezelf te laten zien via het internet, al gaat het om een
-                            portfolio, bedrijfswebsite of een informatieve website, het kan allemaal. Het hebben van een
-                            nette website is een goede manier te laten zien wat uw bedrijf doet, of wat u precies
-                            doet. </p>
-                        <p>Wij helpen graag om een nette en professionele online footprint te maken voor u, zodat u of
-                            uw bedrijf overal te vinden is, in een nette stijl. </p>
+                        <p>Heeft uw website of webshop een verbetering nodig? dan kunnen wij hier altijd bij helpen. Wij
+                            zorgen ervoor dat uw website er weer zo goed als nieuw uitziet met de nieuwste functies.</p>
+                        <p>Vraag vandaag nog een offerte aan om te kijken wat wij voor u kunnen betekenen.</p>
                     </div>
                 </div>
             </div>
@@ -53,7 +50,7 @@
                             <div class="col-xl-4 col-12">
                                 <div class="card-parent">
                                     <div class="card-title">
-                                        <h3>Vraag uw maatwerk website nu aan!</h3>
+                                        <h3>Vraag uw onderhoud nu aan!</h3>
                                         <p>Vul het formulier in en wij nemen zo snel mogelijk contact met u op.</p>
                                     </div>
                                     <div class="card-content">

@@ -29,6 +29,16 @@ Route::get('/over-ons', function () {
     return view('about');
 });
 /* services */
-Route::get('/services/websites', function () {
+Route::get('/services/website', function () {
     return view('services/website');
 });
+Route::get('/services/webshop', function () {
+    return view('services/webshop');
+});
+Route::get('/services/seo', function () {
+    return view('services/seo');
+});
+Route::get('/services/onderhoud', function () {
+    return view('services/onderhoud');
+});
+

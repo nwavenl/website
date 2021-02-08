@@ -382,6 +382,7 @@ aside.mobile-nav.active {
   }
 }
 aside.mobile-nav.active img.background-img {
+  max-width: none !important;
   position: absolute;
   display: block !important;
   height: 500px;
@@ -1095,4 +1096,15 @@ body.services-item section.contact .form-parent form .btn-right button.btn {
     bottom: 0;
     right: 10px;
   }
+}
+
+body.error404 .row-404 {
+  height: calc(100vh - 60px);
+  position: relative;
+}
+body.error404 .row-404 a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }

@@ -48,7 +48,7 @@
                             <p>Krijg een hogere ranking bij bijvoorbeeld
                                 Google en Bing, Zodat uw doelgroep uw
                                 (bestaande) Website makkelijker vinden.</p>
-                            <a class="btn" href="">Bekijk</a>
+                            <a class="btn" href="/services/seo">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Hogere ranking bij Search
                                     Engines
@@ -74,7 +74,7 @@
                                 informatieve website. Wij maken een
                                 website voor u en zorgen dat deze
                                 website op elk platform te bekijken is.</p>
-                            <a class="btn" href="/services/websites">Bekijk</a>
+                            <a class="btn" href="/services/website">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Website op maat</li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
@@ -100,7 +100,7 @@
                                 of website gemaakt door ons, het kan
                                 allemaal. Wij zorgen dat uw wensen
                                 op de website terecht komen.</p>
-                            <a class="btn" href="">Bekijk</a>
+                            <a class="btn" href="/services/onderhoud">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Veranderingen die uw wilt
                                 </li>
@@ -127,7 +127,7 @@
                                 u webshop makkelijk te bedienen en
                                 duidelijk te maken. Alles is te veranderen
                                 binnen de wordpress.</p>
-                            <a class="btn" href="">Bekijk</a>
+                            <a class="btn" href="/services/webshop">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Wordpress custom webshop</li>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="">Webshop op maat</li>
