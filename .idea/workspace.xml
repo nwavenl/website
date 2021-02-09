@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4184f53f-fc7b-4145-b7f9-74110cbdc82e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="4184f53f-fc7b-4145-b7f9-74110cbdc82e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -172,6 +170,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\websites\website\public" />
       <recent name="D:\websites\website\resources\views" />
       <recent name="D:\websites\website\resources\views\services" />
     </key>
@@ -212,7 +211,7 @@
       <workItem from="1612723304630" duration="3624000" />
       <workItem from="1612782457355" duration="2827000" />
       <workItem from="1612801163170" duration="3233000" />
-      <workItem from="1612887252915" duration="2227000" />
+      <workItem from="1612887252915" duration="2609000" />
     </task>
     <servers />
   </component>
