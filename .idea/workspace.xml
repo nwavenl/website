@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpIncludePathManager">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4184f53f-fc7b-4145-b7f9-74110cbdc82e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
@@ -110,13 +149,99 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
-<<<<<<< HEAD
-=======
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
-    </phpunit_settings>
+  <component name="ProjectId" id="1nq8JUuhF91jbCAyPDqtqEFbpI5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
->>>>>>> parent of 5d9701c... update
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\websites\website\resources\views" />
+      <recent name="D:\websites\website\public" />
+      <recent name="D:\websites\website\resources\views\services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\websites\website\resources\views" />
+      <recent name="D:\websites\website\resources\views\errors" />
+      <recent name="D:\websites\website\public\images\icons" />
+      <recent name="D:\websites\website\resources\scss\container" />
+      <recent name="D:\websites\website\public\images\global" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4184f53f-fc7b-4145-b7f9-74110cbdc82e" name="Default Changelist" comment="" />
+      <created>1612106190116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612106190116</updated>
+      <workItem from="1612106191980" duration="9129000" />
+      <workItem from="1612183479861" duration="598000" />
+      <workItem from="1612205191162" duration="3975000" />
+      <workItem from="1612213354607" duration="1456000" />
+      <workItem from="1612276028863" duration="2822000" />
+      <workItem from="1612363600122" duration="9000000" />
+      <workItem from="1612381240049" duration="6873000" />
+      <workItem from="1612442849605" duration="2295000" />
+      <workItem from="1612535703381" duration="837000" />
+      <workItem from="1612637733803" duration="4589000" />
+      <workItem from="1612653354048" duration="2405000" />
+      <workItem from="1612701653097" duration="5481000" />
+      <workItem from="1612723304630" duration="3624000" />
+      <workItem from="1612782457355" duration="2827000" />
+      <workItem from="1612801163170" duration="3233000" />
+      <workItem from="1612887252915" duration="3085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1554" y="619" key="NewPhpFileDialog" timestamp="1612812215069">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1554" y="619" key="NewPhpFileDialog/0.0.3440.1400/-1920.351.1920.1080/3440.206.1920.1080@0.0.3440.1400" timestamp="1612812215069" />
+    <state x="1376" y="330" key="run.anything.popup" timestamp="1612279371415">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1376" y="330" key="run.anything.popup/-1920.351.1920.1040/0.0.3440.1400/3440.206.1920.1080@0.0.3440.1400" timestamp="1612279371415" />
+    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1612654748431">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1383" y="315" width="672" height="678" key="search.everywhere.popup/-1920.351.1920.1040/0.0.3440.1400/3440.206.1920.1080@0.0.3440.1400" timestamp="1612654748431" />
+  </component>
 </project>

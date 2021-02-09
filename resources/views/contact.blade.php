@@ -6,6 +6,8 @@
 
 @section('content')
 
+    @include('form.contactform')
+
     <section class="subhero" style="background-image: url('{{asset('/images/contact/subhero.jpg')}}')">
         <div class="overlay"></div>
         <div class="container">
@@ -68,7 +70,7 @@
                                             </div>
                                         </div>
                                         <div class="row btn-right">
-                                            <button type="submit" class="btn">Verstuur bericht</button>
+                                            <button name="submit" type="submit" class="btn">Verstuur bericht</button>
                                         </div>
                                     </form>
                                 </div>
