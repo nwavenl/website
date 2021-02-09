@@ -2,7 +2,7 @@
 
 @section('title') Contact opnemen @endsection
 
-@section('bodyClass') Contact @endsection
+@section('bodyClass') contact @endsection
 
 @section('content')
 
