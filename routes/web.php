@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,22 +13,41 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route for homepage
 Route::get('/', function () {
     return view('index');
 });
+
+// Route for getting the service views
 Route::get('/services', function () {
     return view('services');
 });
+
+// Route for showing contact form
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
+
+// Route for sending contact form.
+Route::get(
+    '/sendContact',
+    [
+        ContactController::class,
+        'sendMail'
+    ]
+)->name('send-mail');
+
+// Route for getting project
 Route::get('/projecten', function () {
     return view('projecten');
 });
+
+// Route for getting about us page.
 Route::get('/over-ons', function () {
     return view('about');
 });
-/* services */
+
+/* Services */
 Route::get('/services/website', function () {
     return view('services/website');
 });
