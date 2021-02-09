@@ -12,5 +12,5 @@ if (isset($_POST['submit'])) {
     $txt = "Contact gevraagd door: " . $voornaam . " " . $achternaam . ".\n\n" . $bericht;
 
     mail($mailNaar, "Contact form bericht", $txt, $headers);
-    header("location: /contact");
+    header("location: nwave.nl/contact");
 }

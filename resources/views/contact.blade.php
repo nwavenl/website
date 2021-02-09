@@ -69,7 +69,7 @@
                                             </div>
                                         </div>
                                         <div class="row btn-right">
-                                            <button type="submit" class="btn">Verstuur bericht</button>
+                                            <button name="submit" type="submit" class="btn">Verstuur bericht</button>
                                         </div>
                                     </form>
                                 </div>
