@@ -1,8 +1,8 @@
 @extends('templates/template')
 
-@section('title') contact opnemen @endsection
+@section('title') Contact opnemen @endsection
 
-@section('bodyClass') contact @endsection
+@section('bodyClass') Contact @endsection
 
 @section('content')
 
@@ -45,19 +45,20 @@
                             </div>
                             <div class="col-xl-8 col-12">
                                 <div class="form-parent">
-                                    <form method="post">
+                                    <form method="HEAD" action="{{ route('send-mail') }}">
+                                        @csrf
                                         <div class="row">
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="voornaam">Voornaam*</label>
-                                                <input required name="voornaam" type="text">
+                                                <input name="voornaam" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="achternaam">Achternaam*</label>
-                                                <input required name="achternaam" type="text">
+                                                <input name="achternaam" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="email">E-mail*</label>
-                                                <input required name="email" type="email">
+                                                <input name="email" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="telefoon">Telefoon</label>
