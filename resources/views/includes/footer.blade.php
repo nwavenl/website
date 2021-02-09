@@ -35,8 +35,11 @@
                 <div class="content row-3">
                     <img src="{{asset('/images/icons/linkedin.png')}}" alt="">
                     <p><a href="/algemene-voorwaarden">Algemene voorwaarden</a></p>
-                    <p><a href="/privacybeleid">Privacybeleid</a></p>
-                    <p class="under">KVK: 81766483</p>
+                    <p class="pb-5"><a href="/privacybeleid">Privacybeleid</a></p>
+                    <div class="under">
+                        <p class="">KVK: 81766483</p>
+                        <p class="">BTWid: NL003601184B27</p>
+                    </div>
                 </div>
             </div>
 
