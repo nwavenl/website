@@ -6,8 +6,6 @@
 
 @section('content')
 
-    @include('form.contactform')
-
     <section class="subhero" style="background-image: url('{{asset('/images/contact/subhero.jpg')}}')">
         <div class="overlay"></div>
         <div class="container">

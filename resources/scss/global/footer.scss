@@ -75,6 +75,10 @@ footer {
         position: relative;
         left: -100px;
         height: 159px;
+        @media (max-width: 767px) {
+            height: 180px;
+        }
+        padding-bottom: 20px;
         @media (max-width: 1640px) {
             left: -50px;
         }
@@ -94,10 +98,12 @@ footer {
                 color: rgba(255, 255, 255, .7);
                 text-transform: uppercase;
             }
-
-            &.under {
-                position: absolute;
-                bottom: -4px;
+        }
+        .under {
+            position: absolute;
+            bottom: -4px;
+            p {
+                line-height: 5px;
             }
         }
     }
