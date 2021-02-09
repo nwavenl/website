@@ -45,7 +45,7 @@
                             </div>
                             <div class="col-xl-8 col-12">
                                 <div class="form-parent">
-                                    <form action="contactform.blade.php" method="post">
+                                    <form method="post">
                                         <div class="row">
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="voornaam">Voornaam*</label>
