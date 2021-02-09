@@ -2,6 +2,8 @@
 
 @section('title') Websites op maat voor elk platform @endsection
 
+@section('bodyClass') home @endsection
+
 @section('content')
 
     <section class="hero">
@@ -10,11 +12,9 @@
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <h1><span class="main">n</span>wave, websites op maat voor elk platform</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur debitis
-                            eligendi
-                            eos explicabo laboriosam maxime officiis qui repellendus, similique? Ab architecto commodi
-                            eligendi iste magnam quas quibusdam, sed voluptatem.</p>
-                        <a class="btn" href="#">Bekijk ons werk</a>
+                        <p>wij bij nwave kunnen al uw online vraagstukken oplossen en verwerken in digitale form zoals
+                            websites en webshops voor beide bedrijf en particulier</p>
+                        <a class="btn" href="/projecten">Bekijk ons werk</a>
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix">
@@ -35,12 +35,11 @@
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Over nwave, en wat wij doen.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur commodi delectus error
-                            fugiat laudantium nobis officia repellendus rerum veniam. Consequuntur ipsam nulla quod.
-                            Aliquid amet deserunt doloremque iste, molestiae officia. Lorem ipsum dolor sit amet,
-                            consectetur adipisicing elit. A, aliquam architecto cumque debitis, dicta dolores ducimus ea
-                            exercitationem facilis hic id maxime minima natus neque nulla ratione sint totam
-                            veritatis.</p>
+                        <p>nwave is een bedrijf opgericht door vier eindejaars studenten op met Mediacollege Amsterdam
+                            die de opleiding Mediadeveloper volgen. Iedereen binnen het team heeft passie voor
+                            programmeren. Het bedrijfsleven voor ieder is niets nieuws, de norm van de opleiding media
+                            development is dat iedere student twee keer een half jaar stage loopt binnen een ervaren
+                            bedrijf, dus voor ons is het werken met klanten, projecten en documentatie niks nieuws. </p>
                         <a class="btn white" href="#">Bekijk ons werk</a>
                     </div>
                 </div>
@@ -57,6 +56,24 @@
                     </div>
                 </div>
             </div>
+            <div class="row text-center">
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/globe.png')}}" alt="SEO">
+                    <h4>Website's</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/webshop.png')}}" alt="SEO">
+                    <h4>Webshops</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/wrench.png')}}" alt="SEO">
+                    <h4>Onderhoud</h4>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <img src="{{asset('/images/icons/analysis.png')}}" alt="SEO">
+                    <h4>SEO</h4>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -66,9 +83,9 @@
             <div class="row justify-content-center text-center">
                 <div class="col-auto">
                     <div class="cta-content">
-                        <h2>Geintereseerd? Bekijk ons werk.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Accusantium alias animi aspernatur corporis. lorem ipsum</p>
-                        <a class="btn white" href="#">Projecten</a>
+                        <h2>Geïnteresseerd? Bekijk ons werk.</h2>
+                        <p>Bekijk ons werk laatste werk om er achter te komen of wij geschikt zijn voor u</p>
+                        <a class="btn white" href="/projecten">Projecten</a>
                     </div>
                 </div>
             </div>

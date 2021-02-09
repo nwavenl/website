@@ -1,0 +1,13 @@
+body.error404 {
+    .row-404 {
+        height: calc(100vh - 60px);
+        position: relative;
+
+        a {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
