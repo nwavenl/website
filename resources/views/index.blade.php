@@ -40,7 +40,7 @@
                             programmeren. Het bedrijfsleven voor ieder is niets nieuws, de norm van de opleiding media
                             development is dat iedere student twee keer een half jaar stage loopt binnen een ervaren
                             bedrijf, dus voor ons is het werken met klanten, projecten en documentatie niks nieuws. </p>
-                        <a class="btn white" href="#">Bekijk ons werk</a>
+                        <a class="btn white" href="/over-ons">Lees meer</a>
                     </div>
                 </div>
             </div>
