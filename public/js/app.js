@@ -17,6 +17,18 @@
   });
 })();
 
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    $('nav.main').addClass('scroll');
+  } else {
+    $('nav.main').removeClass('scroll');
+  }
+}
+
 /***/ }),
 
 /***/ "./resources/scss/main.scss":
