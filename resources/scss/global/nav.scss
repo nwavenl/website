@@ -36,6 +36,8 @@ nav.main {
                 justify-items: center;
                 align-items: center;
                 margin: 0 !important;
+                position: relative;
+                top: 6px;
 
                 li {
                     margin-left: 20px;
@@ -43,23 +45,23 @@ nav.main {
 
                     a {
                         color: #000;
+
                         &:hover {
                             color: #000;
                         }
                     }
 
-                    &.btn-nav {
+                    .btn-nav {
                         background: $main;
                         padding: 8px 20px;
                         border-radius: 20px;
+                        color: #fff;
 
-                        a {
+                        &:hover {
                             color: #fff;
-
-                            &:hover {
-                                color: #fff;
-                            }
                         }
+
+
                     }
                 }
             }

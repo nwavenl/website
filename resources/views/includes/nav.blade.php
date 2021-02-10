@@ -10,7 +10,7 @@
                         <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="/projecten">Projecten</a></li>
                         <li><a href="/services">Services</a></li>
-                        <li class="btn-nav"><a href="/contact">Contact</a></li>
+                        <li><a class="btn-nav" href="/contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="hamburger">
