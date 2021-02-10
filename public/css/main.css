@@ -232,7 +232,7 @@ nav.main .branding h4 a {
 }
 nav.main .navigation .desktop ul {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   justify-items: center;
   align-items: center;
   margin: 0 !important;
