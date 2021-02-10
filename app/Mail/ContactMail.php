@@ -28,6 +28,10 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('mail.contact')->with(['data' => $this->data]);
+        return
+            $this
+                ->view('mail.contact', ['data' => $this->data])
+                ->subject('Contact formulier website')
+                ->from('contact@nwave.nl', 'Contact formulier');
     }
 }

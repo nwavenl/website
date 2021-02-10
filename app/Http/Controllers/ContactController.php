@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -46,12 +47,7 @@ class ContactController extends Controller
             'test' => "Testing"
         ];
 
-        Mail::send('mail.contact', $data, function ($message) {
-            $message->from('contact@nwave.nl', 'Contact - NWAVE');
-
-            $message->to('support@nwave.nl');
-        });
-
+        Mail::to('contact@nwave.nl')->send(new ContactMail($data));
 
         // Redirect after sending the email.
         return redirect(route('contact'));
