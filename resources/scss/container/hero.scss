@@ -26,11 +26,8 @@ section.hero {
         }
     }
 
-    .image-holder-fix {
-        @media (max-width: 992px) {
-            display: none;
-        }
-    }
+    //.image-holder-fix {
+    //}
     img {
         max-width: 100%;
     }
