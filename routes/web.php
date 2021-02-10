@@ -71,5 +71,8 @@ Route::get('/privacybeleid', function () {
 
 
 Route::get('/mail', function () {
-    return new App\Mail\ContactMail;
+    $data = [
+        'test' => "Testing"
+    ];
+    return new App\Mail\ContactMail($data);
 });

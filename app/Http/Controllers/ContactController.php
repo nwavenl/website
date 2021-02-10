@@ -42,11 +42,12 @@ class ContactController extends Controller
             'lname' => $request->achternaam,
             'email' => $request->email,
             'phone' => $request->telefoon,
-            'message' => $request->bericht
+            'message' => $request->bericht,
+            'test' => "Testing"
         ];
 
         Mail::send('emails.test', $data, function ($message) {
-            $message->from('contact@nwave.nl', 'Laravel');
+            $message->from('contact@nwave.nl', 'Contact - NWAVE');
 
             $message->to('support@nwave.nl');
         });
