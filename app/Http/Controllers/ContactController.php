@@ -46,9 +46,9 @@ class ContactController extends Controller
         ];
 
         Mail::send('emails.test', $data, function ($message) {
-            $message->from('', 'Laravel');
+            $message->from('contact@nwave.nl', 'Laravel');
 
-            $message->to('foo@example.com')->cc('bar@example.com');
+            $message->to('support@nwave.nl');
         });
 
 

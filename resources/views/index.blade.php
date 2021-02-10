@@ -9,7 +9,7 @@
     <section class="hero">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div class="hero-content">
                         <h1><span class="main">n</span>wave, websites op maat voor elk platform</h1>
                         <p>wij bij nwave kunnen al uw online vraagstukken oplossen en verwerken in digitale form zoals
@@ -17,8 +17,8 @@
                         <a class="btn" href="/projecten">Bekijk ons werk</a>
                     </div>
                 </div>
-                <div class="col-lg-6 image-holder-fix">
-                    <img src="{{asset('/images/homepage/hero-img.png')}}" alt="">
+                <div class="col-lg-6 image-holder-fix col-lg-rm">
+                    <img src="{{asset('/images/homepage/hero-img2.png')}}" alt="">
                 </div>
             </div>
             <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="">
@@ -40,7 +40,7 @@
                             programmeren. Het bedrijfsleven voor ieder is niets nieuws, de norm van de opleiding media
                             development is dat iedere student twee keer een half jaar stage loopt binnen een ervaren
                             bedrijf, dus voor ons is het werken met klanten, projecten en documentatie niks nieuws. </p>
-                        <a class="btn white" href="#">Bekijk ons werk</a>
+                        <a class="btn white" href="/over-ons">Lees meer</a>
                     </div>
                 </div>
             </div>
