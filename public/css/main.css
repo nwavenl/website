@@ -236,6 +236,8 @@ nav.main .navigation .desktop ul {
   justify-items: center;
   align-items: center;
   margin: 0 !important;
+  position: relative;
+  top: 6px;
 }
 nav.main .navigation .desktop ul li {
   margin-left: 20px;
@@ -247,15 +249,13 @@ nav.main .navigation .desktop ul li a {
 nav.main .navigation .desktop ul li a:hover {
   color: #000;
 }
-nav.main .navigation .desktop ul li.btn-nav {
+nav.main .navigation .desktop ul li .btn-nav {
   background: #FF824C;
   padding: 8px 20px;
   border-radius: 20px;
-}
-nav.main .navigation .desktop ul li.btn-nav a {
   color: #fff;
 }
-nav.main .navigation .desktop ul li.btn-nav a:hover {
+nav.main .navigation .desktop ul li .btn-nav:hover {
   color: #fff;
 }
 @media (min-width: 992px) {
