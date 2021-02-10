@@ -46,7 +46,7 @@ class ContactController extends Controller
             'test' => "Testing"
         ];
 
-        Mail::send('emails.test', $data, function ($message) {
+        Mail::send('mail.contact', $data, function ($message) {
             $message->from('contact@nwave.nl', 'Contact - NWAVE');
 
             $message->to('support@nwave.nl');
