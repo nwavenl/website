@@ -68,3 +68,11 @@ Route::get('/algemene-voorwaarden', function () {
 Route::get('/privacybeleid', function () {
     return view('privacy');
 });
+
+
+Route::get('/mail', function () {
+    $data = [
+        'test' => "Testing"
+    ];
+    return new App\Mail\ContactMail($data);
+});

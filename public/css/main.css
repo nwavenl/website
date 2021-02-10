@@ -610,9 +610,6 @@ section.hero .hero_under {
     display: none;
   }
 }
-section.hero img {
-  max-width: 100%;
-}
 
 section.subhero {
   min-height: 50vh;
