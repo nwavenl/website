@@ -1,4 +1,4 @@
-<div>
+<div style="font-family: sans-serif">
     <h3>Mail van {{ $data['fname'] }}  {{ $data['lname'] }}</h3>
     <h4>Email: {{ $data['email'] }}</h4>
     <h4>Nummer: {{ $data['phone'] }}</h4>
