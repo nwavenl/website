@@ -24,7 +24,7 @@ class OfferteController extends Controller
             'voornaam' => 'required',
             'achternaam' => 'required',
             'email' => 'required|email',
-            'telefoon' => 'required|phone',
+            'telefoon' => 'required',
             'bericht' => 'required',
             'type' => 'required'
         ]);
