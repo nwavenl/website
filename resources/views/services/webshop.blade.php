@@ -88,7 +88,7 @@
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="email">E-mail*</label>
-                                                <input name="email" type="text">
+                                                <input name="email" type="email">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="telefoon">Telefoon</label>
