@@ -524,6 +524,12 @@ footer .row-2 {
   height: 159px;
   position: relative;
 }
+footer .row-2 p a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer .row-2 p a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
 footer .row-2 ul {
   margin: 0 !important;
   padding: 0 !important;

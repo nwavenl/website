@@ -21,7 +21,7 @@
 
             <div class="col-xxl-2 col-md-4">
                 <div class="content row-2">
-                    <p>Sitemap</p>
+                    <p><a href="/sitemap">Sitemap</a></p>
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="/projecten">Projecten</a></li>
