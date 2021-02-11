@@ -1130,3 +1130,17 @@ body.error404 .row-404 a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+body.sitemap section.sitemap {
+  padding: 50px 0;
+}
+body.sitemap section.sitemap a {
+  padding: 10px 20px;
+  width: 350px;
+  max-width: 100%;
+  display: block;
+  margin: 10px 0;
+  background: #7E7E7E;
+  color: #fff;
+  border-radius: 5px;
+}

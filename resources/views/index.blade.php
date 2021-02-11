@@ -52,7 +52,7 @@
             <div class="row justify-content-center">
                 <div class="col-auto">
                     <div class="intro-header">
-                        <h2>Wat wij doen.</h2>
+                        <h2>Waar wij in specialiseren.</h2>
                     </div>
                 </div>
             </div>
