@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactMail;
+use App\Mail\OfferteMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class OfferteController extends Controller
 {
     public function __construct() {
 
@@ -17,14 +18,15 @@ class ContactController extends Controller
      *
      * @param $input
      */
-    private function validateContactEmail($input) {
+    private function validateOfferteEmail($input) {
         //Checking by validation rules
         $validated = $input->validate([
             'voornaam' => 'required',
             'achternaam' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
             'telefoon' => 'required',
             'bericht' => 'required',
+            'type' => 'required'
         ]);
     }
 
@@ -36,21 +38,30 @@ class ContactController extends Controller
      */
     public function sendMail(Request $request) {
         // Checking the input by validator rules
-        $validatedInput = $this->validateContactEmail($request);
+        $validatedInput = $this->validateOfferteEmail($request);
 
         $data = [
             'fname' => $request->voornaam,
             'lname' => $request->achternaam,
             'email' => $request->email,
             'phone' => $request->telefoon,
+            'company' => $request->company,
+            'budget' => $request->budget,
             'message' => $request->bericht,
-            'test' => "Testing"
+            'type' => $request->type,
         ];
 
-        Mail::to('contact@nwave.nl')->send(new ContactMail($data));
+        Mail::to('contact@nwave.nl')->send(new OfferteMail($data));
 
         // Redirect after sending the email.
-        return redirect(route('contact'));
-
+        if ($data['type'] === 'webshop') {
+            return redirect(route('webshop'));
+        } elseif ($data['type'] === 'website') {
+            return redirect(route('website'));
+        } elseif($data['type'] === 'maintenance') {
+            return redirect(route('maintenance'));
+        } else {
+            return redirect(route('home'));
+        }
     }
 }

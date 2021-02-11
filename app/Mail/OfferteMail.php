@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactMail extends Mailable
+class OfferteMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -28,10 +28,19 @@ class ContactMail extends Mailable
      */
     public function build()
     {
+        $title = null;
+        if ($this->data['type'] === 'webshop') {
+            $title = 'Webshop offerte';
+        } elseif ($this->data['type'] === 'website') {
+            $title = 'Website offerte';
+        } elseif ($this->data['type'] === 'maintenance') {
+            $title = 'Maintenance offerte';
+        }
+
         return
             $this
-                ->view('mail.contact', ['data' => $this->data])
-                ->subject('Contact formulier website')
-                ->from('contact@nwave.nl', 'Contact formulier');
+                ->view('mail.offerte', ['data' => $this->data])
+                ->subject($title)
+                ->from('contact@nwave.nl', 'Offerte formulier');
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\OfferteController;
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 // Route for homepage
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 // Route for getting the service views
 Route::get('/services', function () {
@@ -50,16 +51,26 @@ Route::get('/over-ons', function () {
 /* Services */
 Route::get('/services/website', function () {
     return view('services/website');
-});
+})->name('website');
 Route::get('/services/webshop', function () {
     return view('services/webshop');
-});
+})->name('webshop');
 Route::get('/services/seo', function () {
     return view('services/seo');
-});
+})->name('seo');
 Route::get('/services/onderhoud', function () {
     return view('services/onderhoud');
-});
+})->name('maintenance');
+
+// Route for sending offerte form.
+Route::get(
+    '/sendOfferte',
+    [
+        OfferteController::class,
+        'sendMail'
+    ]
+)->name('send-offerte');
+
 
 /* Juridisch */
 Route::get('/algemene-voorwaarden', function () {
