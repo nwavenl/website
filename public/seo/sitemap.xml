@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://nwave.nl/</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/over-ons</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/projecten</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/services</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/contact</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/sitemap</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/algemene-voorwaarden</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/privacybeleid</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/services/seo</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/services/website</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/services/onderhoud</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://nwave.nl/services/webshop</loc>
+  <lastmod>2021-02-11T18:50:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
