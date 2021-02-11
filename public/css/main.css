@@ -524,6 +524,12 @@ footer .row-2 {
   height: 159px;
   position: relative;
 }
+footer .row-2 p a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer .row-2 p a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
 footer .row-2 ul {
   margin: 0 !important;
   padding: 0 !important;
@@ -1129,4 +1135,18 @@ body.error404 .row-404 a {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+body.sitemap section.sitemap {
+  padding: 50px 0;
+}
+body.sitemap section.sitemap a {
+  padding: 10px 20px;
+  width: 350px;
+  max-width: 100%;
+  display: block;
+  margin: 10px 0;
+  background: #7E7E7E;
+  color: #fff;
+  border-radius: 5px;
 }

@@ -93,7 +93,7 @@
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="company">Bedrijf / Organisatie*</label>
-                                                <input required name="company" type="email">
+                                                <input required name="company" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="budget">Budget</label>

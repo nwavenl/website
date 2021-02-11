@@ -92,3 +92,8 @@ Route::get('/mail', function () {
     ];
     return new App\Mail\ContactMail($data);
 });
+
+// Route for sitemap
+Route::get('/sitemap', function () {
+    return view('sitemap');
+})->name('sitemap');
