@@ -74,19 +74,21 @@
                             </div>
                             <div class="col-xl-8 col-12">
                                 <div class="form-parent">
-                                    <form>
+                                    <form action="{{ route('send-offerte') }}" method="HEAD">
+                                        @csrf
+                                        <input type="hidden" name="type" value="webshop">
                                         <div class="row">
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="voornaam">Voornaam*</label>
-                                                <input required name="voornaam" type="text">
+                                                <input name="voornaam" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="achternaam">Achternaam*</label>
-                                                <input required name="achternaam" type="text">
+                                                <input name="achternaam" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="email">E-mail*</label>
-                                                <input required name="email" type="email">
+                                                <input name="email" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="telefoon">Telefoon</label>
@@ -94,15 +96,15 @@
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="company">Bedrijf / Organisatie*</label>
-                                                <input required name="company" type="email">
+                                                <input name="company" type="text">
                                             </div>
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="budget">Budget</label>
                                                 <select name="budget" id="">
-                                                    <option value="">Nog onbekend</option>
-                                                    <option value="">€ 5.000 - € 10.000</option>
-                                                    <option value="">€ 10.000 - € 15.000</option>
-                                                    <option value="">€ 15.000+</option>
+                                                    <option value="0">Nog onbekend</option>
+                                                    <option value="1">€ 5.000 - € 10.000</option>
+                                                    <option value="2">€ 10.000 - € 15.000</option>
+                                                    <option value="3">€ 15.000+</option>
                                                 </select>
                                             </div>
                                             <div class="col-12 form-item">

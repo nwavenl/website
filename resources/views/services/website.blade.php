@@ -71,7 +71,9 @@
                             </div>
                             <div class="col-xl-8 col-12">
                                 <div class="form-parent">
-                                    <form>
+                                    <form action="{{ route('send-offerte') }}" method="HEAD">
+                                        @csrf
+                                        <input type="hidden" name="type" value="website">
                                         <div class="row">
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="voornaam">Voornaam*</label>
