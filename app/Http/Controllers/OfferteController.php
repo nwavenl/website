@@ -51,6 +51,24 @@ class OfferteController extends Controller
             'type' => $request->type,
         ];
 
+        switch ($data['budget']) {
+            case '0':
+                $data['budget'] = '€ 5.000 - € 10.000';
+                break;
+            case '1':
+                $data['budget'] = '€ 10.000 - € 15.000';
+                break;
+            case '2':
+                $data['budget'] = '€ 15.000+';
+                break;
+            case '3':
+                $data['budget'] = 'Nog onbekend';
+                break;
+            default:
+                $data['budget'] = 'Budget value is invalid!';
+                break;
+        }
+
         Mail::to('contact@nwave.nl')->send(new OfferteMail($data));
 
         // Redirect after sending the email.
