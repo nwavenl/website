@@ -59,3 +59,11 @@
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLC3YLEV84"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FLC3YLEV84');
+</script>
