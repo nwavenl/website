@@ -18,3 +18,13 @@ function scrollFunction() {
         $('nav.main').removeClass('scroll');
     }
 }
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLC3YLEV84"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FLC3YLEV84');
+</script>

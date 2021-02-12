@@ -98,11 +98,11 @@
                                             <div class="col-md-6 col-12 form-item">
                                                 <label for="budget">Budget</label>
                                                 <select name="budget" id="">
-                                                    <option value="">Nog onbekend</option>
-                                                    <option value="">€ 3.500 - € 5.000</option>
-                                                    <option value="">€ 5.000 - € 10.000</option>
-                                                    <option value="">€ 10.000 - € 15.000</option>
-                                                    <option value="">€ 15.000+</option>
+                                                    <option value="0">Nog onbekend</option>
+                                                    <option value="1">€ 3.500 - € 5.000</option>
+                                                    <option value="2">€ 5.000 - € 10.000</option>
+                                                    <option value="3">€ 10.000 - € 15.000</option>
+                                                    <option value="4">€ 15.000+</option>
                                                 </select>
                                             </div>
                                             <div class="col-12 form-item">
