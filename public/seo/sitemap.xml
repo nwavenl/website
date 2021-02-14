@@ -6,62 +6,62 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://nwave.nl/</loc>
+  <loc>https://nwave.nl/</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/over-ons</loc>
+  <loc>https://nwave.nl/over-ons</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/projecten</loc>
+  <loc>https://nwave.nl/projecten</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/services</loc>
+  <loc>https://nwave.nl/services</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/contact</loc>
+  <loc>https://nwave.nl/contact</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/sitemap</loc>
+  <loc>https://nwave.nl/sitemap</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/algemene-voorwaarden</loc>
+  <loc>https://nwave.nl/algemene-voorwaarden</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/privacybeleid</loc>
+  <loc>https://nwave.nl/privacybeleid</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/services/seo</loc>
+  <loc>https://nwave.nl/services/seo</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/services/website</loc>
+  <loc>https://nwave.nl/services/website</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/services/onderhoud</loc>
+  <loc>https://nwave.nl/services/onderhoud</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://nwave.nl/services/webshop</loc>
+  <loc>https://nwave.nl/services/webshop</loc>
   <lastmod>2021-02-11T18:50:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
