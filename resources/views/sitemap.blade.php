@@ -33,7 +33,7 @@
                     <a href="/services/onderhoud">Service pagina - Onderhoud</a>
                     <a href="/services/webshop">Service pagina - Webshop</a>
                     <a href="/algemene-voorwaarden">Algemene-voorwaarden</a>
-                    <a href="/privecybeleid">privecybeleid</a>
+                    <a href="/privacybeleid">privacybeleid</a>
                 </div>
             </div>
         </div>
