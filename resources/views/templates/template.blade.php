@@ -59,7 +59,7 @@
           content="nwave - Websites op maat voor elk platform" />
     <meta name="keywords"
           property="keywords"
-          content="nwave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud" />
+          content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud" />
 
     <title>nwave - @yield('title')</title>
 
