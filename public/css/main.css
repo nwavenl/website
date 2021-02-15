@@ -23,16 +23,10 @@
   .col-xxl-rm {
     display: none;
   }
-  .col-xxl-rm img {
-    display: none;
-  }
 }
 
 @media (max-width: 1400px) {
   .col-xl-rm {
-    display: none;
-  }
-  .col-xl-rm img {
     display: none;
   }
 }
@@ -41,25 +35,16 @@
   .col-lg-rm {
     display: none;
   }
-  .col-lg-rm img {
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {
   .col-md-rm {
     display: none;
   }
-  .col-md-rm img {
-    display: none;
-  }
 }
 
 @media (max-width: 576px) {
   .col-sm-rm {
-    display: none;
-  }
-  .col-sm-rm img {
     display: none;
   }
 }
