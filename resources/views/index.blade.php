@@ -59,7 +59,7 @@
             <div class="row text-center">
                 <div class="col-lg-3 col-6">
                     <img src="{{asset('/images/icons/globe.png')}}" alt="SEO">
-                    <h4>Website's</h4>
+                    <h4>Websites</h4>
                 </div>
                 <div class="col-lg-3 col-6">
                     <img src="{{asset('/images/icons/webshop.png')}}" alt="SEO">
