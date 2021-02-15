@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-3 branding">
-                <h4><a href="/">NWAVE</a></h4>
+                <h4><img src="{{asset('/images/global/logo.png')}}" alt=""><a href="/">NWAVE</a></h4>
             </div>
             <div class="col-9 navigation">
                 <div class="desktop">
