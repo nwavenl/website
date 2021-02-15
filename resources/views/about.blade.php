@@ -31,7 +31,7 @@
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Wie zijn wij?</h2>
-                        <p>nwave is een bedrijf opgericht door vier eindejaars studenten op met Mediacollege Amsterdam
+                        <p>nwave is een bedrijf opgericht door vier eindejaars studenten van het Mediacollege Amsterdam
                             die de opleiding Mediadeveloper volgen. Iedereen binnen het team heeft passie voor
                             programmeren. Het bedrijfsleven voor ieder is niets nieuws, de norm van de opleiding media
                             development is dat iedere student twee keer een half jaar stage loopt binnen een ervaren
