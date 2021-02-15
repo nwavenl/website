@@ -1,10 +1,10 @@
 <nav class="main">
     <div class="container">
         <div class="row">
-            <div class="col-3 branding">
-                <h4><a href="/">NWAVE</a></h4>
+            <div class="col-lg-3 col-9 branding">
+                <h4><img src="{{asset('/images/global/logo.png')}}" alt=""><a href="/">NWAVE</a></h4>
             </div>
-            <div class="col-9 navigation">
+            <div class="col-lg-9 col-3 navigation">
                 <div class="desktop">
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
