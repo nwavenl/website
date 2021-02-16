@@ -236,16 +236,18 @@ nav.main .branding h4 {
   font-weight: 700;
   position: relative;
   top: 6px;
+  left: 5px;
 }
-nav.main .branding h4 img {
+nav.main .branding img {
   height: 30px;
   width: 30px;
   position: relative;
-  top: -2px;
+  top: 5px;
 }
-nav.main .branding h4 a {
+nav.main .branding a {
   color: #000;
-  margin-left: 5px;
+  display: flex;
+  width: 134px !important;
 }
 @media (max-width: 992px) {
   nav.main .navigation .desktop {
