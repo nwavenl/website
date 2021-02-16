@@ -17,18 +17,19 @@ nav.main {
             font-weight: 700;
             position: relative;
             top: 6px;
+            left: 5px;
+        }
+        img {
+            height: 30px;
+            width: 30px;
+            position: relative;
+            top: 5px;
+        }
 
-            img {
-                height: 30px;
-                width: 30px;
-                position: relative;
-                top: -2px;
-            }
-
-            a {
-                color: #000;
-                margin-left: 5px;
-            }
+        a {
+            color: #000;
+            display: flex;
+            width: 134px !important;
         }
     }
 
