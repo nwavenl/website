@@ -232,16 +232,16 @@ aside.mobile-nav {
             position: absolute;
             display: block !important;
             height: 500px;
-            width: 500px;
+            width: 243px;
             top: 50%;
-            right: -200px;
+            right: 0;
             transform: translateY(-50%);
             animation: mr-animation .7s;
             @media (max-width: 653px) {
-                right: -300px;
+                right: -50px;
             }
             @media (max-width: 400px) {
-                right: -350px;
+                right: -120px;
             }
             @media (max-width: 315px) {
                 display: none;
