@@ -162,9 +162,6 @@ aside.mobile-nav {
     max-height: 100vh;
     animation: mobile-fadeout .5s;
 
-    img.background-img {
-        display: none;
-    }
 
     ul {
         margin: 0;
@@ -251,6 +248,15 @@ aside.mobile-nav {
             }
         }
     }
+}
+
+.mobile-nav {
+    img.background-img {
+        display: none !important;
+    }
+}
+.mobile-nav.active {
+    display: block !important;
 }
 
 ////animations
