@@ -1,6 +1,6 @@
 @extends('templates/template')
 
-@section('title') website's @endsection
+@section('title') website @endsection
 
 @section('bodyClass') services-item @endsection
 
