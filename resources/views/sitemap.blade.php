@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Sitemap - bekijk alle link naar elke pagina op de website." @endsection
+
 @section('title') sitemap @endsection
 
 @section('bodyClass') sitemap @endsection

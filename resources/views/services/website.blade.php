@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-rm">
                     <div class="image-holder">
-                        <img src="{{asset('/images/services/website.jpg')}}" alt="">
+                        <img src="{{asset('/images/services/website.jpg')}}" alt="Website image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">

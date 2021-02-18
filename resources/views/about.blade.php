@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Wij zijn de personen achter nwave, en wat doen zij. Lees het hier." @endsection
+
 @section('title') Over ons @endsection
 
 @section('bodyClass') about @endsection
@@ -25,7 +27,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-rm">
                     <div class="image-holder">
-                        <img src="{{asset('/images/about/about-section.jpg')}}" alt="">
+                        <img src="{{asset('/images/about/about-section.jpg')}}" alt="About image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -58,7 +60,7 @@
                     <div class="member">
                         <div class="image-holder">
                             <img src="{{asset('/images/about/team/jelle.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                            <a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                         </div>
                         <h5>Jelle Stekelenburg</h5>
                         <p>Front-end developer</p>
@@ -69,7 +71,7 @@
                     <div class="member">
                         <div class="image-holder">
                             <img src="{{asset('/images/about/team/marco.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                            <a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                         </div>
                         <h5>Marco Bruijns</h5>
                         <p>Fullstack developer</p>
@@ -80,7 +82,7 @@
                     <div class="member">
                         <div class="image-holder">
                             <img src="{{asset('/images/about/team/tinxian.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                            <a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                         </div>
                         <h5>Tin Xian Hu</h5>
                         <p>Fullstack developer</p>
@@ -91,7 +93,7 @@
                     <div class="member">
                         <div class="image-holder">
                             <img src="{{asset('/images/about/team/yeno.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/yeno-reus-7b1bb8172/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                            <a href="https://www.linkedin.com/in/yeno-reus-7b1bb8172/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                         </div>
                         <h5>Yeno Reus</h5>
                         <p>Back-end developer</p>

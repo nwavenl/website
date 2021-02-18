@@ -45,10 +45,10 @@
 
     <meta name="description"
           property="description"
-          content="nwave, wij maken website's en webshops op maat voor particulieren en bedrijven" />
+          content=@yield('description') />
     <meta name="title"
           property="title"
-          content="nwave - Websites op maat voor elk platform" />
+          content="nwave - @yield('title')" />
     <meta name="keywords"
           property="keywords"
           content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud" />

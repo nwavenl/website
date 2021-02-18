@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-rm">
                     <div class="image-holder">
-                        <img src="{{asset('/images/services/onderhoud.jpg')}}" alt="">
+                        <img src="{{asset('/images/services/onderhoud.jpg')}}" alt="Onderhoud image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
@@ -62,7 +62,7 @@
                                             </li>
                                         </ul>
                                         <a class="social" href="https://www.linkedin.com/company/31411281/"><img
-                                                src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                                                src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                                     </div>
                                 </div>
                             </div>

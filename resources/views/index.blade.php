@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "nwave, wij maken website's en webshops op maat voor particulieren en bedrijven. Bekijk onze website voor meer informatie" @endsection
+
 @section('title') Websites op maat voor elk platform @endsection
 
 @section('bodyClass') home @endsection
@@ -18,10 +20,10 @@
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
-                    <img src="{{asset('/images/homepage/hero-img2.png')}}" alt="">
+                    <img src="{{asset('/images/homepage/hero-img2.png')}}" alt="Hero image">
                 </div>
             </div>
-            <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="">
+            <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
         </div>
     </section>
     <section class="about">
@@ -29,7 +31,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-rm ">
                     <div class="content image">
-                        <img src="{{asset('/images/homepage/services_2.png')}}" alt="">
+                        <img src="{{asset('/images/homepage/services_2.png')}}" alt="Services image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
