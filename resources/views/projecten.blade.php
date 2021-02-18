@@ -15,7 +15,7 @@
                 <div class="col-lg-5 col-12">
                     <div class="content">
                         <h1>Projecten</h1>
-                        <p>Hier zijn al onze cases van klanten die wij geholpen hebben een online footprint te geven!</p>
+                        <p>Hier kunt u al onze projecten van klanten die u voor zijn geweest vinden.</p>
                     </div>
                 </div>
             </div>
