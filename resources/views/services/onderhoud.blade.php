@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
-                        <h2>Waarom een website?</h2>
+                        <h2>Onderhoud nodig?</h2>
                         <p>Heeft uw website of webshop een verbetering nodig? dan kunnen wij hier altijd bij helpen. Wij
                             zorgen ervoor dat uw website er weer zo goed als nieuw uitziet met de nieuwste functies.</p>
                         <p>Vraag vandaag nog een offerte aan om te kijken wat wij voor u kunnen betekenen.</p>
