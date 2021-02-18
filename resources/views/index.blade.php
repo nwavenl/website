@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "nwave, wij maken website's en webshops op maat voor particulieren en bedrijven. Bekijk onze website voor meer informatie" @endsection
+
 @section('title') Websites op maat voor elk platform @endsection
 
 @section('bodyClass') home @endsection

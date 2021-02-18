@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Bekijk onze algemene voorwaarden hier." @endsection
+
 @section('title') Algemene voorwaarden @endsection
 
 @section('bodyClass') voorwaarden @endsection

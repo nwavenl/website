@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Wat kunnen wij voor u betekenen? bekijk onze services." @endsection
+
 @section('title') Offerte aanvragen @endsection
 
 @section('bodyClass') offerte @endsection

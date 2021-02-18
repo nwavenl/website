@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Bekijk hier ons laatste werk om te zien wat wij voor u kunnen betekenen." @endsection
+
 @section('title') Onze projecten @endsection
 
 @section('bodyClass') projects @endsection

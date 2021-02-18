@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Neem contact met ons op, en wij helpen u zo snel mogelijk verder" @endsection
+
 @section('title') Contact opnemen @endsection
 
 @section('bodyClass') contact @endsection
