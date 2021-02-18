@@ -33,7 +33,7 @@
 
             <div class="col-xxl-2 col-md-4">
                 <div class="content row-3">
-                    <img src="{{asset('/images/icons/linkedin.png')}}" alt="">
+                    <img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo">
                     <p><a href="/algemene-voorwaarden">Algemene voorwaarden</a></p>
                     <p class="pb-5"><a href="/privacybeleid">Privacybeleid</a></p>
                     <div class="under">

@@ -48,10 +48,10 @@
                                 (bestaande) Website makkelijker vinden.</p>
                             <a class="btn" href="/services/seo">Bekijk</a>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Hogere ranking bij Search
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Hogere ranking bij Search
                                     Engines
                                 </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Meer bereik voor uw doelgroep
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Meer bereik voor uw doelgroep
                                 </li>
                             </ul>
                         </div>
@@ -74,11 +74,11 @@
                                 website op elk platform te bekijken is.</p>
                             <a class="btn" href="/services/website">Bekijk</a>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Website op maat</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Website op maat</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Beschikbaar op elk platform
                                 </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Design naar uw keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Design naar uw keuze</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Prioriteit support</li>
                             </ul>
                         </div>
                     </div>
@@ -100,12 +100,12 @@
                                 op de website terecht komen.</p>
                             <a class="btn" href="/services/onderhoud">Bekijk</a>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Veranderingen die uw wilt
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Veranderingen die uw wilt
                                 </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Beschikbaar op elk platform
                                 </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Design naar keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support**</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Design naar keuze</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Prioriteit support**</li>
                             </ul>
                         </div>
                     </div>
@@ -127,12 +127,12 @@
                                 binnen de wordpress.</p>
                             <a class="btn" href="/services/webshop">Bekijk</a>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Wordpress custom webshop</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Webshop op maat</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Beschikbaar op elk platform
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Wordpress custom webshop</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Webshop op maat</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Beschikbaar op elk platform
                                 </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Design naar uw keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="">Prioriteit support</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Design naar uw keuze</li>
+                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Prioriteit support</li>
                             </ul>
                         </div>
                     </div>

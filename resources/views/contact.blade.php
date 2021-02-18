@@ -39,7 +39,7 @@
                                             <li><a href="tel:0624421363"><img src="{{asset('/images/icons/phone.png')}}" alt="telefoon">(+31) 6 24421363</a></li>
                                             <li><a href="mailto: contact@nwave.nl"><img src="{{asset('/images/icons/mail.png')}}" alt="email">contact@nwave.nl</a></li>
                                         </ul>
-                                        <a class="social" href="https://www.linkedin.com/company/31411281/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                                        <a class="social" href="https://www.linkedin.com/company/31411281/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                                     </div>
                                 </div>
                             </div>
