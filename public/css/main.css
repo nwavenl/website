@@ -753,6 +753,7 @@ body.offerte section.services .section-intro p {
 }
 body.offerte section.services .card {
   background: #F1F1F1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   padding: 30px 25px;
   margin: 0 30px;
   border: none;
