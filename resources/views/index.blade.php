@@ -13,17 +13,17 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-12">
                     <div class="hero-content">
-                        <h1><span class="main">n</span>wave, websites op maat voor elk platform</h1>
-                        <p>Wij van nwave kunnen al uw online vraagstukken oplossen en verwerken in digitale form. Denk hierbij aan
+                        <h1 data-aos="fade-right"><span class="main">n</span>wave, websites op maat voor elk platform</h1>
+                        <p data-aos="fade-right">Wij van nwave kunnen al uw online vraagstukken oplossen en verwerken in digitale form. Denk hierbij aan
                             websites en webshops voor beide bedrijf en particulier.</p>
-                        <a class="btn" href="/projecten">Bekijk ons werk</a>
+                        <a data-aos="fade-up" class="btn" href="/projecten">Bekijk ons werk</a>
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
-                    <img src="{{asset('/images/homepage/hero-img2.png')}}" alt="Hero image">
+                    <img data-aos="fade-left" src="{{asset('/images/homepage/hero-img2.png')}}" alt="Hero image">
                 </div>
             </div>
-            <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
+            <img  class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
         </div>
     </section>
     <section class="about">
@@ -52,26 +52,96 @@
             <div class="row justify-content-center">
                 <div class="col-auto">
                     <div class="intro-header">
-                        <h2>Waar wij ons in specialiseren.</h2>
+                        <h2 data-aos="fade-down">Waar wij ons in specialiseren.</h2>
                     </div>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-lg-3 col-6">
-                    <img src="{{asset('/images/icons/globe.png')}}" alt="SEO">
-                    <h4>Websites</h4>
+            <div class="row">
+                <div class="col-xxl-3 col-lg-6 col-12">
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-image">
+                            <img src="{{asset('/images/homepage/services/seo.jpg')}}" alt="website card image">
+                        </div>
+                        <div class="card-body">
+                            <div class="middle">
+                                <div class="placement">
+                                    <h4>SEO</h4>
+                                    <p>Krijg een hogere ranking bij bijvoorbeeld
+                                        Google en Bing, Zodat uw doelgroep uw
+                                        (bestaande) Website makkelijker vinden.</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <a class="btn" href="/services">Lees meer</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-6">
-                    <img src="{{asset('/images/icons/webshop.png')}}" alt="SEO">
-                    <h4>Webshops</h4>
+
+                <div class="col-xxl-3 col-lg-6 col-12">
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-image">
+                            <img src="{{asset('/images/homepage/services/website.jpg')}}" alt="website card image">
+                        </div>
+                        <div class="card-body">
+                            <div class="middle">
+                                <div class="placement">
+                                    <h4>Websites</h4>
+                                    <p>Denk hierbij aan een Portfolio, of
+                                        informatieve website. Wij maken een
+                                        website voor u en zorgen dat deze
+                                        website op elk platform te bekijken is.</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <a class="btn" href="/services">Lees meer</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-6">
-                    <img src="{{asset('/images/icons/wrench.png')}}" alt="SEO">
-                    <h4>Onderhoud</h4>
+
+                <div class="col-xxl-3 col-lg-6 col-12">
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-image">
+                            <img src="{{asset('/images/homepage/services/construction.jpg')}}" alt="website card image">
+                        </div>
+                        <div class="card-body">
+                            <div class="middle">
+                                <div class="placement">
+                                    <h4>Onderhoud</h4>
+                                    <p>Onderhoud aan uw al bestaande website
+                                        of website gemaakt door ons, het kan
+                                        allemaal. Wij zorgen dat uw wensen
+                                        op de website terecht komen.</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <a class="btn" href="/services">Lees meer</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-6">
-                    <img src="{{asset('/images/icons/analysis.png')}}" alt="SEO">
-                    <h4>SEO</h4>
+
+                <div class="col-xxl-3 col-lg-6 col-12">
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-image">
+                            <img src="{{asset('/images/homepage/services/webshop.jpg')}}" alt="website card image">
+                        </div>
+                        <div class="card-body">
+                            <div class="middle">
+                                <div class="placement">
+                                    <h4>webshops</h4>
+                                    <p>Webshops zijn de toekomst, wij helpen
+                                        u webshop makkelijk te bedienen en
+                                        duidelijk te maken. Alles is te veranderen
+                                        binnen de wordpress.</p>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <a class="btn" href="/services">Lees meer</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,9 +153,9 @@
             <div class="row justify-content-center text-center">
                 <div class="col-auto">
                     <div class="cta-content">
-                        <h2>Geïnteresseerd? Bekijk ons werk.</h2>
-                        <p>Bekijk hier onze gemaakte projecten om een indruk te krijgen van ons maatwerk</p>
-                        <a class="btn white" href="/projecten">Projecten</a>
+                        <h2 data-aos="fade-up">Geïnteresseerd? Bekijk ons werk.</h2>
+                        <p data-aos="fade-up">Bekijk hier onze gemaakte projecten om een indruk te krijgen van ons maatwerk</p>
+                        <a data-aos="fade-up" class="btn white" href="/projecten">Projecten</a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
-                    <div class="content">
+                    <div class="content" data-aos="fade-up">
                         <h1>Projecten</h1>
                         <p>Hier zijn al onze cases van klanten die wij geholpen hebben een online footprint te geven!</p>
                     </div>

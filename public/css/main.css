@@ -706,13 +706,63 @@ body.home section.services {
 body.home section.services .intro-header {
   padding: 0 0 40px;
 }
-body.home section.services img {
-  margin: 20px 0;
+body.home section.services .card {
+  height: 500px;
+  margin: 0 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
 }
-@media (max-width: 471px) {
-  body.home section.services img {
-    height: 70px;
+@media (max-width: 1660px) {
+  body.home section.services .card {
+    margin: 0 15px;
   }
+}
+@media (max-width: 1400px) {
+  body.home section.services .card {
+    margin: 15px;
+  }
+}
+body.home section.services .card .card-image {
+  height: 200px;
+  width: 100%;
+}
+body.home section.services .card .card-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+body.home section.services .card .card-body {
+  height: 400px;
+  padding: 15px;
+  background: #fff;
+  z-index: 10;
+  transition: 0.25s;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+@media (max-width: 1660px) {
+  body.home section.services .card .card-body h4 {
+    font-size: 24px;
+  }
+  body.home section.services .card .card-body p {
+    font-size: 17px;
+  }
+}
+body.home section.services .card .card-body .middle {
+  height: 300px;
+  position: relative;
+}
+body.home section.services .card .card-body .middle .placement {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body.home section.services .card:hover .card-body {
+  top: 100px;
+  box-shadow: 0 0 40px black;
 }
 
 section.cta {
