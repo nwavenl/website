@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="bottom">
-                                <a class="btn" href="/services">Lees meer</a>
+                                <a class="btn" href="/services/seo">Lees meer</a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                             <div class="bottom">
-                                <a class="btn" href="/services">Lees meer</a>
+                                <a class="btn" href="/services/website">Lees meer</a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                             <div class="bottom">
-                                <a class="btn" href="/services">Lees meer</a>
+                                <a class="btn" href="/services/onderhoud">Lees meer</a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                                 </div>
                             </div>
                             <div class="bottom">
-                                <a class="btn" href="/services">Lees meer</a>
+                                <a class="btn" href="/services/webshop">Lees meer</a>
                             </div>
                         </div>
                     </div>
