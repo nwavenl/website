@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
-                    <div class="content">
+                    <div class="content" data-aos="fade-up">
                         <h1>onze services</h1>
                         <p>Bekijk wat wij voor u kunnen betekenen op online gebied.</p>
                     </div>
@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row text-center justify-content-center">
                 <div class="col-auto">
-                    <div class="section-intro">
+                    <div class="section-intro" data-aos="fade-left">
                         <h2>Onze services.</h2>
                         <p>Bekijk wat uw wensen zijn en wat wij voor u kunnen betekenen</p>
                     </div>
@@ -34,7 +34,7 @@
             <div class="row mt-5">
 
                 <div class="col-xxl-3 col-md-6 card-parent">
-                    <div class="card">
+                    <div class="card" data-aos="fade-down">
                         <div class="card-title">
                             <span>
                                 <img src="{{asset('/images/icons/analysis.png')}}" alt="SEO">
@@ -59,7 +59,7 @@
                 </div>
 
                 <div class="col-xxl-3 col-md-6 card-parent">
-                    <div class="card">
+                    <div class="card" data-aos="fade-down">
                         <div class="card-title">
                             <span>
                                 <img src="{{asset('/images/icons/globe.png')}}" alt="SEO">
@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="col-xxl-3 col-md-6 card-parent">
-                    <div class="card">
+                    <div class="card" data-aos="fade-down">
                         <div class="card-title">
                             <span>
                                 <img src="{{asset('/images/icons/wrench.png')}}" alt="SEO">
@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="col-xxl-3 col-md-6 card-parent">
-                    <div class="card">
+                    <div class="card" data-aos="fade-down">
                         <div class="card-title">
                             <span>
                                 <img src="{{asset('/images/icons/webshop.png')}}" alt="SEO">
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="disclaimer-parent">
+                    <div class="disclaimer-parent" data-aos="fade-up">
                         <p class="disclaimer">* SEO wordt standaard geleverd bij elk project, heeft u een website via een ander
                             bedrijf, neem eerst contact met hen op voor de website code. Anders kunnen wij helaas niks voor
                             uw betekenen</p>
@@ -157,9 +157,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Niet gevonden waar u naar zocht?</h2>
-                    <p>Neem contact op en bekijk wat wij alsnog voor u kunnen betekeken</p>
-                    <a class="btn" href="/contact">Contact opnemen</a>
+                    <h2 data-aos="fade-up">Niet gevonden waar u naar zocht?</h2>
+                    <p data-aos="fade-up">Neem contact op en bekijk wat wij alsnog voor u kunnen betekeken</p>
+                    <a data-aos="fade-up" class="btn" href="/contact">Contact opnemen</a>
                 </div>
             </div>
         </div>

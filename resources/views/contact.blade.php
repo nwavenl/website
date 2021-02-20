@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
-                    <div class="content">
+                    <div class="content" data-aos="fade-up">
                         <h1>Contact</h1>
                         <p>Neem contact met ons op. Wij proberen altijd zo snel mogelijk te reageren</p>
                     </div>
@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-12">
-                    <div class="content-parent">
+                    <div class="content-parent" data-aos="fade-down">
                         <div class="row">
                             <div class="col-xl-4 col-12">
                                 <div class="card-parent">

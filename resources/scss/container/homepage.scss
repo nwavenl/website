@@ -27,11 +27,64 @@ body.home {
             padding: 0 0 40px;
         }
 
-        img {
-            margin: 20px 0;
+        .card {
+            height: 500px;
+            margin: 0 30px;
+            @media (max-width: 1660px) {
+                margin: 0 15px;
+            }
+            @media (max-width: 1400px) {
+                margin: 15px;
+            }
+            box-shadow: 0 0 20px rgba(0,0,0,.2);
+            overflow: hidden;
+            position: relative;
 
-            @media (max-width: 471px) {
-                height: 70px;
+            .card-image {
+                height: 200px;
+                width: 100%;
+
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .card-body {
+                height: 400px;
+                padding: 15px;
+                background: #fff;
+                z-index: 10;
+                transition: .25s;
+                position: absolute;
+                top: 200px;
+                width: 100%;
+
+                @media (max-width: 1660px) {
+                    h4 {
+                        font-size: 24px;
+                    }
+                    p {
+                        font-size: 17px;
+                    }
+                }
+
+
+                .middle {
+                    height: 300px;
+                    position: relative;
+                    .placement {
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+        .card:hover {
+            .card-body {
+                top: 100px;
+                box-shadow: 0 0 40px rgba(0,0,0,1);
             }
         }
     }
