@@ -25,6 +25,15 @@ body.home {
 
         .intro-header {
             padding: 0 0 40px;
+            margin: 0 30px;
+            @media (max-width: 1660px) {
+                margin: 0 15px;
+            }
+
+            p {
+                color: rgba(0,0,0,.7);
+                line-height: 10px;
+            }
         }
 
         .card {
@@ -53,12 +62,24 @@ body.home {
             .card-body {
                 height: 400px;
                 padding: 15px;
-                background: #fff;
+                background: #ffffff;
                 z-index: 10;
                 transition: .25s;
                 position: absolute;
                 top: 200px;
                 width: 100%;
+
+                h4 {
+                    line-height: 0;
+                }
+
+                .divider {
+                    height: 5px;
+                    width: 40px;
+                    background: rgb(231, 231, 231);
+                    border-radius: 20px;
+                    margin: 22px 0 10px;
+                }
 
                 @media (max-width: 1660px) {
                     h4 {
