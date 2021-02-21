@@ -49,10 +49,11 @@
 
     <section class="services">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-auto">
                     <div class="intro-header">
                         <h2 data-aos="fade-down">Waar wij ons in specialiseren.</h2>
+                        <p data-aos="fade-down">Waar kunnen wij u mee helpen?</p>
                     </div>
                 </div>
             </div>
@@ -66,6 +67,7 @@
                             <div class="middle">
                                 <div class="placement">
                                     <h4>SEO</h4>
+                                    <div class="divider"></div>
                                     <p>Krijg een hogere ranking bij bijvoorbeeld
                                         Google en Bing, Zodat uw doelgroep uw
                                         (bestaande) Website makkelijker vinden.</p>
@@ -87,6 +89,7 @@
                             <div class="middle">
                                 <div class="placement">
                                     <h4>Websites</h4>
+                                    <div class="divider"></div>
                                     <p>Denk hierbij aan een Portfolio, of
                                         informatieve website. Wij maken een
                                         website voor u en zorgen dat deze
@@ -109,6 +112,7 @@
                             <div class="middle">
                                 <div class="placement">
                                     <h4>Onderhoud</h4>
+                                    <div class="divider"></div>
                                     <p>Onderhoud aan uw al bestaande website
                                         of website gemaakt door ons, het kan
                                         allemaal. Wij zorgen dat uw wensen
@@ -131,6 +135,7 @@
                             <div class="middle">
                                 <div class="placement">
                                     <h4>webshops</h4>
+                                    <div class="divider"></div>
                                     <p>Webshops zijn de toekomst, wij helpen
                                         u webshop makkelijk te bedienen en
                                         duidelijk te maken. Alles is te veranderen
