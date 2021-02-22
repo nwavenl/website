@@ -15,7 +15,7 @@
                 <div class="col-lg-5 col-12">
                     <div class="content" data-aos="fade-up">
                         <h1>Contact</h1>
-                        <p>Neem contact met ons op, wij proberen altijd zo snel mogelijk te reageren</p>
+                        <p>Neem contact met ons op. Wij proberen altijd zo snel mogelijk te reageren</p>
                     </div>
                 </div>
             </div>
