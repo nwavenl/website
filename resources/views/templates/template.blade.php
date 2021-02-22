@@ -62,6 +62,9 @@
 
     <div class="loader-wrapper">
         <img src="{{asset('/images/global/logo.png')}}" alt="Logo">
+        <div class="loader-body">
+            <div class="loader"></div>
+        </div>
     </div>
 
         @include('includes.nav')

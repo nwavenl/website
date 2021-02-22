@@ -88,7 +88,7 @@ ul {
 }
 
 .main {
-  color: #FF824C !important;
+  color: #ff824c !important;
 }
 
 main {
@@ -200,7 +200,7 @@ p {
 }
 
 .btn {
-  background: #FF824C;
+  background: #ff824c;
   padding: 8px 40px;
   border-radius: 20px;
   color: #fff;
@@ -274,7 +274,7 @@ nav.main .navigation .desktop ul li a:hover {
   color: #000;
 }
 nav.main .navigation .desktop ul li .btn-nav {
-  background: #FF824C;
+  background: #ff824c;
   padding: 8px 20px;
   border-radius: 20px;
   color: #fff;
@@ -367,7 +367,7 @@ aside.mobile-nav ul li {
   transition: 0.3s;
 }
 aside.mobile-nav ul li.btn-nav {
-  background: #FF824C;
+  background: #ff824c;
   padding: 8px 20px;
   border-radius: 10px;
 }
@@ -378,7 +378,7 @@ aside.mobile-nav ul li.btn-nav a:hover {
   color: #fff;
 }
 aside.mobile-nav ul li a:hover {
-  color: #FF824C;
+  color: #ff824c;
 }
 aside.mobile-nav .copyright {
   padding-top: 30px;
