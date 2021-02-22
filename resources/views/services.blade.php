@@ -43,9 +43,9 @@
                             <div class="divider"></div>
                         </div>
                         <div class="card-content">
-                            <p>Krijg een hogere ranking bij bijvoorbeeld
-                                Google en Bing, Zodat uw doelgroep uw
-                                (bestaande) Website makkelijker vinden.</p>
+                            <p>Hoger in de google charts staan?
+                                 Dat kunnen wij voor uw regelen, zodat uw doelgroep uw
+                                (bestaande) website makkelijker kan vinden.</p>
                             <a class="btn" href="/services/seo">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Hogere ranking bij Search
@@ -68,7 +68,7 @@
                             <div class="divider"></div>
                         </div>
                         <div class="card-content">
-                            <p>Denk hierbij aan een Portfolio, of
+                            <p>Denk hierbij aan een portfolio of
                                 informatieve website. Wij maken een
                                 website voor u en zorgen dat deze
                                 website op elk platform te bekijken is.</p>
@@ -94,9 +94,9 @@
                             <div class="divider"></div>
                         </div>
                         <div class="card-content">
-                            <p>Onderhoud aan uw al bestaande website
-                                of website gemaakt door ons, het kan
-                                allemaal. Wij zorgen dat uw wensen
+                            <p>Wij bieden onderhoud aan al uw websites.
+                            Of deze bij ons is gemaakt maakt niet uit. 
+                            Wij zorgen dat uw wensen
                                 op de website terecht komen.</p>
                             <a class="btn" href="/services/onderhoud">Bekijk</a>
                             <ul>
@@ -121,10 +121,9 @@
                             <div class="divider"></div>
                         </div>
                         <div class="card-content">
-                            <p>Webshops zijn de toekomst, wij helpen
-                                u webshop makkelijk te bedienen en
-                                duidelijk te maken. Alles is te veranderen
-                                binnen de wordpress.</p>
+                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en
+                                duidelijk te maken. Alles kan aangepast worden naar uw wensen
+                                </p>
                             <a class="btn" href="/services/webshop">Bekijk</a>
                             <ul>
                                 <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Wordpress custom webshop</li>
