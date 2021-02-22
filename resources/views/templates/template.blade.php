@@ -61,7 +61,7 @@
     <body class="@yield('bodyClass')">
 
     <div class="loader-wrapper">
-        <img src="{{asset('/images/global/logo.png')}}" alt="Logo">
+        <img src="{{asset('/images/global/logo.png')}}">
         <div class="loader-body">
             <div class="loader"></div>
         </div>
