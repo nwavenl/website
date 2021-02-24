@@ -4,7 +4,7 @@
 
 @section('title') Offerte aanvragen @endsection
 
-@section('bodyClass') offerte @endsection
+@section('bodyClass') offerte scroll @endsection
 
 @section('content')
 
@@ -21,6 +21,20 @@
             </div>
         </div>
     </section>
+
+    <section class="popup">
+        <div class="popup-container">
+            <div class="content-parent">
+                <div class="content">
+                    <h4>Corona is voor iedereen lastig...</h4>
+                    <p>Iedereen heeft er last van en er kan af en toe spraken zijn dat uw budget beinvloed is door COVID-19. Alsnog kunnen wij u altijd helpen. neem contact met ons op of bel ons en dan regelen wij dat u alsnog geholpen kan worden</p>
+                    <a class="btn" href="/contact">Neem contact op</a>
+                    <a id="close-popup" class="close-btn">x</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="services">
         <div class="container">
             <div class="row text-center justify-content-center">
@@ -95,7 +109,7 @@
                         </div>
                         <div class="card-content">
                             <p>Wij bieden onderhoud aan al uw websites.
-                            Of deze bij ons is gemaakt maakt niet uit. 
+                            Of deze bij ons is gemaakt maakt niet uit.
                             Wij zorgen dat uw wensen
                                 op de website terecht komen.</p>
                             <a class="btn" href="/services/onderhoud">Bekijk</a>
@@ -166,3 +180,4 @@
     </section>
 
 @endsection
+

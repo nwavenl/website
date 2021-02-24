@@ -87,3 +87,11 @@
 <script>
     AOS.init();
 </script>
+<script>
+    $(document).ready(function(){
+        $("#close-popup").click(function() {
+            $('.popup').fadeOut("slow");
+            $('body').removeClass("scroll");
+        });
+    });
+</script>

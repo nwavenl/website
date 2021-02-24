@@ -1,5 +1,44 @@
 body.offerte {
 
+    section.popup {
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,.5);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 130;
+        transition: .5s;
+        .popup-container {
+            max-height: 100%;
+            width: 800px;
+            max-width: 95%;
+            background: #fff;
+            border-radius: 20px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            .content-parent {
+                position: relative;
+                padding: 30px;
+
+                .close-btn {
+                    position: absolute;
+                    right: 30px;
+                    top: 15px;
+                    background: none !important;
+                    outline: none;
+                    color: $main;
+                    font-size: 30px;
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
     section.services {
         padding: 50px 0;
 
