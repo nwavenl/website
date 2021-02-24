@@ -4,7 +4,7 @@
 
 @section('title') Offerte aanvragen @endsection
 
-@section('bodyClass') offerte @endsection
+@section('bodyClass') offerte scroll @endsection
 
 @section('content')
 
