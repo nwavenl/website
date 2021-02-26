@@ -34,21 +34,37 @@ footer {
     }
     .row-1 {
         height: 159px;
+
+        @media (max-width: 767px) {
+            height: 210px !important;
+        }
+        position: relative;
         a {
             text-decoration: underline;
         }
 
-        .copyright {
-            padding-top: 30px;
-            p {
-                font-size: 15px;
-                line-height: 2px;
+        .small-parent {
+            position: absolute;
+            bottom: 20px;
+            @media (max-width: 767px) {
+                bottom: 55px;
             }
-
-            @media (max-width: 768px) {
-                position: absolute;
-                bottom: 0;
-                //left: 0;
+            left: 0;
+            p.small {
+                font-size: 15px;
+                color: #fff;
+                line-height: 8px;
+            }
+        }
+        .divider {
+            width: 100px;
+            height: 3px;
+            background: rgba(255,255,255,.5);
+            border-radius: 20px;
+            position: absolute;
+            bottom: 12px;
+            @media (max-width: 767px) {
+                display: none;
             }
         }
     }
@@ -115,6 +131,19 @@ footer {
             p {
                 line-height: 5px;
             }
+        }
+    }
+    .copyright {
+        padding-top: 30px;
+        p {
+            font-size: 15px;
+            line-height: 2px;
+        }
+
+        @media (max-width: 768px) {
+            position: absolute;
+            bottom: 0;
+            //left: 0;
         }
     }
 }
