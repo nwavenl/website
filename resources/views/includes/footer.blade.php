@@ -10,12 +10,13 @@
             <div class="col-xxl-2 col-md-4">
                 <div class="content row-1">
                     <p>Neem contact op</p>
-                    <p><a href="mailto:contact@nwave.nl">contact@nwave.nl</a></p>
-                    <p class="highlight">06-24421363</p>
-                    <div class="copyright">
-                        <p>© 2021 NWAVE</p>
-                        <p>Alle rechten voorbehouden</p>
+                    <div class="small-parent">
+                        <p class="small">Schagen, Nederland</p>
+                        <p class="small">Kogerlaan 103, 1741RX</p>
+                        <p class="small"><a href="mailto:contact@nwave.nl">contact@nwave.nl</a></p>
+                        <p class="small">06-24421363</p>
                     </div>
+                    <div class="divider"></div>
                 </div>
             </div>
 
@@ -40,6 +41,12 @@
                         <p class="">KVK: 81766483</p>
                         <p class="">BTWid: NL003601184B27</p>
                     </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="copyright">
+                    <p>© 2021 NWAVE - Alle rechten voorbehouden</p>
                 </div>
             </div>
 
