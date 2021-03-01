@@ -28,7 +28,7 @@
                 <div class="col-12">
                     <div class="section">
                         <p>nwave, gevestigd aan Kogerlaan 103</p>
-                        <p>1741RX Schagen, is verantwoordelijk voor de verwerking van de porsoonsgegevens zoals
+                        <p>1741RX Schagen, is verantwoordelijk voor de verwerking van de persoonsgegevens zoals
                             weergegeven in deze privacyveklaring.</p>
                     </div>
                     <div class="section">
