@@ -26,8 +26,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Er wordt nog aan deze pagina gewerkt...</h2>
-                    <p>De algemene voorwaarden zijn nog in de maak!</p>
+                    <h2>Download Algemene voorwaarden</h2>
+                    <a download href="{{asset('Algemene voorwaarden.pdf')}}"><img src="{{asset('/images/voorwaarden/file.png')}}" alt="">Download PDF</a>
                 </div>
             </div>
         </div>
