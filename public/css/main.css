@@ -656,8 +656,9 @@ footer .copyright p {
 section.cookies-popup {
   position: fixed;
   width: 100%;
-  padding: 30px;
-  background: orange;
+  padding: 20px 0;
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
   bottom: 0;
   left: 0;
 }
