@@ -19,8 +19,13 @@ function scrollFunction() {
     }
 }
 
-////cookies
+////cookies function
 
+//make cookie save timer (14 days)
+var cookieTimer = new Date();
+
+// add a day
+cookieTimer.setDate(cookieTimer.getDate() + 14);
 
 //accept cookies
 (function () {
@@ -29,7 +34,7 @@ function scrollFunction() {
         $('.cookies-popup').addClass('hide')
     });
 })();
-
+//function to call cookie type
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
@@ -43,7 +48,7 @@ function getCookie(cname) {
 
 var cookieCurrentStatus = getCookie("cookieAccept");
 
-//remove cookie accept if cookies are acceptet
+//remove cookie popup if cookies are accepted
 
 (function () {
     if (cookieCurrentStatus === "1") {
@@ -52,7 +57,25 @@ var cookieCurrentStatus = getCookie("cookieAccept");
 })();
 
 //cookie popup - offerte
+//makes cookie if all cookies (cookieAccept) is accepted
+$(document).ready(function(){
+    $("#close-popup").click(function() {
+        $('.popup').fadeOut("slow");
+        $('body').removeClass("scroll");
+        if (cookieCurrentStatus === "1") {
+            document.cookie = "popupClosed=1; expires=" + cookieTimer + ";"; //moet nog getest worden
+        }
+    });
+});
 
+var cookieStatusOfferte = getCookie("popupClosed");
 
-//end cookies
+(function () {
+    if (cookieStatusOfferte == "1") {
+        $('body').removeClass("scroll");
+        $('.popup').addClass("hide")
+    }
+})();
+
+////end cookies functions
 

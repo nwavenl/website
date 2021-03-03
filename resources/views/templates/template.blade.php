@@ -104,14 +104,6 @@
 <script>
     AOS.init();
 </script>
-<script>
-    $(document).ready(function(){
-        $("#close-popup").click(function() {
-            $('.popup').fadeOut("slow");
-            $('body').removeClass("scroll");
-        });
-    });
-</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189490181-1">
 </script>
 <script>

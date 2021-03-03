@@ -9,6 +9,10 @@ body.offerte {
         top: 0;
         z-index: 130;
         transition: .5s;
+
+        &.hide {
+            display: none !important;
+        }
         .popup-container {
             max-height: 100%;
             width: 800px;

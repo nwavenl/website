@@ -27,16 +27,21 @@ function scrollFunction() {
   } else {
     $('nav.main').removeClass('scroll');
   }
-} ////cookies
-//accept cookies
+} ////cookies function
+//make cookie save timer (14 days)
 
+
+var cookieTimer = new Date(); // add a day
+
+cookieTimer.setDate(cookieTimer.getDate() + 14); //accept cookies
 
 (function () {
   $('#cookieAccept').on('click', function () {
     document.cookie = "cookieAccept=1;";
     $('.cookies-popup').addClass('hide');
   });
-})();
+})(); //function to call cookie type
+
 
 function getCookie(cname) {
   var name = cname + "=";
@@ -56,14 +61,34 @@ function getCookie(cname) {
 }
 
 ;
-var cookieCurrentStatus = getCookie("cookieAccept"); //remove cookie accept if cookies are acceptet
+var cookieCurrentStatus = getCookie("cookieAccept"); //remove cookie popup if cookies are accepted
 
 (function () {
   if (cookieCurrentStatus === "1") {
     $('.cookies-popup').addClass('hide');
   }
 })(); //cookie popup - offerte
-//end cookies
+//makes cookie if all cookies (cookieAccept) is accepted
+
+
+$(document).ready(function () {
+  $("#close-popup").click(function () {
+    $('.popup').fadeOut("slow");
+    $('body').removeClass("scroll");
+
+    if (cookieCurrentStatus === "1") {
+      document.cookie = "popupClosed=1; expires=" + cookieTimer + ";"; //moet nog getest worden
+    }
+  });
+});
+var cookieStatusOfferte = getCookie("popupClosed");
+
+(function () {
+  if (cookieStatusOfferte == "1") {
+    $('body').removeClass("scroll");
+    $('.popup').addClass("hide");
+  }
+})(); ////end cookies functions
 
 /***/ }),
 

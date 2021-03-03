@@ -867,6 +867,9 @@ body.offerte section.popup {
   z-index: 130;
   transition: 0.5s;
 }
+body.offerte section.popup.hide {
+  display: none !important;
+}
 body.offerte section.popup .popup-container {
   max-height: 100%;
   width: 800px;
