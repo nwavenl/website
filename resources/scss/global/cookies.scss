@@ -1,0 +1,12 @@
+section.cookies-popup {
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    background: orange;
+    bottom: 0;
+    left: 0;
+
+    &.hide {
+        display: none !important;
+    }
+}

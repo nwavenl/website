@@ -71,6 +71,17 @@
 
         <main>
             @yield('content')
+
+            <section class="cookies-popup">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>test</h1>
+                            <a id="cookieAccept">accepteer cookies</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         @include('includes.footer')
