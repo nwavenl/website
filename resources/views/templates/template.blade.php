@@ -76,8 +76,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h1>test</h1>
-                            <a id="cookieAccept">accepteer cookies</a>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h2>Cookie beleid</h2>
+                                </div>
+                                <div class="col-6">
+                                    <a id="cookieAccept">Accepteer alle cookies</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -33,19 +33,34 @@ function scrollFunction() {
 
 (function () {
   $('#cookieAccept').on('click', function () {
-    document.cookieStatus = "cookieAccept=1; expires=Thu, 18 Dec 2022 12:00:00 UTC;";
+    document.cookie = "cookieAccept=1;";
     $('.cookies-popup').addClass('hide');
   });
 })();
 
-var cookieCurrentStatus = document.cookieStatus; //remove cookie accept if cookies are acceptet
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+
+    if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+  }
+
+  return "";
+}
+
+;
+var cookieCurrentStatus = getCookie("cookieAccept"); //remove cookie accept if cookies are acceptet
 
 (function () {
-  if (cookieCurrentStatus === "cookieAccept=1; expires=Thu, 18 Dec 2022 12:00:00 UTC;") {
-    console.log('werk');
-  } else {
-    console.log('werkt niet');
-    console.log(cookieCurrentStatus);
+  if (cookieCurrentStatus === "1") {
+    $('.cookies-popup').addClass('hide');
   }
 })(); //cookie popup - offerte
 //end cookies
