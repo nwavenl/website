@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLC3YLEV84"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-FLC3YLEV84');
@@ -22,7 +26,7 @@
           type="image/png"
           href="{{asset('/images/global/favicon.png')}}">
 
-        {{--seo--}}
+{{--seo--}}
 
 <!-- SEO -->
     <meta name="copyright"
@@ -43,59 +47,68 @@
                 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
                 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
                 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-                SOFTWARE." />
+                SOFTWARE."/>
 
     <meta name="description"
           property="description"
           content=@yield('description') />
     <meta name="title"
           property="title"
-          content="nwave - @yield('title')" />
+          content="nwave - @yield('title')"/>
     <meta name="keywords"
           property="keywords"
-          content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud, schagen" />
+          content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud, schagen"/>
 
     <title>nwave - @yield('title')</title>
 
 </head>
-    <body class="@yield('bodyClass')">
+<body class="@yield('bodyClass')">
 
-    <div class="loader-wrapper">
-        <img src="{{asset('/images/global/logo.png')}}">
-        <div class="loader-body">
-            <div class="loader"></div>
-        </div>
+<div class="loader-wrapper">
+    <img src="{{asset('/images/global/logo.png')}}">
+    <div class="loader-body">
+        <div class="loader"></div>
     </div>
+</div>
 
-        @include('includes.nav')
+@include('includes.nav')
 
-        <main>
-            @yield('content')
+<main>
+    @yield('content')
 
-            <section class="cookies-popup">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h2>Cookie beleid</h2>
-                                </div>
-                                <div class="col-6">
-                                    <a id="cookieAccept">Accepteer alle cookies</a>
+    <section class="cookies-popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-12">
+                            <div class="left">
+                                <p>We gebruiken cookies om je de beste ervaring op onze site te bieden.</p>
+                                    <p class="hidden">Je kunt meer informatie vinden over welke cookies we gebruiken in ons <a
+                                        href="/privacybeleid">privacybeleid</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <div class="right">
+                                <div class="pos">
+                                    <a class="btn" id="cookieAccept">Accepteer</a>
+                                    <a class="btn hidden" id="cookieDecline">Afwijzen</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </div>
+    </section>
+</main>
 
-        @include('includes.footer')
-    </body>
+@include('includes.footer')
+</body>
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-    $(window).on("load", function() {
+    $(window).on("load", function () {
         $(".loader-wrapper").fadeOut("slow");
     });
 </script>
@@ -107,9 +120,13 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189490181-1">
 </script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-189490181-1');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-189490181-1');
 </script>
