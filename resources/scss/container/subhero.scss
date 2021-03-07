@@ -4,6 +4,7 @@ section.subhero {
     background-size: cover;
     background-position: center;
     position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,.225);
 
     .overlay {
         position: absolute;

@@ -8,7 +8,19 @@
 
 @section('content')
 
-    <section class="subhero" style="background-image: url('{{asset('/images/contact/subhero.jpg')}}')">
+    <style>
+        section.subhero {
+            background-image: url("{{asset('/images/contact/subhero.jpg')}}");
+        }
+
+        @media (max-width: 1000px) {
+            section.subhero {
+                background-image: url("{{asset('/images/contact/subhero-mobile.jpg')}}");
+            }
+        }
+    </style>
+
+    <section class="subhero">
         <div class="overlay"></div>
         <div class="container">
             <div class="row align-items-center">
