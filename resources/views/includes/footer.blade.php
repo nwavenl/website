@@ -25,7 +25,7 @@
                     <p><a href="/sitemap">Sitemap</a></p>
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
-                        <li><a href="/projecten">Projecten</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>

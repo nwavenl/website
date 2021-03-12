@@ -54,12 +54,12 @@
           content=@yield('description') />
     <meta name="title"
           property="title"
-          content="nwave - @yield('title')"/>
+          content="@yield('title') - nwave"/>
     <meta name="keywords"
           property="keywords"
           content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud, schagen"/>
 
-    <title>nwave - @yield('title')</title>
+    <title>@yield('title') - nwave</title>
 
 </head>
 <body class="@yield('bodyClass')">
