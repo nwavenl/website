@@ -80,19 +80,6 @@ Route::get('/privacybeleid', function () {
     return view('privacy');
 });
 
-
-Route::get('/mail', function () {
-    $data = [
-        'fname' => 'Marco',
-        'lname' => 'Bruijns',
-        'email' => 'marco@nwave.nl',
-        'phone' => '06123456789',
-        'message' => 'Yeno is bijna op 70!',
-        'test' => "Testing"
-    ];
-    return new App\Mail\ContactMail($data);
-});
-
 // Route for sitemap
 Route::get('/sitemap', function () {
     return view('sitemap');
