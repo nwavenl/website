@@ -49,6 +49,9 @@
                 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
                 SOFTWARE."/>
 
+    <meta name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+
     <meta name="description"
           property="description"
           content=@yield('description') />
@@ -84,7 +87,8 @@
                         <div class="col-lg-6 col-12">
                             <div class="left">
                                 <p>We gebruiken cookies om je de beste ervaring op onze site te bieden.</p>
-                                    <p class="hidden">Je kunt meer informatie vinden over welke cookies we gebruiken in ons <a
+                                <p class="hidden">Je kunt meer informatie vinden over welke cookies we gebruiken in ons
+                                    <a
                                         href="/privacybeleid">privacybeleid</a></p>
                             </div>
                         </div>
