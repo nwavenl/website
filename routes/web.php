@@ -39,8 +39,8 @@ Route::get(
 )->name('send-mail');
 
 // Route for getting project
-Route::get('/projecten', function () {
-    return view('projecten');
+Route::get('/portfolio', function () {
+    return view('portfolio');
 });
 
 // Route for getting about us page.

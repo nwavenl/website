@@ -2,20 +2,20 @@
 
 @section('description') "Bekijk hier ons laatste werk om te zien wat wij voor u kunnen betekenen." @endsection
 
-@section('title') Onze projecten @endsection
+@section('title') Ons portfolio @endsection
 
-@section('bodyClass') projects @endsection
+@section('bodyClass') portfolio @endsection
 
 @section('content')
 
     <style>
         section.subhero {
-            background-image: url("{{asset('/images/projecten/subhero.jpg')}}");
+            background-image: url("{{asset('/images/portfolio/subhero.jpg')}}");
         }
 
         @media (max-width: 1000px) {
             section.subhero {
-                background-image: url("{{asset('/images/projecten/subhero-mobile.jpg')}}");
+                background-image: url("{{asset('/images/portfolio/subhero-mobile.jpg')}}");
             }
         }
     </style>
@@ -26,8 +26,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content" data-aos="fade-up">
-                        <h1>Projecten</h1>
-                        <p>Hier kunt u al onze projecten van klanten die u voor zijn geweest vinden.</p>
+                        <h1>Portfolio</h1>
+                        <p>Bekijk hier onze laatste projecten om inzicht te krijgen in onze kwaliteiten.</p>
                     </div>
                 </div>
             </div>

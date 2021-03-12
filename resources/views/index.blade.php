@@ -1,6 +1,6 @@
 @extends('templates/template')
 
-@section('description') "nwave, wij maken website's en webshops op maat voor particulieren en bedrijven. Bekijk onze website voor meer informatie" @endsection
+@section('description') "nwave kan al uw online vraagstukken oplossen en verwerken in digitale form. Denk hierbij aan websites, webshops, SEO en onderhoud aan uw huidige site. Dit doen wij voor beide bedrijf en particulier" @endsection
 
 @section('title') Websites op maat voor elk platform @endsection
 
@@ -10,20 +10,23 @@
 
     <section class="hero">
         <div class="container">
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-cenNAter">
                 <div class="col-lg-6 col-12">
                     <div class="hero-content">
-                        <h1 data-aos="fade-right"><span class="main">n</span>wave, websites op maat voor elk platform</h1>
-                        <p data-aos="fade-right">Wij van nwave kunnen al uw online vraagstukken oplossen en verwerken in digitale form. Denk hierbij aan
-                            websites en webshops voor beide bedrijf en particulier.</p>
-                        <a data-aos="fade-up" class="btn" href="/projecten">Bekijk ons werk</a>
+                        <h1 data-aos="fade-right"><span class="main">n</span>wave, websites op maat voor elk platform
+                        </h1>
+                        <p data-aos="fade-right">nwave kan al uw online vraagstukken oplossen en verwerken in digitale
+                            form. Denk hierbij aan websites, webshops, SEO en onderhoud aan uw huidige site. Dit doen
+                            wij voor beide bedrijf en particulier</p>
+                        <a data-aos="fade-up" class="btn" href="/contact">Neem contact op</a>
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
-                    <img data-aos="fade-left" src="{{asset('/images/homepage/hero-img2.png')}}" alt="Hero image">
+                    <img data-aos="fade-left" src="{{asset('/images/homepage/2020-2021.png')}}"
+                         alt="2021 doelgewust naar de top met je website/webshop">
                 </div>
             </div>
-            <img  class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
+            <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
         </div>
     </section>
     <section class="about">
@@ -31,13 +34,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-lg-rm ">
                     <div class="content image">
-                        <img src="{{asset('/images/homepage/services_2.png')}}" alt="Services image">
+                        <img src="{{asset('/images/homepage/website-voorbeeld.png')}}" alt="Services image">
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Over nwave, en wat wij doen.</h2>
-                        <p>nwave is een bedrijf opgericht door vier eindejaars studenten van het Mediacollege in Amsterdam.
+                        <p>nwave is een bedrijf opgericht door vier eindejaars studenten van het Mediacollege in
+                            Amsterdam.
                             Iedereen binnen het team heeft een passie voor het programmeren van websites.
                             Voor ons is het werken met klanten, projecten en documentatie niks nieuws.</p>
                         <a class="btn white" href="/over-ons">Lees meer</a>
@@ -159,7 +163,8 @@
                 <div class="col-auto">
                     <div class="cta-content">
                         <h2 data-aos="fade-up">Geïnteresseerd? Bekijk ons werk.</h2>
-                        <p data-aos="fade-up">Bekijk hier onze gemaakte projecten om een indruk te krijgen van ons maatwerk</p>
+                        <p data-aos="fade-up">Bekijk hier onze gemaakte projecten om een indruk te krijgen van ons
+                            maatwerk</p>
                         <a data-aos="fade-up" class="btn white" href="/projecten">Projecten</a>
                     </div>
                 </div>

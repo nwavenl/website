@@ -8,7 +8,7 @@
                 <div class="desktop">
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
-                        <li><a href="/projecten">Projecten</a></li>
+                        <li><a href="/portfolio">Portfolio</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a class="btn-nav" href="/contact">Contact</a></li>
                     </ul>
@@ -29,7 +29,7 @@
             <div class="col-12 col-mobile">
                 <ul>
                     <li><a href="/over-ons">Over ons</a></li>
-                    <li><a href="/projecten">Projecten</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li>
                     <li><a href="/services">Services</a></li>
                     <li class="btn-nav"><a href="/contact">Contact</a></li>
                 </ul>
