@@ -10,7 +10,7 @@
 
     <section class="hero">
         <div class="container">
-            <div class="row align-items-center justify-content-cenNAter">
+            <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-12">
                     <div class="hero-content">
                         <h1 data-aos="fade-right"><span class="main">n</span>wave, websites op maat voor elk platform

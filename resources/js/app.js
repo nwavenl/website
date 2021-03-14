@@ -88,5 +88,14 @@ var cookieStatusOfferte = getCookie("popupClosed");
         $('.popup').addClass("hide")
     }
 })();
+
+//cookie if page is cached
+(function() {
+    var isCached = performance.getEntriesByType("navigation")[0].transferSize === 0;
+    if (isCached == true) {
+        $('.loader-wrapper').addClass("hide")
+    }
+})();
+
 ////end cookies functions
 

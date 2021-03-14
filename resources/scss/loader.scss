@@ -5,6 +5,10 @@
     background: #fff;
     z-index: 1000;
 
+    &.hide {
+        display: none;
+    }
+
     img {
         position: absolute;
         top: 50%;
