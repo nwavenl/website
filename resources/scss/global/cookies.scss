@@ -3,7 +3,7 @@ section.cookies-popup {
     width: 100%;
     background: white;
     padding: 20px 0;
-    box-shadow: 0 0 20px rgba(0,0,0,.25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
     bottom: 0;
     left: 0;
     z-index: 80;
@@ -22,8 +22,8 @@ section.cookies-popup {
         }
 
         a {
-            color: rgb(33, 37, 41)!important;
-            transition: .3s;
+            color: rgb(33, 37, 41) !important;
+            transition: 0.3s;
             @media (max-width: 1645px) {
                 font-size: 14px;
             }
@@ -34,36 +34,51 @@ section.cookies-popup {
         }
     }
 
-
     &.hide {
         display: none !important;
     }
-    .btn {
-        margin: 0 0 0 0!important;
-        @media (max-width: 991px) {
-            margin-top: 10px !important;
-        }
-        @media (max-width: 500px) {
-            font-size: 14px !important;
-            padding: 6px 30px !important;
+    .cookie-btn {
+        padding: 6px 20px;
+        background: $main;
+        border-radius: 2px;
+        display: block;
+        color: #ffffff;
+        width: 220px;
+        position: relative;
+        transition: ease-in-out 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            filter: brightness(1.2);
         }
 
-        &.hidden {
-            background: none !important;
-            color: #a4a4a4;
-            padding: 0 !important;
-            margin: 8px 40px !important;
-            @media (max-width: 991px) {
-                padding: 10px 0 0 0 !important;
+        img {
+            position: absolute;
+            top: 7px;
+            right: 13px;
+            height: 24px;
+            z-index: 10;
+
+            &.small {
+                height: 18px !important;
+                top: 10px;
+                right: 15px;
             }
-            @media (max-width: 500px) {
-                font-size: 14px !important;
-                margin: 6px 30px !important;
-                padding: 10px 0 0 0 !important;
-            }
-            &:hover {
-                box-shadow: none !important;
-            }
+        }
+
+        &::after {
+            content: "";
+            width: 50px;
+            height: 100%;
+            background-color: $main;
+            filter: brightness(0.9);
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        &.top {
+            margin-top: 5px !important;
         }
     }
     .right {
