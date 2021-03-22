@@ -78,6 +78,12 @@ section.cookies-popup {
         }
 
         &.top {
+            @media (max-width: 991px) {
+                margin-top: 20px;
+            }
+        }
+
+        &.bottom {
             margin-top: 5px !important;
         }
     }
