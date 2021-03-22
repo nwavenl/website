@@ -82,8 +82,8 @@
                         <div class="col-lg-6 col-12">
                             <div class="right">
                                 <div class="pos">
-                                    <a class="btn" id="cookieAccept">Accepteer</a>
-                                    <a class="btn hidden" id="cookieDecline">Afwijzen</a>
+                                    <a class="cookie-btn" id="cookieAccept">Accepteer<img src="{{asset('/images/global/done.png')}}"></a>
+                                    <a class="cookie-btn top" id="cookieDecline">Afwijzen<img class="small" src="{{asset('/images/global/close.png')}}"></a>
                                 </div>
                             </div>
                         </div>
