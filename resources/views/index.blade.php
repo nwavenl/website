@@ -22,8 +22,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
-                    <img data-aos="fade-left" src="{{asset('/images/homepage/2020-2021.png')}}"
-                         alt="2021 doelgewust naar de top met je website/webshop">
+                    <img data-aos="fade-left" src="{{asset('/images/homepage/hero-image.png')}}"
+                         alt="Nieuwe website nodig? Wij regelen het voor u">
                 </div>
             </div>
             <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
