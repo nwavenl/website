@@ -95,29 +95,30 @@
 </main>
 
 @include('includes.footer')
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="{{asset('/js/app.js')}}"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189490181-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-189490181-1');
+    </script>
 </body>
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    $(window).on("load", function () {
-        $(".loader-wrapper").fadeOut("slow");
-    });
-</script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="{{asset('/js/app.js')}}"></script>
-<script>
-    AOS.init();
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189490181-1">
-</script>
-<script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-189490181-1');
-</script>

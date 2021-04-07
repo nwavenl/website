@@ -24,6 +24,7 @@
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
                     <img data-aos="fade-left" src="{{asset('/images/homepage/hero-image.png')}}"
                          alt="Nieuwe website nodig? Wij regelen het voor u">
+
                 </div>
             </div>
             <img class="hero_under" src="{{asset('/images/homepage/hero-under.png')}}" alt="Hero under image">
@@ -32,7 +33,7 @@
     <section class="about">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-lg-rm ">
+                <div class="col-lg-6 col-lg-rm">
                     <div class="content image">
                         <img src="{{asset('/images/homepage/website-voorbeeld.png')}}" alt="Services image">
                     </div>
