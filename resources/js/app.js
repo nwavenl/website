@@ -1,6 +1,5 @@
 import './cookies'
 
-
 // hamburger menu - aub niet zomaar aan komen :)
 (function () {
     $('.menu-wrapper').on('click', function () {
