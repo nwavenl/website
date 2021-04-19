@@ -21,8 +21,6 @@ function scrollFunction() {
     }
 }
 
-//cookies
-// import './cookies'
 ////cookies function
 
 // make cookie save timer (14 days & 1 day)
