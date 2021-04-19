@@ -39,7 +39,7 @@
             <div class="row text-center">
                 <div class="col-xl-4 col-md-6 col-12">
                     <div class="portfolio-card" style="background-image: url('{{asset('images/portfolio/ian.jpg')}}')">
-                        <a href="https://ianremeijsen.nl/" target="_black">
+                        <a href="/portfolio/ian-remeijsen">
                         <div class="overlay">
                             <h3>Ianremeijsen.nl</h3>
                         </div>

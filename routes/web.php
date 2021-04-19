@@ -42,6 +42,9 @@ Route::get(
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+Route::get('/portfolio/ian-remeijsen', function () {
+    return view('portfolio/ian');
+});
 
 // Route for getting about us page.
 Route::get('/over-ons', function () {

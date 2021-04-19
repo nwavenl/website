@@ -36,3 +36,22 @@ section.portfolio {
         }
     }
 }
+
+.portfolio-intro {
+    padding: 70px 0 20px;
+}
+
+.portfolio-gallery {
+    padding: 20px 0;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.portfolio-link {
+    padding: 20px 0;
+    a:hover {
+        color: $main;
+    }
+}
