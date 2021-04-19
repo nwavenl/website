@@ -25,21 +25,26 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
-                    <div class="content" data-aos="fade-up">
-                        <h1>Portfolio</h1>
-                        <p>Bekijk hier onze laatste projecten om inzicht te krijgen in onze kwaliteiten.</p>
-                    </div>
+                        <div class="content" data-aos="fade-up">
+                            <h1>Portfolio</h1>
+                            <p>Bekijk hier onze laatste projecten om inzicht te krijgen in onze kwaliteiten.</p>
+                        </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="disclaimer" style="padding: 40px 0;">
+    <section class="portfolio">
         <div class="container">
             <div class="row text-center">
-                <div class="col-12">
-                    <h2>Wij hebben helaas nog geen projecten...</h2>
-                    <p>bekijk onze services om daar verandering in te brengen.</p>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="portfolio-card" style="background-image: url('{{asset('images/portfolio/ian.jpg')}}')">
+                        <a href="https://ianremeijsen.nl/" target="_black">
+                        <div class="overlay">
+                            <h3>Ianremeijsen.nl</h3>
+                        </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
