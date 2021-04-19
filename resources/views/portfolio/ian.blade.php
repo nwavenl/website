@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p>Website: <a href="ianremeijsen.nl/">Ianremeijsen.nl</a></p>
+                    <p>Website: <a href="https://ianremeijsen.nl/">Ianremeijsen.nl</a></p>
                 </div>
             </div>
         </div>
