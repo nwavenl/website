@@ -34,7 +34,7 @@
 
             <div class="col-xxl-2 col-md-4">
                 <div class="content row-3">
-                    <img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo">
+                    <a href="https://www.linkedin.com/company/31411281"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
                     <p><a href="/algemene-voorwaarden">Algemene voorwaarden</a></p>
                     <p class="pb-5"><a href="/privacybeleid">Privacybeleid</a></p>
                     <div class="under">

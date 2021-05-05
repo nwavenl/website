@@ -166,7 +166,7 @@
                         <h2 data-aos="fade-up">Geïnteresseerd? Bekijk ons werk.</h2>
                         <p data-aos="fade-up">Bekijk hier onze gemaakte projecten om een indruk te krijgen van ons
                             maatwerk</p>
-                        <a data-aos="fade-up" class="btn white" href="/projecten">Projecten</a>
+                        <a data-aos="fade-up" class="btn white" href="/portfolio">Portfolio</a>
                     </div>
                 </div>
             </div>
