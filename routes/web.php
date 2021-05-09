@@ -61,9 +61,9 @@ Route::get('/services/webshop', function () {
 Route::get('/services/seo', function () {
     return view('services/seo');
 })->name('seo');
-Route::get('/services/onderhoud', function () {
-    return view('services/onderhoud');
-})->name('maintenance');
+Route::get('/services/marketing', function () {
+    return view('services/marketing');
+})->name('marketing');
 
 // Route for sending offerte form.
 Route::get(

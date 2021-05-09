@@ -7,6 +7,22 @@ body.services-item {
             width: 90%;
             margin: 0 auto;
         }
+
+        ul {
+            list-style: inherit;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            li {
+                color: $lightgrey;
+            }
+        }
+        .lightgrey {
+            color: #9b9b9b !important;
+            transition: .3s;
+            &:hover {
+                color: $grey !important;
+            }
+        }
     }
 
     section.contact {

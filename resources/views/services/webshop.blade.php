@@ -12,9 +12,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content">
-                        <h1>Service: webshop</h1>
-                        <p>Bekijk een korte uitleg van de functies van een webshop, en vraag eventueel een offerte
-                            aan</p>
+                        <h1>Online uw producten verkopen?</h1>
+                        <p>Bekijk hier wat wij voor u kunnen betekenen.</p>
                     </div>
                 </div>
             </div>
@@ -31,16 +30,16 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
-                        <h2>Waarom een webshop?</h2>
-                        <p>Een webshop is de toekomst, wij zien het steeds vaker voorbij komen, alles is online te
-                            bestellen. En juist nu in deze onzekere tijden is het nooit verkeerd online je producten te
-                            gaan verkopen. Wij bij nwave helpen u uw product op de online markt te zetten, wij kunnen
-                            eventueel tips geven bij levering voor handigheden in het online gebied. </p>
-                        <p>Met wordpress kunt u makkelijk producten toevoegen, prijzen aanpassen, kortingscodes maken,
-                            content veranderen, zendingen bekijken en houd u een goed overzicht over alles wat er
-                            gebeurd binnen de webshop, wij helpen altijd met de uitleg van de webshop, zodat u alles te
-                            weten krijgt. </p>
-                        <p>Vraag vandaag nog een offerte aan en begin aan uw online avontuur.</p>
+                        <h2>Het belang van een webshop.</h2>
+                        <p>Steeds vaker bestellen mensen het liefst hun producten via het internet dan dat ze fysiek
+                            naar een winkel gaan. Het is het gemak wat van belang is voor klanten, een goed voorbeeld is
+                            de Corona crisis. Veel winkels kunnen niet veel open zijn, en zodra de winkels open zijn
+                            willen toch niet alle mensen naar een winkel terwijl het gemakkelijk online kan.</p>
+                        <p>Wij helpen u aan een gebruiksvriendelijke webshop die gemakkelijk te gebruiken is voor zowel
+                            klant als u, het aanmaken van producten, kortingscodes, betalingsmethodes en nog veel meer,
+                            zijn dingen die wij voor u gemakkelijk maken zodat u zich geheel van focussen op de
+                            distributie.</p>
+                        <p class="lightgrey">bent u slachtoffer van de corona crisis en wilt u alsnog deze stap graag zetten, dan kunnen wij u altijd helpen, neem a.u.b. contact op.</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +55,7 @@
                             <div class="col-xl-4 col-12">
                                 <div class="card-parent">
                                     <div class="card-title">
-                                        <h3>Vraag uw maatwerk webshop nu aan!</h3>
+                                        <h3>Begin vandaag nog aan uw online winkel!</h3>
                                         <p>Vul het formulier in en wij nemen zo snel mogelijk contact met u op.</p>
                                     </div>
                                     <div class="card-content">
@@ -102,9 +101,9 @@
                                                 <label for="budget">Budget</label>
                                                 <select name="budget" id="">
                                                     <option value="0">Nog onbekend</option>
-                                                    <option value="1">€ 5.000 - € 10.000</option>
-                                                    <option value="2">€ 10.000 - € 15.000</option>
-                                                    <option value="3">€ 15.000+</option>
+                                                    <option value="2">€ 2.000 - € 3.500</option>
+                                                    <option value="3">€ 3.500 - € 5.000</option>
+                                                    <option value="4">€ 5.000+</option>
                                                 </select>
                                             </div>
                                             <div class="col-12 form-item">

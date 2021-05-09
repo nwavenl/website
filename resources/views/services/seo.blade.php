@@ -12,8 +12,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content">
-                        <h1>Service: SEO</h1>
-                        <p>Bekijk een korte uitleg van de functies van een SEO, en neem eventueel contact op.</p>
+                        <h1>SEO hulp nodig?</h1>
+                        <p>Bekijk hier wat wij voor u kunnen betekenen.</p>
                     </div>
                 </div>
             </div>
@@ -30,14 +30,15 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
-                        <h2>Wat is SEO?</h2>
-                        <p>SEO staat voor Search Engine Optimalisation (Zoekmachine Optimalisatie). Dit zorgt ervoor dat
-                            uw bedrijf of website hoger in de google, bing en andere search engines staan. Misschien
-                            klinkt dit niet als iets groots, maar wist u dat meer dan 95% van de google gebruikers niet
-                            verder klikken dan de eerste page. Dus misschien verliest u extreem veel bezoekers zonder
-                            een goede reden.</p>
-                        <p>Wij helpen u hier graag mee, neem contact met ons op en wij gaan aan de slag om te kijken wat
-                            wij voor u kunnen betekenen. </p>
+                        <h2>Waarom is SEO belangrijk voor uw website?</h2>
+                        <p>Google wordt globaal 92.06% van de tijd gebruikt voor het stellen van een vraag, en het
+                            aantal vragen groeit per jaar tussen de 10% - 15%. Het gaat momenteel om 5.8 miljard vragen
+                            per dag die Google gesteld krijgt en met deze informatie is te zien hoe belangrijk het is om
+                            hoog te staan in de ranking van Google. Als je als bedrijf niet eens in de eerste pagina van
+                            het gewenste zoekresultaat staat mist u al 86% van al uw potentiële bezoekers.</p>
+                        <p>Wij helpen u graag opweg om uw website/ webshop te verbeteren in de ogen van een zoekmachine
+                            zodat u meer klanten of bezoekers kan krijgen op uw website.</p>
+                        <p>Interesse? Neem aub contact op of bel ons via: (+31) 6 24421363</p>
                         <a class="btn" href="/contact">neem contact op</a>
                     </div>
                 </div>
