@@ -2,9 +2,9 @@
 
 @section('description') "Wat kunnen wij voor u betekenen? bekijk onze services." @endsection
 
-@section('title') Offerte aanvragen @endsection
+@section('title') Services @endsection
 
-@section('bodyClass') offerte scroll @endsection
+@section('bodyClass') services scroll @endsection
 
 @section('content')
 
@@ -53,7 +53,7 @@
                 <div class="col-auto">
                     <div class="section-intro" data-aos="fade-left">
                         <h2>Onze services.</h2>
-                        <p>Bekijk wat uw wensen zijn en wat wij voor u kunnen betekenen</p>
+                        <p>Op welk gebied kunnen wij u opweg helpen?</p>
                     </div>
                 </div>
             </div>
@@ -61,115 +61,82 @@
 
                 <div class="col-xxl-3 col-md-6 card-parent">
                     <div class="card" data-aos="fade-down">
-                        <div class="card-title">
-                            <span>
-                                <img src="{{asset('/images/icons/analysis.png')}}" alt="SEO">
-                                <h3>SEO*</h3>
-                            </span>
-                            <div class="divider"></div>
+                        <div class="card_title">
+                            <h3>SEO</h3>
+                            <img src="{{asset('/images/service-images/seo.jpg')}}" alt="website card image">
                         </div>
-                        <div class="card-content">
-                            <p>Hoger in de google charts staan?
-                                 Dat kunnen wij voor uw regelen, zodat uw doelgroep uw
-                                (bestaande) website makkelijker kan vinden.</p>
-                            <a class="btn" href="/services/seo">Bekijk</a>
+                        <div class="card_content">
+                            <p>Hoger in de google charts staan? Dat kunnen wij voor u regelen, zodat uw doelgroep en uw (bestaande) website makkelijker kan vinden.</p>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Hogere ranking bij Search
-                                    Engines
-                                </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Meer bereik voor uw doelgroep
-                                </li>
+                                <li>Hoger in Google</li>
+                                <li>Meer bereik in doelgroep</li>
+                                <li>Meer tractie naar uw website/ webshop</li>
                             </ul>
+                            <a href="/services/seo" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xxl-3 col-md-6 card-parent">
                     <div class="card" data-aos="fade-down">
-                        <div class="card-title">
-                            <span>
-                                <img src="{{asset('/images/icons/globe.png')}}" alt="SEO">
-                                <h3>Website</h3>
-                            </span>
-                            <div class="divider"></div>
+                        <div class="card_title">
+                            <h3>Website</h3>
+                            <img src="{{asset('/images/service-images/website.jpg')}}" alt="website card image">
                         </div>
-                        <div class="card-content">
-                            <p>Denk hierbij aan een portfolio of
-                                informatieve website. Wij maken een
-                                website voor u en zorgen dat deze
-                                website op elk platform te bekijken is.</p>
-                            <a class="btn" href="/services/website">Bekijk</a>
+                        <div class="card_content">
+                            <p>Denk hierbij aan een portfolio of informatieve website. Wij maken een website voor u en zorgen dat deze website op elk platform te bekijken is.</p>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Website op maat</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Beschikbaar op elk platform
-                                </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Design naar uw keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Prioriteit support</li>
+                                <li>Design naar uw smaak</li>
+                                <li>Gebruiksvriendelijk</li>
+                                <li>Modern en toekomstgericht</li>
+                                <li>Snelle onderhoud indien nodig</li>
+                                <li>99.9% uptime van uw website</li>
                             </ul>
+                            <a href="/services/website" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xxl-3 col-md-6 card-parent">
                     <div class="card" data-aos="fade-down">
-                        <div class="card-title">
-                            <span>
-                                <img src="{{asset('/images/icons/wrench.png')}}" alt="SEO">
-                                <h3>Onderhoud</h3>
-                            </span>
-                            <div class="divider"></div>
+                        <div class="card_title">
+                            <h3>Marketing</h3>
+                            <img src="{{asset('/images/service-images/marketing.jpg')}}" alt="website card image">
                         </div>
-                        <div class="card-content">
-                            <p>Wij bieden onderhoud aan al uw websites.
-                            Of deze bij ons is gemaakt maakt niet uit.
-                            Wij zorgen dat uw wensen
-                                op de website terecht komen.</p>
-                            <a class="btn" href="/services/onderhoud">Bekijk</a>
+                        <div class="card_content">
+                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te andventeren voor uw bedrijf.</p>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Veranderingen die uw wilt
-                                </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Beschikbaar op elk platform
-                                </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Design naar keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Prioriteit support**</li>
+                                <li>Gemakkelijke advertenties</li>
+                                <li>Gericht op uw doelgroep(en)</li>
+                                <li>Voor elk budget</li>
+                                <li>Op maak gemaakte posts voor elk social media platform</li>
                             </ul>
+                            <a href="/services/marketing" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xxl-3 col-md-6 card-parent">
                     <div class="card" data-aos="fade-down">
-                        <div class="card-title">
-                            <span>
-                                <img src="{{asset('/images/icons/webshop.png')}}" alt="SEO">
-                                <h3>Webshop</h3>
-                            </span>
-                            <div class="divider"></div>
+                        <div class="card_title">
+                            <h3>Webshop</h3>
+                            <img src="{{asset('/images/service-images/webshop.jpg')}}" alt="website card image">
                         </div>
-                        <div class="card-content">
-                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en
-                                duidelijk te maken. Alles kan aangepast worden naar uw wensen
-                                </p>
-                            <a class="btn" href="/services/webshop">Bekijk</a>
+                        <div class="card_content">
+                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
                             <ul>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Wordpress custom webshop</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Webshop op maat</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Beschikbaar op elk platform
-                                </li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Design naar uw keuze</li>
-                                <li><img src="{{asset('/images/icons/check.png')}}" alt="check image">Prioriteit support</li>
+                                <li>Op maat gemaakte wwebshop</li>
+                                <li>Design naar uw smaak</li>
+                                <li>Modern en toekomstgericht</li>
+                                <li>Snelle onderhoud indien nodig</li>
+                                <li>99.9% uptime van uw webshop</li>
+                                <li>Gemakkelijk te gebruiken</li>
                             </ul>
+                            <a href="/services/webshop" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="disclaimer-parent" data-aos="fade-up">
-                        <p class="disclaimer">* SEO wordt standaard geleverd bij elk project, heeft u een website via een ander
-                            bedrijf, neem eerst contact met hen op voor de website code. Anders kunnen wij helaas niks voor
-                            uw betekenen</p>
-                        <p class="disclaimer">** Alleen voor al bestaande klanten</p>
-                    </div>
-                </div>
+
 
                 <div class="col-12">
                     <div class="divider-under"></div>
@@ -184,7 +151,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2 data-aos="fade-up">Niet gevonden waar u naar zocht?</h2>
-                    <p data-aos="fade-up">Neem contact op en bekijk wat wij alsnog voor u kunnen betekeken</p>
+                    <p data-aos="fade-up">Neem contact op en bekijk wat wij alsnog voor u kunnen betekenen</p>
                     <a data-aos="fade-up" class="btn" href="/contact">Contact opnemen</a>
                 </div>
             </div>

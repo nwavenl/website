@@ -12,9 +12,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content">
-                        <h1>Service: website</h1>
-                        <p>Bekijk een korte uitleg van de functies van een website, en vraag eventueel een offerte
-                            aan</p>
+                        <h1>Website nodig?</h1>
+                        <p>Bekijk hier wat wij voor u kunnen betekenen.</p>
                     </div>
                 </div>
             </div>
@@ -31,13 +30,27 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="content">
-                        <h2>Waarom een website?</h2>
-                        <p>Website’s zijn de beste manier om jezelf te laten zien via het internet, al gaat het om een
-                            portfolio, bedrijfswebsite of een informatieve website, het kan allemaal. Het hebben van een
-                            nette website is een goede manier te laten zien wat uw bedrijf doet, of wat u precies
-                            doet. </p>
-                        <p>Wij helpen graag om een nette en professionele online footprint te maken voor u, zodat u of
-                            uw bedrijf overal te vinden is, in een nette stijl. </p>
+                        <h2>Waarom zou u een website nodig hebben?</h2>
+                        <p>Websites worden steeds vaker gebruikt en per dag belangrijker in de moderne wereld. Veel
+                            mensen zoeken namelijk naar de volgende punten voor uw bedrijf of uzelf.</p>
+
+                        <ul>
+                            <li>Het opzoeken van openingstijden</li>
+                            <li>Kijken of een dedrijf daadwerkelijk bestaat</li>
+                            <li>Reserveringenen maken</li>
+                            <li>Vragen stellen</li>
+                            <li>Contact opnemen/ zoeken</li>
+                            <li>Blogs bekijken</li>
+                            <li>Tips opzoeken</li>
+                            <li>Mensen leren kennen (portfolio)</li>
+                        </ul>
+
+                        <p>Zie een website als een visitekaartje van uw bedrijf of u zelf. Als uw website niet meer
+                            modern is, niet klopt, niet goed werkt of andere problemen heeft kan het er vaak voor zorgen
+                            dat uw potentiële klanten of bezoekers mist.</p>
+
+                        <p>Wij helpen u opweg met een nette en moderne website waar wij u zo goed mogelijk begeleiden en
+                            uw wensen waarnemen.</p>
                     </div>
                 </div>
             </div>
@@ -99,10 +112,10 @@
                                                 <label for="budget">Budget</label>
                                                 <select name="budget" id="">
                                                     <option value="0">Nog onbekend</option>
-                                                    <option value="1">€ 3.500 - € 5.000</option>
-                                                    <option value="2">€ 5.000 - € 10.000</option>
-                                                    <option value="3">€ 10.000 - € 15.000</option>
-                                                    <option value="4">€ 15.000+</option>
+                                                    <option value="1">€ 1.000 - € 2.000</option>
+                                                    <option value="2">€ 2.000 - € 3.500</option>
+                                                    <option value="3">€ 3.500 - € 5.000</option>
+                                                    <option value="4">€ 5.000+</option>
                                                 </select>
                                             </div>
                                             <div class="col-12 form-item">
