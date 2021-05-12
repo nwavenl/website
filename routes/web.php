@@ -24,6 +24,11 @@ Route::get('/services', function () {
     return view('services');
 });
 
+// Route for geeting the blog views
+Route::get('/blog', function () {
+    return view('blog');
+});
+
 // Route for showing contact form
 Route::get('/contact', function () {
     return view('contact');
