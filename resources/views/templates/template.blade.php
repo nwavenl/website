@@ -79,6 +79,7 @@
                                         href="/privacybeleid">privacybeleid</a></p>
                             </div>
                         </div>
+                        <div class="elfsight-app-c18f512d-2452-49df-af1c-9a5267620a33"></div> {{--  Whatsapp chat box --}}
                         <div class="col-lg-6 col-12">
                             <div class="right">
                                 <div class="pos">
@@ -92,9 +93,10 @@
             </div>
         </div>
     </section>
-</main>
+</main>\
 
 @include('includes.footer')
+<script src="https://apps.elfsight.com/p/platform.js" defer></script> {{--  Whatsapp chat box script --}}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     $(window).on("load", function () {
