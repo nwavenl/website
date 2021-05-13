@@ -115,6 +115,10 @@ img {
   width: 100%;
 }
 
+.Bubble__NotificationBadge-sc-83hmjh-2 {
+  display: none !important;
+}
+
 h1 {
   font-size: 48px;
   font-weight: 800;
@@ -1499,6 +1503,9 @@ section.portfolio .portfolio-card:hover .overlay {
 section.blog-posts {
   padding: 50px 0;
 }
+section.blog-posts a:hover {
+  color: #000000;
+}
 section.blog-posts .blog_item {
   border-radius: 15px;
   overflow: hidden;
@@ -1543,4 +1550,33 @@ section.blog-posts .blog_item .blog_item--body p {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+body.blog-post section.subhero .overlay {
+  opacity: 0.8;
+  width: 60%;
+  background: linear-gradient(90deg, black 0%, rgba(0, 0, 0, 0) 100%);
+}
+@media (max-width: 991px) {
+  body.blog-post section.subhero .overlay {
+    width: 100%;
+    background: linear-gradient(90deg, black 0%, black 100%);
+    opacity: 0.5;
+  }
+}
+body.blog-post section.blog_post {
+  padding: 50px 0;
+}
+body.blog-post section.blog_post h3 {
+  margin-top: 60px;
+}
+body.blog-post section.blog_post h3:nth-child(1) {
+  margin-top: 0 !important;
+}
+body.blog-post section.blog_post a {
+  text-decoration: underline;
+  transition: 0.4s ease-in-out;
+}
+body.blog-post section.blog_post a:hover {
+  color: #ff824c;
 }

@@ -27,7 +27,9 @@
                 <div class="col-lg-5 col-12">
                     <div class="content" data-aos="fade-up">
                         <h1>Blog</h1>
-                        <p>nwave blog, leer elke week nieuwe dingen uit de online wereld.</p>
+                        <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede omdat
+                            mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een makkelijkere
+                            optie is.</p>
                     </div>
                 </div>
             </div>
@@ -38,19 +40,39 @@
         <div class="container">
             <div class="row">
 
+                {{--onze nieuwe services--}}
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="blog_item">
-                        <div class="blog_item--header">
-                            <img src="{{asset('/images/blog/services/hero-image.jpg')}}" alt="">
+                    <a href="/blog/onze-nieuwe-services">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/services/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Onze services zijn veranderd!</h3>
+                                <div class="divider"></div>
+                                <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
+                                    omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
+                                    makkelijkere optie is.</p>
+                            </div>
                         </div>
-                        <div class="blog_item--body">
-                            <h3>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi fuga pariatur praesentium recusandae? Accusamus alias aliquam consectetur, consequatur cumque ducimus enim excepturi fugiat itaque labore laudantium minus repellendus tempore voluptatum? </h3>
-                            <div class="divider"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolorum enim incidunt
-                                veritatis! Accusamus ad amet blanditiis consequatur, cum deserunt fugit laboriosam
-                                libero omnis recusandae reiciendis tempora ut. Saepe, vero!</p>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/shorttail-vs-longtail">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/tail/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Shorttail vs Longtail</h3>
+                                <div class="divider"></div>
+                                <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
+                                    omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
+                                    makkelijkere optie is.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
 

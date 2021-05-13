@@ -1,5 +1,10 @@
 section.blog-posts {
     padding: 50px 0;
+    a {
+        &:hover {
+            color: #000000;
+        }
+    }
     .blog_item {
         border-radius: 15px;
         overflow: hidden;
@@ -41,6 +46,38 @@ section.blog-posts {
                 display: -webkit-box;
                 -webkit-line-clamp: 4;
                 -webkit-box-orient: vertical;
+            }
+        }
+    }
+}
+body.blog-post {
+    section.subhero {
+        .overlay {
+            opacity: .8;
+            width: 60%;
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.0) 100%);
+            @media (max-width: 991px) {
+                width: 100%;
+                background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
+                opacity: .5;
+            }
+        }
+    }
+    section.blog_post {
+        padding: 50px 0;
+
+        h3 {
+            margin-top: 60px;
+            &:nth-child(1) {
+                margin-top: 0 !important;
+            }
+        }
+        a {
+            text-decoration: underline;
+            transition: .4s ease-in-out;
+
+            &:hover {
+                color: $main;
             }
         }
     }
