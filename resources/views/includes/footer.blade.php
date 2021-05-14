@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-auto">
-                <h5><a href="/">NWAVE</a></h5>
+                <h5><a href="/">nwave</a></h5>
             </div>
         </div>
         <div class="row">
