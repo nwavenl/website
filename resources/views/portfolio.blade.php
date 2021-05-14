@@ -37,15 +37,32 @@
     <section class="portfolio">
         <div class="container">
             <div class="row text-center">
+
                 <div class="col-xl-4 col-md-6 col-12">
+                    <div class="portfolio-card" style="background-image: url('{{asset('images/portfolio/gordijnenreiniger.jpg')}}')">
+                        <a href="">
+                            <div class="overlay">
+                                <div class="content">
+                                    <h3>gordijnenreiniger.nl</h3>
+                                    <p>Binnenkort te zien!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-12 text-center">
                     <div class="portfolio-card" style="background-image: url('{{asset('images/portfolio/ian.jpg')}}')">
                         <a href="/portfolio/ian-remeijsen">
                         <div class="overlay">
-                            <h3>Ianremeijsen.nl</h3>
+                            <div class="content">
+                                <h3>Ianremeijsen.nl</h3>
+                            </div>
                         </div>
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
