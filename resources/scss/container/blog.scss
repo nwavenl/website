@@ -69,9 +69,17 @@ body.blog-post {
 
         h3 {
             margin-top: 60px;
+            font-weight: 800 !important;
             &:nth-child(1) {
                 margin-top: 0 !important;
             }
+        }
+        p {
+            color: #474747 !important;
+        }
+        img {
+            margin: 0 0 20px;
+            border-radius: 5px !important;
         }
         a {
             text-decoration: underline;
