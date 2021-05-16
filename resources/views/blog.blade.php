@@ -40,6 +40,27 @@
         <div class="container">
             <div class="row">
 
+                {{--Zijn blogs effectief voor mijn SEO?--}}
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/zijn-blogs-effectief-voor-mijn-seo">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/blogseffectief/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Zijn blogs effectief voor mijn SEO?</h3>
+                                <div class="divider"></div>
+                                <p>Het korte antwoord is: Ja!
+                                    Maar waarom? dat gaan wij vandaag duidelijk uitleggen. Blogs kunnen veel informatie
+                                    dienen aan iemand die antwoord op een vraag zoekt. Indien je een recept zoekt voor
+                                    een appeltaart heb je een grote kans om naar een kook website te gaan waar hun in
+                                    een blogpost een recept hebben voor een heerlijke appeltaart.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
                 {{--onze nieuwe services--}}
                 <div class="col-lg-4 col-md-6 col-12">
                     <a href="/blog/onze-nieuwe-services">
@@ -58,6 +79,7 @@
                     </a>
                 </div>
 
+                {{--shorttail vs longtail--}}
                 <div class="col-lg-4 col-md-6 col-12">
                     <a href="/blog/shorttail-vs-longtail">
                         <div class="blog_item">

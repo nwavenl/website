@@ -29,6 +29,9 @@ Route::get('/blog', function () {
     return view('blog');
 });
 //blog posts
+Route::get('/blog/zijn-blogs-effectief-voor-mijn-seo', function () {
+    return view('blog/blogseffectief');
+});
 Route::get('/blog/onze-nieuwe-services', function () {
     return view('blog/services');
 });
