@@ -97,3 +97,48 @@ var cookieStatusOfferte = getCookie("popupClosed");
         $('.loader-wrapper').addClass("hide")
     }
 })();
+
+//About
+(function () {
+    $("#member-jelle").click(function () {
+        $("#member-jelle").addClass('active')
+        $("#member-marco").removeClass('active')
+        $("#member-tin").removeClass('active')
+        $("#member-yeno").removeClass('active')
+        $(".member-jelle").removeClass('hidden')
+        $(".member-marco").addClass('hidden')
+        $(".member-tin").addClass('hidden')
+        $(".member-yeno").addClass('hidden')
+    });
+    $("#member-marco").click(function () {
+        $("#member-jelle").removeClass('active')
+        $("#member-marco").addClass('active')
+        $("#member-tin").removeClass('active')
+        $("#member-yeno").removeClass('active')
+        $(".member-jelle").addClass('hidden')
+        $(".member-marco").removeClass('hidden')
+        $(".member-tin").addClass('hidden')
+        $(".member-yeno").addClass('hidden')
+    });
+    $("#member-tin").click(function () {
+        $("#member-jelle").removeClass('active')
+        $("#member-marco").removeClass('active')
+        $("#member-tin").addClass('active')
+        $("#member-yeno").removeClass('active')
+        $(".member-jelle").addClass('hidden')
+        $(".member-marco").addClass('hidden')
+        $(".member-tin").removeClass('hidden')
+        $(".member-yeno").addClass('hidden')
+    });
+    $("#member-yeno").click(function () {
+        $("#member-jelle").removeClass('active')
+        $("#member-marco").removeClass('active')
+        $("#member-tin").removeClass('active')
+        $("#member-yeno").addClass('active')
+        $(".member-jelle").addClass('hidden')
+        $(".member-marco").addClass('hidden')
+        $(".member-tin").addClass('hidden')
+        $(".member-yeno").removeClass('hidden')
+    });
+})();
+

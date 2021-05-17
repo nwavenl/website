@@ -17,7 +17,7 @@
                         </h1>
                         <p data-aos="fade-right">nwave kan al uw online vraagstukken oplossen en verwerken in digitale
                             form. Denk hierbij aan websites, webshops, SEO en onderhoud aan uw huidige site. Dit doen
-                            wij voor beide bedrijf en particulier</p>
+                            we voor beide bedrijf en particulier.</p>
                         <a data-aos="fade-up" class="btn" href="/contact">Neem contact op</a>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Over nwave, en wat wij doen.</h2>
-                        <p>nwave is een bedrijf opgericht door vier eindejaars studenten van het Mediacollege in
+                        <p>nwave is een bedrijf opgericht door vier eindejaars- studenten van het Mediacollege in
                             Amsterdam.
                             Iedereen binnen het team heeft een passie voor het programmeren van websites.
                             Voor ons is het werken met klanten, projecten en documentatie niks nieuws.</p>

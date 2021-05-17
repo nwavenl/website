@@ -1,6 +1,6 @@
 @extends('templates/template')
 
-@section('description') "nwave blogs, leer elke week nieuwe dingen uit de online wereld." @endsection
+@section('description') "nwave blogs, Zijn blogs effectief voor jouw seo?" @endsection
 
 @section('title') Zijn blogs effectief voor mijn SEO - Blog @endsection
 

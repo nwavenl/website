@@ -8,12 +8,12 @@ section.subhero {
 
     .overlay {
         position: absolute;
-        background: linear-gradient(180deg, rgba(255,130,76,1) 0%, rgba(245,175,25,1) 100%);
+        background: #1a202c;
         top: 0;
         left: 0;
         height: 100%;
         width: 100%;
-        opacity: .6;
+        opacity: .65;
     }
 
     .row {

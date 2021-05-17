@@ -46,8 +46,10 @@
                     <div class="content" data-aos="fade-up">
                         <h2>Wie zijn wij?</h2>
                         <p>nwave is een bedrijf opgericht door vier eindejaars studenten van het Mediacollege Amsterdam.
-                        Iedereen binnen het team heeft een passie voor het ontwikkelen van op maat gemaakte webapplicaties. Designen, User Interfaces en de benodigde documentatie maken is voor ons niks nieuws.
-                        Wij nemen alle taken van u uithanden en zorgen dat alles goed geregeld word.</p>
+                            Iedereen binnen het team heeft een passie voor het ontwikkelen van op maat gemaakte
+                            webapplicaties. Designen, User Interfaces en de benodigde documentatie maken is voor ons
+                            niks nieuws.
+                            Wij nemen alle taken van u uithanden en zorgen dat alles goed geregeld word.</p>
 
                         <p>Met ieder bijna 3 jaar aan ervaring helpen wij bedrijven en particulieren aan een digitale
                             footprint, zoals een website of webshop. </p>
@@ -58,58 +60,138 @@
         </div>
     </section>
 
-    <section class="team">
+    <section class="team col-xl-rm">
         <div class="container">
-            <div class="row text-center team-row">
-                <div class="col-12">
-                    <h2 data-aos="fade-up">Ons team</h2>
-                </div>
-            </div>
             <div class="row">
 
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="member" data-aos="fade-up">
-                        <div class="image-holder">
-                            <img src="{{asset('/images/about/team/jelle.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
-                        </div>
-                        <h5>Jelle Stekelenburg</h5>
-                        <p>Front-end developer</p>
+                <div class="col-3 col-xl-rm">
+                    <div class="team-list">
+                        <h2>Ons team</h2>
+                        <h5>Over wie wilt u wat weten?</h5>
+                        <div class="clean-divider"></div>
+                        <p>Jonge professionals die altijd klaarstaan voor een nieuwe uitdaging.</p>
+                        <ul>
+                            <li id="member-jelle" class="memberRow active">
+                                <h5>Jelle Stekelenburg</h5>
+                                <p>Projectmanager</p>
+                            </li>
+                            <li id="member-marco" class="memberRow">
+                                <h5>Marco Bruijns</h5>
+                                <p>Fullstack developer</p>
+                            </li>
+                            <li id="member-tin" class="memberRow">
+                                <h5>Tin Xian Hu</h5>
+                                <p>Fullstack developer</p>
+                            </li>
+                            <li id="member-yeno" class="memberRow">
+                                <h5>Yeno Reus</h5>
+                                <p>Back-end developer</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="member" data-aos="fade-up">
-                        <div class="image-holder">
-                            <img src="{{asset('/images/about/team/marco.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
+                <div class="col-9 col-xl-rm member-row member-jelle">
+                    <div class="team-member-info">
+                        <div class="row" style="height: 100%">
+                            <div class="col-4">
+                                <img src="{{asset('images/about/team/JelleNew.png')}}" alt="">
+                            </div>
+                            <div class="col-8 displayinfo align-items-center">
+                                <div class="content">
+                                    <h3>Over Jelle</h3>
+                                    <div class="divider"></div>
+                                    <p>Klant tevredenheid is erg belangrijk voor mij, samen maken wij een geweldig
+                                        project waar u trots op kan zijn.</p>
+
+                                    <p>vanaf jongs af aan ben ik bezig op het internet, van het maken van Youtube
+                                        video's, het bewerken van foto's in Photoshop en het development. Ik maak het
+                                        perfecte design voor uw droom website en zorg er voor dat alles op de pixel na
+                                        klopt.</p>
+                                    <p>Ook zorg ik ervoor dat uw website hoog in de ranking van bijvoorbeeld Google komt te staan zodat u geen potentiële klanten verliest</p>
+                                    <div class="social-media">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h5>Marco Bruijns</h5>
-                        <p>Fullstack developer</p>
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="member" data-aos="fade-up">
-                        <div class="image-holder">
-                            <img src="{{asset('/images/about/team/tinxian.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
+                <div class="col-9 col-xl-rm member-row member-marco hidden">
+                    <div class="team-member-info">
+                        <div class="row" style="height: 100%">
+                            <div class="col-4">
+                                <img src="{{asset('images/about/team/MarcoNew.png')}}" alt="">
+                            </div>
+                            <div class="col-8 displayinfo align-items-center">
+                                <div class="content">
+                                    <h3>Over Marco</h3>
+                                    <div class="divider"></div>
+                                    <p>Een snelle en fout vrije website zijn een prioriteit bij mij.</p>
+
+                                    <p>Ik zorg dat de achterkant van alle producten die ik maak goed functioneren en alles vloeiend loopt.</p>
+                                    <div class="social-media">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h5>Tin Xian Hu</h5>
-                        <p>Fullstack developer</p>
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="member" data-aos="fade-up">
-                        <div class="image-holder">
-                            <img src="{{asset('/images/about/team/yeno.jpg')}}" alt="Teamlid: Jelle">
-                            <a href="https://www.linkedin.com/in/yeno-reus-7b1bb8172/"><img src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin logo"></a>
+                <div class="col-9 col-xl-rm member-row member-tin hidden">
+                    <div class="team-member-info">
+                        <div class="row" style="height: 100%">
+                            <div class="col-4">
+                                <img src="{{asset('images/about/team/TinNew.png')}}" alt="">
+                            </div>
+                            <div class="col-8 displayinfo align-items-center">
+                                <div class="content">
+                                    <h3>Over Tin Xian</h3>
+                                    <div class="divider"></div>
+                                    <p>Met kennis van zowel de voorkant en achterkant van de website zorg ik ervoor dat alles goed met elkaar werkt binnen een website</p>
+
+                                    <p>Ik zorg ervoor dat uw website snel en fucntioneel is.</p>
+                                    <div class="social-media">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h5>Yeno Reus</h5>
-                        <p>Back-end developer</p>
                     </div>
                 </div>
+
+                <div class="col-9 col-xl-rm member-row member-yeno hidden">
+                    <div class="team-member-info">
+                        <div class="row" style="height: 100%">
+                            <div class="col-4">
+                                <img src="{{asset('images/about/team/YenoNew.png')}}" alt="">
+                            </div>
+                            <div class="col-8 displayinfo align-items-center">
+                                <div class="content">
+                                    <h3>Over Yeno</h3>
+                                    <div class="divider"></div>
+                                    <p>Veiligheid en privacy is erg belangrijk voor mij. Hierdoor maak ik de gehele website veilig voor beide de bezoekers en beheerders.</p>
+                                    <p>Door mij komen er geen datalekken of andere beveiligingsfouten</p>
+                                    <div class="social-media">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com/in/yeno-r-7b1bb8172/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
             </div>
         </div>
