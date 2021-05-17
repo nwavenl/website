@@ -1,6 +1,6 @@
 @extends('templates/template')
 
-@section('description') "nwave blogs, leer elke week nieuwe dingen uit de online wereld." @endsection
+@section('description') "nwave blogs, Wat is het verschil tussen Shorttail en Longtail zoekopdrachten?" @endsection
 
 @section('title') Shorttail vs Longtail - Blog @endsection
 
