@@ -1,9 +1,9 @@
 body.home {
     section.about {
         background: linear-gradient(
-            180deg,
-            rgba(255, 130, 76, 1) 0%,
-            rgba(245, 175, 25, 1) 100%
+                180deg,
+                rgba(255, 130, 76, 1) 0%,
+                rgba(245, 175, 25, 1) 100%
         );
 
         .content {
@@ -17,6 +17,7 @@ body.home {
 
             &.image {
                 max-width: 100%;
+
                 img {
                     max-width: 100%;
                 }
@@ -29,9 +30,10 @@ body.home {
 
         .section-intro {
             p {
-                color: rgba(0,0,0,.7);
+                color: rgba(0, 0, 0, .7);
             }
         }
+
         .card-parent {
             @media (max-width: 1399px) {
                 margin: 20px 0;
@@ -40,7 +42,7 @@ body.home {
 
         .card {
             background: #fff;
-            box-shadow: 0 0 20px rgba(0,0,0,.25);
+            box-shadow: 0 0 20px rgba(0, 0, 0, .25);
             margin: 0 30px;
             border: none;
             outline: none;
@@ -54,9 +56,11 @@ body.home {
             }
             border-radius: 8px;
             height: 100%;
+
             .card_title {
                 position: relative;
                 padding: 50px 25px;
+
                 h3 {
                     font-weight: 800;
                     position: relative;
@@ -64,6 +68,7 @@ body.home {
                     color: #ffffff;
                     transition: .3s ease-in-out;
                 }
+
                 img {
                     position: absolute;
                     top: 0;
@@ -76,12 +81,18 @@ body.home {
                     transition: .3s ease-in-out;
                 }
             }
+
             .card_content {
                 padding: 30px 25px 90px;
+
+                p {
+                    min-height: 135px;
+                }
 
                 ul {
                     list-style: inherit;
                     margin-left: 20px;
+
                     li {
                         color: $lightgrey;
                     }
@@ -93,20 +104,23 @@ body.home {
                     left: 30px;
                 }
             }
+
             &:hover {
-                box-shadow: 0 0 30px rgba(0,0,0,.55);
+                box-shadow: 0 0 30px rgba(0, 0, 0, .55);
             }
         }
 
         .disclaimer-parent {
             margin: 20px 30px;
+
             p.disclaimer {
                 font-size: 12px;
-                color: rgba(0,0,0,.25);
+                color: rgba(0, 0, 0, .25);
                 line-height: 15px;
                 margin: 4px 0;
             }
         }
+
         .divider-under {
             height: 5px;
             width: 60%;

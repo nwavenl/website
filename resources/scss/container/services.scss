@@ -98,6 +98,9 @@ body.services {
             .card_content {
                 padding: 30px 25px 90px;
 
+                p {
+                    min-height: 135px;
+                }
                 ul {
                     list-style: inherit;
                     margin-left: 20px;

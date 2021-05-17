@@ -12,7 +12,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content">
-                        <h1>SEO hulp nodig?</h1>
+                        <h1>Hulp nodig met uw seo?</h1>
                         <p>Bekijk hier wat wij voor u kunnen betekenen.</p>
                     </div>
                 </div>
