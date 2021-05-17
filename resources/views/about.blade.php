@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="team">
+    <section class="team col-xl-rm">
         <div class="container">
             <div class="row">
 
