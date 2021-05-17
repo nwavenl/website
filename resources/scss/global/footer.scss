@@ -35,7 +35,7 @@ footer {
         }
     }
     .row-1 {
-        height: 159px;
+        height: 185px;
 
         @media (max-width: 767px) {
             height: 210px !important;
@@ -71,7 +71,7 @@ footer {
         }
     }
     .row-2 {
-        height: 159px;
+        height: 185px;
         position: relative;
 
         p {
@@ -97,12 +97,13 @@ footer {
         @media (max-width: 768px) {
             position: relative;
             top: -50px;
+            height: 200px;
         }
     }
     .row-3 {
         position: relative;
         left: -100px;
-        height: 159px;
+        height: 185px;
         @media (max-width: 767px) {
             height: 180px;
         }
@@ -110,6 +111,7 @@ footer {
         @media (max-width: 1640px) {
             left: -50px;
         }
+
         @media (max-width: 768px) {
             left: 0;
             margin: 0 0 40px !important;
@@ -132,6 +134,12 @@ footer {
             bottom: -4px;
             p {
                 line-height: 5px;
+                @media (max-width: 1639px) {
+                    line-height: 16px;
+                }
+                @media (max-width: 1100px) {
+                    line-height: 5px;
+                }
             }
         }
     }
@@ -148,4 +156,16 @@ footer {
             //left: 0;
         }
     }
+
+    #map {
+        height: 185px;
+        width: 100%;
+        @media (max-width: 1399px) {
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            display: none !important;
+        }
+    }
+
 }

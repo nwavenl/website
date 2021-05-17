@@ -27,6 +27,7 @@
                         <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="/portfolio">Portfolio</a></li>
                         <li><a href="/services">Services</a></li>
+                        <li><a href="/blog">Blog</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
@@ -42,6 +43,9 @@
                         <p class="">BTWid: NL003601184B27</p>
                     </div>
                 </div>
+            </div>
+            <div class="col-xxl-6 col-md-12 col-sm-rm">
+                <div id="map"></div>
             </div>
 
             <div class="col-12">
