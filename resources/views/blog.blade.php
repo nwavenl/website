@@ -87,7 +87,7 @@
                                 <img src="{{asset('/images/blog/tail/hero-image.jpg')}}" alt="">
                             </div>
                             <div class="blog_item--body">
-                                <h3>Shorttail vs Longtail - SEO tips & tricks</h3>
+                                <h3>Shorttail vs Longtail zoekopdrachten</h3>
                                 <div class="divider"></div>
                                 <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
                                     omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
