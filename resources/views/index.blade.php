@@ -146,6 +146,76 @@
         </div>
     </section>
 
+    <section class="blog-posts">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <h2>Laatste blog posts</h2>
+                </div>
+
+                {{--Zijn blogs effectief voor mijn SEO?--}}
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/zijn-blogs-effectief-voor-mijn-seo">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/blogseffectief/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Zijn blogs effectief voor mijn SEO?</h3>
+                                <div class="divider"></div>
+                                <p>Het korte antwoord is: Ja!
+                                    Maar waarom? dat gaan wij vandaag duidelijk uitleggen. Blogs kunnen veel informatie
+                                    dienen aan iemand die antwoord op een vraag zoekt. Indien je een recept zoekt voor
+                                    een appeltaart heb je een grote kans om naar een kook website te gaan waar hun in
+                                    een blogpost een recept hebben voor een heerlijke appeltaart.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                {{--onze nieuwe services--}}
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/onze-nieuwe-services">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/services/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Onze services zijn veranderd!</h3>
+                                <div class="divider"></div>
+                                <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
+                                    omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
+                                    makkelijkere optie is.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                {{--shorttail vs longtail--}}
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/shorttail-vs-longtail">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/tail/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Shorttail vs Longtail zoekopdrachten</h3>
+                                <div class="divider"></div>
+                                <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
+                                    omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
+                                    makkelijkere optie is.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
     <section class="cta" style="background-image: url('{{asset('/images/global/cta.jpg')}}')">
         <div class="overlay"></div>
         <div class="container">
