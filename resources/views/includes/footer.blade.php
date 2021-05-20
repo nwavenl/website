@@ -44,9 +44,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-6 col-md-12 col-sm-rm">
-                <div id="map"></div>
-            </div>
 
             <div class="col-12">
                 <div class="copyright">
