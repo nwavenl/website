@@ -162,7 +162,7 @@
                                 <img src="{{asset('/images/blog/webshoppower/hero-image.jpg')}}" alt="">
                             </div>
                             <div class="blog_item--body">
-                                <h3>Waarom zijn webshops zo krachting?</h3>
+                                <h3>Waarom zijn webshops zo krachtig?</h3>
                                 <div class="divider"></div>
                                 <p>Bijna iedereen heeft wel eens iets online besteld, zowel via bol.com, Amazon,
                                     Coolblue of vele andere webwinkels, en steeds vaker zijn meerdere categorieën
