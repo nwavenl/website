@@ -1,8 +1,8 @@
 @extends('templates/template')
 
-@section('description') "nwave blogs, Waarom zijn webshops zo krachting?" @endsection
+@section('description') "nwave blogs, Waarom zijn webshops zo krachtig?" @endsection
 
-@section('title') Waarom zijn webshops zo krachting - Blog @endsection
+@section('title') Waarom zijn webshops zo krachtig - Blog @endsection
 
 @section('bodyClass') blog-post @endsection
 
