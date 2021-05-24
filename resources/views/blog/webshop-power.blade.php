@@ -26,8 +26,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-12">
                     <div class="content" data-aos="fade-up">
-                        <h1>Waarom zijn webshops zo krachting?</h1>
-                        <p>Waarom zijn webshops zo krachting? lees het hier!</p>
+                        <h1>Waarom zijn webshops zo krachtig?</h1>
+                        <p>Waarom zijn webshops zo krachtig? lees het hier!</p>
                     </div>
                 </div>
             </div>
