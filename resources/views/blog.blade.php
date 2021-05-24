@@ -42,6 +42,30 @@
 
                 {{--Zijn blogs effectief voor mijn SEO?--}}
                 <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/waarom-zijn-webshops-zo-krachting">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/webshoppower/hero-image.jpg')}}" alt="">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Waarom zijn webshops zo krachting?</h3>
+                                <div class="divider"></div>
+                                <p>Bijna iedereen heeft wel eens iets online besteld, zowel via bol.com, Amazon,
+                                    Coolblue of vele andere webwinkels, en steeds vaker zijn meerdere categorieën
+                                    producten te bestellen via het internet. Dit heeft alles te maken met gemak, mensen
+                                    hebben steeds minder tijd en energie over om naar een winkel te gaan en gaan daarom
+                                    liever online shoppen. Webshops maken het ook steeds aantrekkelijker voor hun
+                                    klanten, lagere prijzen omdat de kosten van een webshop lager zijn dan een fysieke
+                                    winkel, gerichte producten laten zien aan de hand van je gedrag op het internet en
+                                    nog veel meer tricks.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                {{--Zijn blogs effectief voor mijn SEO?--}}
+                <div class="col-lg-4 col-md-6 col-12">
                     <a href="/blog/zijn-blogs-effectief-voor-mijn-seo">
                         <div class="blog_item">
                             <div class="blog_item--header">
@@ -71,7 +95,7 @@
                             <div class="blog_item--body">
                                 <h3>Onze services zijn veranderd!</h3>
                                 <div class="divider"></div>
-                                <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
+                                <p>Bij ons was te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
                                     omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
                                     makkelijkere optie is.</p>
                             </div>

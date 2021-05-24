@@ -29,6 +29,10 @@ Route::get('/blog', function () {
     return view('blog');
 });
 //blog posts
+
+Route::get('/blog/waarom-zijn-webshops-zo-krachting', function () {
+    return view('blog/webshop-power');
+});
 Route::get('/blog/zijn-blogs-effectief-voor-mijn-seo', function () {
     return view('blog/blogseffectief');
 });

@@ -101,14 +101,14 @@
                                 <div class="content">
                                     <h3>Over Jelle</h3>
                                     <div class="divider"></div>
-                                    <p>Klant tevredenheid is erg belangrijk voor mij, samen maken wij een geweldig
+                                    <p>Klant tevredenheid is erg belangrijk voor mij, samen maken wij een geweldig,
                                         project waar u trots op kan zijn.</p>
 
-                                    <p>vanaf jongs af aan ben ik bezig op het internet, van het maken van Youtube
+                                    <p>Vanaf jongs af aan ben ik bezig op het internet, van het maken van Youtube
                                         video's, het bewerken van foto's in Photoshop en het development. Ik maak het
                                         perfecte design voor uw droom website en zorg er voor dat alles op de pixel na
                                         klopt.</p>
-                                    <p>Ook zorg ik ervoor dat uw website hoog in de ranking van bijvoorbeeld Google komt te staan zodat u geen potentiële klanten verliest</p>
+                                    <p>Ook zorg ik ervoor dat uw website hoog in de ranking van bijvoorbeeld Google komt te staan zodat u geen potentiële klanten verliest.</p>
                                     <div class="social-media">
                                         <ul>
                                             <li><a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
