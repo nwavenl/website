@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-12">
                     <h3>Waarom zijn de services geupdate?</h3>
-                    <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede omdat mensen
+                    <p>Bij ons was te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede omdat mensen
                         het liefst gelijk en geheel nieuwe website willen, wat vaak ook een makkelijkere optie is.</p>
                     <p>Voor ons was het daarom niet logisch meer om het deel onderhoud binnen onze services te houden,
                         gelukkig hadden wij ook het idee om een nieuwe service toe te voegen. Vanaf deze week helpen wij

@@ -41,6 +41,26 @@ img {
     }
 }
 
+//scrollbar
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: $main;
+}
+
+html {
+    scrollbar-color: $main #ffffff;
+    scrollbar-width: thin !important;
+}
+//end scrollbar
+
+
 //whatsapp
 .Bubble__NotificationBadge-sc-83hmjh-2 {
     display: none !important;
@@ -53,3 +73,4 @@ img {
 .Window__Component-sc-17wvysh-0 {
     z-index: 200 !important;
 }
+//end whatsapp
