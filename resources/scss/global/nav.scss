@@ -9,18 +9,28 @@ nav.main {
     &.transparent {
         background: transparent !important;
         border-bottom: 1px solid #fff;
+        transition: .3s ease-in-out;
+        transition-delay: .5s;
         h4 {
             color: #ffffff !important;
+            transition: .3s ease-in-out;
+            transition-delay: .5s;
         }
         img {
             filter: brightness(100);
+            transition: .3s ease-in-out;
+            transition-delay: .5s;
         }
         .menu-wrapper {
             filter: brightness(1) !important;
             border-radius: 50%;
+            transition: .3s ease-in-out;
+            transition-delay: .5s;
             .hamburger-menu {
                 &::before, &::after {
                     background: $main !important;
+                    transition: .3s ease-in-out;
+                    transition-delay: .5s;
                     @media (max-width: 600px) {
                         background: #fff !important;
                     }
