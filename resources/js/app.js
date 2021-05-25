@@ -4,6 +4,7 @@
         $('.hamburger-menu').toggleClass('animate');
         $('.mobile-nav').toggleClass('active');
         $('body').toggleClass('scroll');
+        $('nav').toggleClass('transparent');
         $('#mobile-nav').addClass('opened')
     });
 })();
