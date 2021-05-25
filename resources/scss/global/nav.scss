@@ -17,7 +17,15 @@ nav.main {
         }
         .menu-wrapper {
             filter: brightness(1) !important;
-            //moet nog verder aan gewerkt worden
+            border-radius: 50%;
+            .hamburger-menu {
+                &::before, &::after {
+                    background: $main !important;
+                    @media (max-width: 600px) {
+                        background: #fff !important;
+                    }
+                }
+            }
         }
     }
 
@@ -189,7 +197,7 @@ aside.mobile-nav {
 
         li {
             margin: 10px 0;
-            font-weight: 600;
+            font-weight: 800;
             font-size: 40px;
             transition: .3s;
 
