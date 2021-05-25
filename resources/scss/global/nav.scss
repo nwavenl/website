@@ -6,6 +6,20 @@ nav.main {
     z-index: 100;
     transition: .4s;
 
+    &.transparent {
+        background: transparent !important;
+        border-bottom: 1px solid #fff;
+        h4 {
+            color: #ffffff !important;
+        }
+        img {
+            filter: brightness(100);
+        }
+        .menu-wrapper {
+            filter: brightness(1) !important;
+            //moet nog verder aan gewerkt worden
+        }
+    }
 
     &.scroll {
         box-shadow: 0 0 10px rgba(0,0,0,.3);
@@ -151,7 +165,10 @@ nav.main {
 aside.mobile-nav {
 
     position: fixed;
-    background: #fff;
+    background: linear-gradient(90deg, rgba(255,130,76,1) 30%, rgba(255,255,255,1) 100%);
+    @media (max-width: 600px) {
+        background: $main;
+    }
     top: 0;
     left: 100vw;
     bottom: 0;
@@ -173,27 +190,11 @@ aside.mobile-nav {
         li {
             margin: 10px 0;
             font-weight: 600;
-            font-size: 23px;
+            font-size: 40px;
             transition: .3s;
 
-            &.btn-nav {
-                background: $main;
-                padding: 8px 20px;
-                border-radius: 10px;
-
-                a {
-                    color: #fff;
-
-                    &:hover {
-                        color: #fff;
-                    }
-                }
-            }
-
             a {
-                &:hover {
-                    color: $main;
-                }
+                color: #ffffff;
             }
         }
     }
@@ -206,7 +207,7 @@ aside.mobile-nav {
         p {
             font-size: 15px;
             line-height: 2px;
-            color: rgba(0, 0, 0, .7)
+            color: #f2f2f2;
         }
     }
 
@@ -225,27 +226,6 @@ aside.mobile-nav {
 
         @media (min-width: 992px) {
             display: none;
-        }
-
-        img.background-img {
-            max-width: none !important;
-            position: absolute;
-            display: block !important;
-            height: 500px;
-            width: 243px;
-            top: 50%;
-            right: 0;
-            transform: translateY(-50%);
-            animation: mr-animation .7s;
-            @media (max-width: 653px) {
-                right: -50px;
-            }
-            @media (max-width: 400px) {
-                right: -120px;
-            }
-            @media (max-width: 315px) {
-                display: none;
-            }
         }
     }
 }

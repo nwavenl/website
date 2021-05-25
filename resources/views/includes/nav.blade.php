@@ -24,7 +24,6 @@
     </div>
 </nav>
 <aside id="mobile-nav" class="mobile-nav">
-    <img class="background-img" src="{{asset('/images/global/mobile-nav.png')}}" alt="Mobile nav image">
     <div class="container">
         <div class="row vh-100">
             <div class="col-12 col-mobile">
@@ -33,7 +32,7 @@
                     <li><a href="/portfolio">Portfolio</a></li>
                     <li><a href="/services">Services</a></li>
                     <li><a href="/blog">Blog</a></li>
-                    <li class="btn-nav"><a href="/contact">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
                 <div class="copyright">
                     <p>© 2021 NWAVE</p>
