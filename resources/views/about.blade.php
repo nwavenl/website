@@ -101,11 +101,11 @@
                                 <div class="content">
                                     <h3>Over Jelle</h3>
                                     <div class="divider"></div>
-                                    <p>Klant tevredenheid is erg belangrijk voor mij, samen maken wij een geweldig,
+                                    <p>Klant tevredenheid is erg belangrijk voor mij, samen maken wij een geweldig
                                         project waar u trots op kan zijn.</p>
 
                                     <p>Vanaf jongs af aan ben ik bezig op het internet, van het maken van Youtube
-                                        video's, het bewerken van foto's in Photoshop en het development. Ik maak het
+                                        video's, het bewerken van foto's in Photoshop en het maken van webapplicaties. Ik maak het
                                         perfecte design voor uw droom website en zorg er voor dat alles op de pixel na
                                         klopt.</p>
                                     <p>Ook zorg ik ervoor dat uw website hoog in de ranking van bijvoorbeeld Google komt te staan zodat u geen potentiële klanten verliest.</p>
@@ -154,7 +154,7 @@
                                 <div class="content">
                                     <h3>Over Tin Xian</h3>
                                     <div class="divider"></div>
-                                    <p>Tin heeft 3+ jaar ervaring in het bouwen en onderhouden van webapplicaties. Samen met het team is hij pas tevreden als de opdrachtgever tevreden is.</p>
+                                    <p>Met 3+ jaar ervaring in het bouwen en onderhouden van webapplicaties ga ik samen met het team door tot de opdrachtgever tevreden is.</p>
 
                                     <p>Ik zal ervoor zorgen dat uw project snel en goed bereikbaar is, zo als het hoort.</p>
                                     <div class="social-media">
