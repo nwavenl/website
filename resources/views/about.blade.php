@@ -85,7 +85,7 @@
                             </li>
                             <li id="member-yeno" class="memberRow">
                                 <h5>Yeno Reus</h5>
-                                <p>Back-end developer</p>
+                                <p>Back-end developer / Cybersecurity</p>
                             </li>
                         </ul>
                     </div>
@@ -130,9 +130,9 @@
                                 <div class="content">
                                     <h3>Over Marco</h3>
                                     <div class="divider"></div>
-                                    <p>Een snelle en fout vrije website zijn een prioriteit bij mij.</p>
+                                    <p>Pas als de klant tevreden is, ben ik dat ook.</p>
 
-                                    <p>Ik zorg dat de achterkant van alle producten die ik maak goed functioneren en alles vloeiend loopt.</p>
+                                    <p>Ik hou mij vooral bezig met de back-end van een project. Het is mijn taak om alles soepel te laten verlopen.</p>
                                     <div class="social-media">
                                         <ul>
                                             <li><a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
@@ -154,9 +154,9 @@
                                 <div class="content">
                                     <h3>Over Tin Xian</h3>
                                     <div class="divider"></div>
-                                    <p>Met kennis van zowel de voorkant en achterkant van de website zorg ik ervoor dat alles goed met elkaar werkt binnen een website</p>
+                                    <p>Tin heeft 3+ jaar ervaring in het bouwen en onderhouden van webapplicaties. Samen met het team is hij pas tevreden als de opdrachtgever tevreden is.</p>
 
-                                    <p>Ik zorg ervoor dat uw website snel en fucntioneel is.</p>
+                                    <p>Ik zal ervoor zorgen dat uw project snel en goed bereikbaar is, zo als het hoort.</p>
                                     <div class="social-media">
                                         <ul>
                                             <li><a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
@@ -178,8 +178,8 @@
                                 <div class="content">
                                     <h3>Over Yeno</h3>
                                     <div class="divider"></div>
-                                    <p>Veiligheid en privacy is erg belangrijk voor mij. Hierdoor maak ik de gehele website veilig voor beide de bezoekers en beheerders.</p>
-                                    <p>Door mij komen er geen datalekken of andere beveiligingsfouten</p>
+                                    <p>Hackers en cybercriminelen zitten tegenwoordig binnen no-time in een systeem. Met de juiste maatregelen worden zij buiten de deur gehouden.</p>
+                                    <p>Met meer dan 2 jaar ervaring in het hacken & beveiligen van webapplicaties, zal ik mij volledig focussen op de veiligheid van uw project en de privacy van uw klanten.</p>
                                     <div class="social-media">
                                         <ul>
                                             <li><a href="https://www.linkedin.com/in/yeno-r-7b1bb8172/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
