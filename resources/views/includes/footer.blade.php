@@ -22,7 +22,7 @@
 
             <div class="col-xxl-2 col-md-4">
                 <div class="content row-2">
-                    <p><a href="/sitemap">Sitemap</a></p>
+                    <p>Sitemap</p>
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="/portfolio">Portfolio</a></li>

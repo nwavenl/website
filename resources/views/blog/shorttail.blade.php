@@ -43,9 +43,9 @@
                     <p>Om beide een betekenissen te geven hebben wij hiervoor een voorbeeld. Het gaat bij beide Short-
                         en Longtail om de zoekopdracht die jouw doelgroep vraagt tegen bijvoorbeeld Google.</p>
                     <p>Shorttail: “Bedrijfsplan”</p>
-                    <img src="{{asset('/images/blog/tail/search1.png')}}" alt="">
+                    <img src="{{asset('/images/blog/tail/search1.png')}}" alt="Shorttail zoekopdracht">
                     <p>Longtail: “Hoe maak je een bedrijfsplan”</p>
-                    <img src="{{asset('/images/blog/tail/search2.png')}}" alt="">
+                    <img src="{{asset('/images/blog/tail/search2.png')}}" alt="Longtail zoekopdracht">
                     <p>Deze twee zoekopdrachten zijn voor Google erg verschillend en voor de gebruiker ook. Helaas wordt
                         er toch nog te vaak gedacht dat Shorttail de beste opties is, terwijl dit uit de cijfers van
                         Google helemaal niet waar is.</p>

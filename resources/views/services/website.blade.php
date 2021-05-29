@@ -78,7 +78,7 @@
                                             </li>
                                         </ul>
                                         <a class="social" href="https://www.linkedin.com/company/31411281/"><img
-                                                src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                                                src="{{asset('/images/icons/linkedin.png')}}" alt="Linkedin Icon"></a>
                                     </div>
                                 </div>
                             </div>

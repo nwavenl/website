@@ -45,7 +45,7 @@
                     <a href="/blog/waarom-zijn-webshops-zo-krachting">
                         <div class="blog_item">
                             <div class="blog_item--header">
-                                <img src="{{asset('/images/blog/webshoppower/hero-image.jpg')}}" alt="">
+                                <img src="{{asset('/images/blog/webshoppower/hero-image.jpg')}}" alt="Hero image">
                             </div>
                             <div class="blog_item--body">
                                 <h3>Waarom zijn webshops zo krachtig?</h3>
@@ -69,7 +69,7 @@
                     <a href="/blog/zijn-blogs-effectief-voor-mijn-seo">
                         <div class="blog_item">
                             <div class="blog_item--header">
-                                <img src="{{asset('/images/blog/blogseffectief/hero-image.jpg')}}" alt="">
+                                <img src="{{asset('/images/blog/blogseffectief/hero-image.jpg')}}" alt="Hero image">
                             </div>
                             <div class="blog_item--body">
                                 <h3>Zijn blogs effectief voor mijn SEO?</h3>
@@ -90,7 +90,7 @@
                     <a href="/blog/onze-nieuwe-services">
                         <div class="blog_item">
                             <div class="blog_item--header">
-                                <img src="{{asset('/images/blog/services/hero-image.jpg')}}" alt="">
+                                <img src="{{asset('/images/blog/services/hero-image.jpg')}}" alt="Hero image">
                             </div>
                             <div class="blog_item--body">
                                 <h3>Onze services zijn veranderd!</h3>
@@ -108,7 +108,7 @@
                     <a href="/blog/shorttail-vs-longtail">
                         <div class="blog_item">
                             <div class="blog_item--header">
-                                <img src="{{asset('/images/blog/tail/hero-image.jpg')}}" alt="">
+                                <img src="{{asset('/images/blog/tail/hero-image.jpg')}}" alt="Hero image">
                             </div>
                             <div class="blog_item--body">
                                 <h3>Shorttail vs Longtail zoekopdrachten</h3>
