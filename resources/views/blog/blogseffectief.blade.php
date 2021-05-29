@@ -4,6 +4,8 @@
 
 @section('title') Zijn blogs effectief voor mijn SEO - Blog @endsection
 
+@section('twitter-hero') {{asset('/images/blog/blogseffectief/hero-image.jpg')}} @endsection
+
 @section('bodyClass') blog-post @endsection
 
 @section('content')

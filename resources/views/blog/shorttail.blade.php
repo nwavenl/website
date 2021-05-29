@@ -4,6 +4,8 @@
 
 @section('title') Shorttail vs Longtail - Blog @endsection
 
+@section('twitter-hero') {{asset('/images/blog/tail/hero-image.jpg')}} @endsection
+
 @section('bodyClass') blog-post @endsection
 
 @section('content')
