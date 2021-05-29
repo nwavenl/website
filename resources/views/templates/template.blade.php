@@ -40,7 +40,6 @@
     <meta name="language" content="NL">
 
     <meta name="description"
-          property="description"
           content=@yield('description')>
     <meta name="title"
           property="title"
