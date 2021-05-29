@@ -4,7 +4,7 @@
 
 @section('title') Onze nieuwe services - Blog @endsection
 
-@section('twitter-hero') {{asset('/images/blog/services/hero-image.jpg')}} @endsection
+@section('twitter-hero') "{{asset('/images/blog/services/hero-image.jpg')}}" @endsection
 
 @section('bodyClass') blog-post @endsection
 

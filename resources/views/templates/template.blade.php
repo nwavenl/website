@@ -53,7 +53,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description" content=@yield('description')>
     <meta name="twitter:title" content="@yield('title') - nwave">
-    <meta name="twitter:image" content="@yield('twitter-hero')">
+    <meta name="twitter:image" content=@yield('twitter-hero')>
     <meta name="twitter:site" content="@nwave.nl">
 
     <title>@yield('title') - nwave</title>
@@ -62,7 +62,7 @@
 <body class="@yield('bodyClass')">
 
 <div class="loader-wrapper">
-    <img src="{{asset('/images/global/logo.png')}}">
+    <img src="{{asset('/images/global/logo.png')}}" alt="nwave logo">
     <div class="loader-body">
         <div class="loader"></div>
     </div>
@@ -90,9 +90,9 @@
                             <div class="right">
                                 <div class="pos">
                                     <a class="cookie-btn top" id="cookieAccept">Accepteer<img
-                                            src="{{asset('/images/global/done.png')}}"></a>
+                                            src="{{asset('/images/global/done.png')}}" alt="Äccept icon"></a>
                                     <a class="cookie-btn bottom" id="cookieDecline">Afwijzen<img class="small"
-                                                                                                 src="{{asset('/images/global/close.png')}}"></a>
+                                                                                                 src="{{asset('/images/global/close.png')}}" alt="Decline icon"></a>
                                 </div>
                             </div>
                         </div>
