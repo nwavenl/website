@@ -95,7 +95,7 @@
                     <div class="team-member-info">
                         <div class="row" style="height: 100%">
                             <div class="col-4">
-                                <img src="{{asset('images/about/team/JelleNew.png')}}" alt="">
+                                <img src="{{asset('images/about/team/JelleNew.png')}}" alt="Jelle Stekelenburg">
                             </div>
                             <div class="col-8 displayinfo align-items-center">
                                 <div class="content">
@@ -111,7 +111,7 @@
                                     <p>Ook zorg ik ervoor dat uw website hoog in de ranking van bijvoorbeeld Google komt te staan zodat u geen potentiële klanten verliest.</p>
                                     <div class="social-media">
                                         <ul>
-                                            <li><a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                            <li><a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@
                     <div class="team-member-info">
                         <div class="row" style="height: 100%">
                             <div class="col-4">
-                                <img src="{{asset('images/about/team/MarcoNew.png')}}" alt="">
+                                <img src="{{asset('images/about/team/MarcoNew.png')}}" alt="Marco Bruijns">
                             </div>
                             <div class="col-8 displayinfo align-items-center">
                                 <div class="content">
@@ -135,7 +135,7 @@
                                     <p>Ik hou mij vooral bezig met de back-end van een project. Het is mijn taak om alles soepel te laten verlopen.</p>
                                     <div class="social-media">
                                         <ul>
-                                            <li><a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                            <li><a href="https://www.linkedin.com/in/marco-bruijns/"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@
                     <div class="team-member-info">
                         <div class="row" style="height: 100%">
                             <div class="col-4">
-                                <img src="{{asset('images/about/team/TinNew.png')}}" alt="">
+                                <img src="{{asset('images/about/team/TinNew.png')}}" alt="Tin Xian Hu">
                             </div>
                             <div class="col-8 displayinfo align-items-center">
                                 <div class="content">
@@ -159,7 +159,7 @@
                                     <p>Ik zal ervoor zorgen dat uw project snel en goed bereikbaar is, zo als het hoort.</p>
                                     <div class="social-media">
                                         <ul>
-                                            <li><a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                            <li><a href="https://www.linkedin.com/in/tin-xian-hu/"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@
                     <div class="team-member-info">
                         <div class="row" style="height: 100%">
                             <div class="col-4">
-                                <img src="{{asset('images/about/team/YenoNew.png')}}" alt="">
+                                <img src="{{asset('images/about/team/YenoNew.png')}}" alt="Yeno Reus">
                             </div>
                             <div class="col-8 displayinfo align-items-center">
                                 <div class="content">
@@ -182,7 +182,7 @@
                                     <p>Met meer dan 2 jaar ervaring in het hacken & beveiligen van webapplicaties, zal ik mij volledig focussen op de veiligheid van uw project en de privacy van uw klanten.</p>
                                     <div class="social-media">
                                         <ul>
-                                            <li><a href="https://www.linkedin.com/in/yeno-r-7b1bb8172/"><img src="{{asset('images/icons/linkedin.png')}}" alt=""></a></li>
+                                            <li><a href="https://www.linkedin.com/in/yeno-r-7b1bb8172/"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
                                         </ul>
                                     </div>
                                 </div>

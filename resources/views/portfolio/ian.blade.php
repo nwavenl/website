@@ -51,10 +51,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="{{asset('/images/portfolio/ian/ian-1.jpg')}}" alt="">
+                    <img src="{{asset('/images/portfolio/ian/ian-1.jpg')}}" alt="Iphone mockup">
                 </div>
                 <div class="col-lg-6">
-                    <img src="{{asset('/images/portfolio/ian/ian-2.jpg')}}" alt="">
+                    <img src="{{asset('/images/portfolio/ian/ian-2.jpg')}}" alt="Macbook mockup">
                 </div>
             </div>
         </div>

@@ -102,7 +102,3 @@ Route::get('/privacybeleid', function () {
     return view('privacy');
 });
 
-// Route for sitemap
-Route::get('/sitemap', function () {
-    return view('sitemap');
-})->name('sitemap');

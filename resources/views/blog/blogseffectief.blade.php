@@ -47,9 +47,9 @@
                         de zoekopdracht. Hiervoor is het wel belangrijk dat je je titels van je blog post zo duidelijk
                         mogelijk maakt.</p>
                     <p>Gebruik een goede koptekst</p>
-                    <img src="{{asset('/images/blog/blogseffectief/hero.png')}}" alt="">
+                    <img src="{{asset('/images/blog/blogseffectief/hero.png')}}" alt="Hero voorbeeld">
                     <p>En een goede website titel</p>
-                    <img src="{{asset('/images/blog/blogseffectief/title.png')}}" alt="">
+                    <img src="{{asset('/images/blog/blogseffectief/title.png')}}" alt="Titel voorbeeld">
                     <p>Door deze twee elementen ziet Google of jouw website bij het zoekresultaat hoort en krijg je
                         hierdoor meer tractie naar jouw website.</p>
                     <h3>Waarover moet ik bloggen?</h3>
