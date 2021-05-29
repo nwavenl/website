@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "SEO, oftewel zoekmachineoptimalisatie is een belangrijk onderdeel voor een website, het niet hoog staan in Google kan er voor zorgen dat uw website potentiële bezoekers misloopt." @endsection
+
 @section('title') SEO @endsection
 
 @section('bodyClass') services-item @endsection

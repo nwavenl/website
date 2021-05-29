@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Marketing nodig voor uw bedrijf of product? wij helpen u om meer bezoekers en/ of kopers uw kant op te sturen." @endsection
+
 @section('title') onderhoud @endsection
 
 @section('bodyClass') services-item @endsection

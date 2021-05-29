@@ -1,5 +1,7 @@
 @extends('templates/template')
 
+@section('description') "Webshops zijn de toekomst, maar ook vaak een grote stap, wij helpen u graag verder uw producten/ diensten op de online markt te zetten!" @endsection
+
 @section('title') webshop @endsection
 
 @section('bodyClass') services-item @endsection
