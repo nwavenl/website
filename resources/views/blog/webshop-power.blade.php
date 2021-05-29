@@ -4,6 +4,8 @@
 
 @section('title') Waarom zijn webshops zo krachtig - Blog @endsection
 
+@section('twitter-hero') {{asset('/images/blog/webshoppower/hero-image.jpg')}} @endsection
+
 @section('bodyClass') blog-post @endsection
 
 @section('content')

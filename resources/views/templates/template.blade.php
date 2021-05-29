@@ -37,6 +37,9 @@
 
     <meta name="url" content="@php echo(Request::url()) @endphp">
 
+
+    <link rel="canonical" href="@php echo(Request::url()) @endphp">
+
     <meta name="language" content="NL">
 
     <meta name="description"
@@ -47,6 +50,11 @@
     <meta name="keywords"
           property="keywords"
           content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud, schagen, nwave schagen, nwave websites, schagen websites">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content=@yield('description')>
+    <meta name="twitter:title" content="@yield('title') - nwave">
+    <meta name="twitter:image" content="@yield('twitter-hero')">
+    <meta name="twitter:site" content="@nwave.nl">
 
     <title>@yield('title') - nwave</title>
 
