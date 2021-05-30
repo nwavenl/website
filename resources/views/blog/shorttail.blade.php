@@ -66,7 +66,7 @@
 
                     <h3>Hulp nodig met uw SEO?</h3>
                     <p>Wij helpen u graag verder om uw website beter te laten presenteren in Google en andere
-                        zoekmachines, lees meer over SEO en kom in contact via onze <a href="/services/seo">SEO service</a></p>
+                        zoekmachines, lees meer over SEO en kom in contact via onze <a href="/dienst/seo">SEO service</a></p>
                 </div>
             </div>
         </div>

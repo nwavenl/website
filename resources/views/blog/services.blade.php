@@ -57,7 +57,7 @@
                     <h3>Ik heb marketing nodig!</h3>
                     <p>Heeft u zelf marketing nodig maar niet wetend hoe? Kom in contact of vraag een offerte aan via de
                         nieuwe
-                        <a href="/services/marketing">marketing service</a></p>
+                        <a href="/dienst/marketing">marketing service</a></p>
                 </div>
             </div>
         </div>

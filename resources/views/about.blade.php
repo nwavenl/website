@@ -53,7 +53,7 @@
 
                         <p>Met ieder bijna 3 jaar aan ervaring helpen wij bedrijven en particulieren aan een digitale
                             footprint, zoals een website of webshop. </p>
-                        <a class="btn" href="/services">bekijk onze services</a>
+                        <a class="btn" href="/diensten">bekijk onze services</a>
                     </div>
                 </div>
             </div>
