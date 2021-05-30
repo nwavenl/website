@@ -50,6 +50,13 @@
     <meta name="keywords"
           property="keywords"
           content="nwave,new wave, wave, nave, webdesign, website, websites, webshop, webshops, design, seo, onderhoud, schagen, nwave schagen, nwave websites, schagen websites">
+    <meta name="theme-color" content="#ff824c">
+    <meta property="og:locale" content="nl_nl">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="@yield('title') - nwave">
+    <meta property="og:description" content=@yield('description')>
+    <meta property="og:url" content="@php echo(Request::url()) @endphp">
+    <meta property="og:site_name" content="nwave">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description" content=@yield('description')>
     <meta name="twitter:title" content="@yield('title') - nwave">

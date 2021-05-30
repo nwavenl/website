@@ -39,7 +39,9 @@
             <div class="content-parent">
                 <div class="content">
                     <h4>Corona is voor iedereen lastig...</h4>
-                    <p>Iedereen heeft er last van en er kan af en toe spraken zijn dat uw budget beïnvloed is door COVID-19. Alsnog kunnen wij u altijd helpen. neem contact op of bel ons en dan regelen wij dat u alsnog geholpen kan worden.</p>
+                    <p>Iedereen heeft er last van en er kan af en toe spraken zijn dat uw budget beïnvloed is door
+                        COVID-19. Alsnog kunnen wij u altijd helpen. neem contact op of bel ons en dan regelen wij dat u
+                        alsnog geholpen kan worden.</p>
                     <a class="btn" href="/contact">Neem contact op</a>
                     <a id="close-popup" class="close-btn">x</a>
                 </div>
@@ -66,7 +68,8 @@
                             <img src="{{asset('/images/service-images/seo.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Hoger in de google charts staan? Dat kunnen wij voor u regelen, zodat uw doelgroep en uw (bestaande) website makkelijker kan vinden.</p>
+                            <p>Hoger in de google charts staan? Dat kunnen wij voor u regelen, zodat uw doelgroep en uw
+                                (bestaande) website makkelijker kan vinden.</p>
                             <ul>
                                 <li>Hoger in Google</li>
                                 <li>Meer bereik in doelgroep</li>
@@ -84,7 +87,8 @@
                             <img src="{{asset('/images/service-images/website.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Denk hierbij aan een portfolio of informatieve website. Wij maken een website voor u en zorgen dat deze website op elk platform te bekijken is.</p>
+                            <p>Denk hierbij aan een portfolio of informatieve website. Wij maken een website voor u en
+                                zorgen dat deze website op elk platform te bekijken is.</p>
                             <ul>
                                 <li>Design naar uw smaak</li>
                                 <li>Gebruiksvriendelijk</li>
@@ -104,7 +108,8 @@
                             <img src="{{asset('/images/service-images/marketing.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te andventeren voor uw bedrijf.</p>
+                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te
+                                andventeren voor uw bedrijf.</p>
                             <ul>
                                 <li>Gemakkelijke advertenties</li>
                                 <li>Gericht op uw doelgroep(en)</li>
@@ -123,7 +128,8 @@
                             <img src="{{asset('/images/service-images/webshop.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
+                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en
+                                duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
                             <ul>
                                 <li>Op maat gemaakte wwebshop</li>
                                 <li>Design naar uw smaak</li>
@@ -136,15 +142,12 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-12">
-                    <div class="divider-under"></div>
-                </div>
-
             </div>
         </div>
     </section>
+
+    {{---- CTA ----}}
+    @include('includes.cta')
 
     <section class="offerte-under">
         <div class="container">

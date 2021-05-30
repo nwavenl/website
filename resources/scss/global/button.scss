@@ -19,4 +19,14 @@
             color: #000 !important;
         }
     }
+    &.hollow {
+        background: transparent !important;
+        border: 3px solid #ffffff;
+        transition: .3s ease-in-out;
+
+        &:hover {
+            background: #ffffff !important;
+            color: #000000 !important;
+        }
+    }
 }
