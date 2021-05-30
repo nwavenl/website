@@ -2,8 +2,11 @@ section.cta {
     background-position: center;
     background-size: cover;
     position: relative;
-    padding: 120px 0;
+    padding: 90px 0;
     color: #fff;
+    @media (max-width: 575px) {
+        padding: 60px 0;
+    }
 
     .overlay {
         position: absolute;
@@ -11,14 +14,23 @@ section.cta {
         width: 100%;
         top: 0;
         left: 0;
-        background: linear-gradient(0deg, rgba(255,130,76,1) 0%, rgba(245,175,25,1) 100%);
-        opacity: .7;
+        background: #1a202c;
+        opacity: .65;
         z-index: 0;
     }
 
     .cta-content {
         position: relative;
         z-index: 10;
+
+        h2 {
+            font-size: 50px;
+            line-height: 50px;
+            @media (max-width: 850px) {
+                font-size: 38px;
+                line-height: 38px;
+            }
+        }
 
         .btn {
             margin: 0;

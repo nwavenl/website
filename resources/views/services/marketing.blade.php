@@ -132,4 +132,7 @@
         </div>
     </section>
 
+    {{---- CTA ----}}
+    @include('includes.cta')
+
 @endsection

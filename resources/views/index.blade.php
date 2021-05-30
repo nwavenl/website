@@ -146,6 +146,9 @@
         </div>
     </section>
 
+    {{---- CTA ----}}
+    @include('includes.cta')
+
     <section class="blog-posts">
         <div class="container">
             <div class="row">
@@ -221,20 +224,5 @@
         </div>
     </section>
 
-    <section class="cta" style="background-image: url('{{asset('/images/global/cta.jpg')}}')">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-auto">
-                    <div class="cta-content">
-                        <h2 data-aos="fade-up">Geïnteresseerd? Bekijk ons werk.</h2>
-                        <p data-aos="fade-up">Bekijk hier onze gemaakte projecten om een indruk te krijgen van ons
-                            maatwerk</p>
-                        <a data-aos="fade-up" class="btn white" href="/portfolio">Portfolio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 @endsection
