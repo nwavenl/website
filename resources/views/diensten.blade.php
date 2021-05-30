@@ -1,8 +1,8 @@
 @extends('templates/template')
 
-@section('description') "Wat kunnen wij voor u betekenen? bekijk onze services." @endsection
+@section('description') "Wat kunnen wij voor u betekenen? bekijk onze diensten." @endsection
 
-@section('title') Services @endsection
+@section('title') Onze diensten @endsection
 
 @section('bodyClass') services scroll @endsection
 
@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content" data-aos="fade-up">
-                        <h1>onze services</h1>
+                        <h1>onze diensten</h1>
                         <p>Bekijk wat wij voor u kunnen betekenen op online gebied.</p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
             <div class="row text-center justify-content-center">
                 <div class="col-auto">
                     <div class="section-intro" data-aos="fade-left">
-                        <h2>Onze services.</h2>
+                        <h2>Onze diensten.</h2>
                         <p>Op welk gebied kunnen wij u opweg helpen?</p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                                 <li>Meer bereik in doelgroep</li>
                                 <li>Meer tractie naar uw website/ webshop</li>
                             </ul>
-                            <a href="/services/seo" class="btn">Lees meer</a>
+                            <a href="/dienst/seo" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                                 <li>Snelle onderhoud indien nodig</li>
                                 <li>99.9% uptime van uw website</li>
                             </ul>
-                            <a href="/services/website" class="btn">Lees meer</a>
+                            <a href="/dienst/website" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                                 <li>Voor elk budget</li>
                                 <li>Op maak gemaakte posts voor elk social media platform</li>
                             </ul>
-                            <a href="/services/marketing" class="btn">Lees meer</a>
+                            <a href="/dienst/marketing" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                                 <li>99.9% uptime van uw webshop</li>
                                 <li>Gemakkelijk te gebruiken</li>
                             </ul>
-                            <a href="/services/webshop" class="btn">Lees meer</a>
+                            <a href="/dienst/webshop" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>

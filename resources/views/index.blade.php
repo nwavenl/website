@@ -77,7 +77,7 @@
                                 <li>Meer bereik in doelgroep</li>
                                 <li>Meer tractie naar uw website/ webshop</li>
                             </ul>
-                            <a href="/services/seo" class="btn">Lees meer</a>
+                            <a href="/dienst/seo" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                                 <li>Snelle onderhoud indien nodig</li>
                                 <li>99.9% uptime van uw website</li>
                             </ul>
-                            <a href="/services/website" class="btn">Lees meer</a>
+                            <a href="/dienst/website" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                                 <li>Voor elk budget</li>
                                 <li>Op maak gemaakte posts voor elk social media platform</li>
                             </ul>
-                            <a href="/services/marketing" class="btn">Lees meer</a>
+                            <a href="/dienst/marketing" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                                 <li>99.9% uptime van uw webshop</li>
                                 <li>Gemakkelijk te gebruiken</li>
                             </ul>
-                            <a href="/services/webshop" class="btn">Lees meer</a>
+                            <a href="/dienst/webshop" class="btn">Lees meer</a>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 
 @section('description') "nwave blogs, leer elke week nieuwe dingen uit de online wereld." @endsection
 
-@section('title') Blog @endsection
+@section('title') Onze laatse blog artikelen @endsection
 
 @section('bodyClass') blog @endsection
 
@@ -26,10 +26,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                     <div class="content" data-aos="fade-up">
-                        <h1>Blog</h1>
-                        <p>Bij ons wat te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede omdat
-                            mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een makkelijkere
-                            optie is.</p>
+                        <h1>Laatste blogs</h1>
+                        <p>Nieuwe dingen te weten komen op online gebied? lees onze wekelijkse blogs!</p>
                     </div>
                 </div>
             </div>

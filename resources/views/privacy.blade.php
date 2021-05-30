@@ -2,7 +2,7 @@
 
 @section('description') "Privacybeleid van nwave, lees alle kleine lettertjes hier." @endsection
 
-@section('title') Privacybeleid @endsection
+@section('title') Ons privacy beleid @endsection
 
 @section('bodyClass') privacy @endsection
 

@@ -2,7 +2,7 @@
 
 @section('description') "Bekijk hier ons laatste werk om te zien wat wij voor u kunnen betekenen." @endsection
 
-@section('title') Ons portfolio @endsection
+@section('title')Ons laatste werk @endsection
 
 @section('bodyClass') portfolio @endsection
 
@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-12">
                         <div class="content" data-aos="fade-up">
-                            <h1>Portfolio</h1>
+                            <h1>Ons portfolio</h1>
                             <p>Bekijk hier onze laatste projecten om inzicht te krijgen in onze kwaliteiten.</p>
                         </div>
                 </div>
