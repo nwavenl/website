@@ -2,7 +2,7 @@
 
 @section('description') "Wij zijn de personen achter nwave, en wat doen zij. Lees het hier." @endsection
 
-@section('title') Over ons @endsection
+@section('title') Kom meer te weten over het team @endsection
 
 @section('bodyClass') about @endsection
 

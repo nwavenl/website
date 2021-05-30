@@ -20,8 +20,8 @@ Route::get('/', function () {
 })->name('home');
 
 // Route for getting the service views
-Route::get('/services', function () {
-    return view('services');
+Route::get('/diensten', function () {
+    return view('diensten');
 });
 
 // Route for geeting the blog views
@@ -71,16 +71,16 @@ Route::get('/over-ons', function () {
 });
 
 /* Services */
-Route::get('/services/website', function () {
+Route::get('/dienst/website', function () {
     return view('services/website');
 })->name('website');
-Route::get('/services/webshop', function () {
+Route::get('/dienst/webshop', function () {
     return view('services/webshop');
 })->name('webshop');
-Route::get('/services/seo', function () {
+Route::get('/dienst/seo', function () {
     return view('services/seo');
 })->name('seo');
-Route::get('/services/marketing', function () {
+Route::get('/dienst/marketing', function () {
     return view('services/marketing');
 })->name('marketing');
 

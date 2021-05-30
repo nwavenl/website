@@ -2,7 +2,7 @@
 
 @section('description') "Bekijk onze algemene voorwaarden hier." @endsection
 
-@section('title') Algemene voorwaarden @endsection
+@section('title') Download de algemene voorwaarden @endsection
 
 @section('bodyClass') voorwaarden @endsection
 

@@ -2,7 +2,7 @@
 
 @section('description') "Neem contact met ons op, en wij helpen u zo snel mogelijk verder" @endsection
 
-@section('title') Contact opnemen @endsection
+@section('title') Neem contact met ons op @endsection
 
 @section('bodyClass') contact @endsection
 

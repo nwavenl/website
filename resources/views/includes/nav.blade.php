@@ -9,7 +9,7 @@
                     <ul>
                         <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="/portfolio">Portfolio</a></li>
-                        <li><a href="/services">Services</a></li>
+                        <li><a href="/diensten">Diensten</a></li>
                         <li><a href="/blog">Blog</a></li>
                         <li><a class="btn-nav" href="/contact">Contact</a></li>
                     </ul>
@@ -30,7 +30,7 @@
                 <ul>
                     <li><a href="/over-ons">Over ons</a></li>
                     <li><a href="/portfolio">Portfolio</a></li>
-                    <li><a href="/services">Services</a></li>
+                    <li><a href="/diensten">Diensten</a></li>
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>

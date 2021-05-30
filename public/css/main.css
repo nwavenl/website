@@ -1186,11 +1186,6 @@ body.services section.services .divider-under {
 body.services section.offerte-under {
   padding: 40px 0;
 }
-@media (max-width: 1160px) {
-  body.services section.offerte-under {
-    padding: 0 0 40px;
-  }
-}
 body.services section.offerte-under p {
   color: #7E7E7E;
   font-weight: 300;
