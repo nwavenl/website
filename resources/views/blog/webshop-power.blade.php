@@ -78,7 +78,7 @@
 
                     <h3>Webshop nodig?</h3>
                     <p>Heeft u een webshop nodig? We helpen u graag verder een geweldige webshop op te zetten zodat ook u uw producten online kan verkopen.
-                        <a href="/services/webshop">Vraag hier een offerte aan.</a></p>
+                        <a href="/dienst/webshop">Vraag hier een offerte aan.</a></p>
                 </div>
             </div>
         </div>
