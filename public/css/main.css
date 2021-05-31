@@ -1766,6 +1766,14 @@ body.blog-post section.blog_post img {
   margin: 0 0 20px;
   border-radius: 5px !important;
 }
+body.blog-post section.blog_post ul {
+  list-style: inherit;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+body.blog-post section.blog_post ul li {
+  color: #474747 !important;
+}
 body.blog-post section.blog_post a {
   text-decoration: underline;
   transition: 0.4s ease-in-out;
