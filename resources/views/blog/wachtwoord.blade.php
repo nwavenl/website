@@ -29,7 +29,7 @@
                 <div class="col-lg-4 col-12">
                     <div class="content" data-aos="fade-up">
                         <h1>Zijn jouw wachtwoorden veilig? en wat houdt veilig in?</h1>
-                        <p>Tips over het maken van een goed en sterk wachtwoord, veilig zijn op het internet is
+                        <p>Een aantal tips over het maken van een goed en sterk wachtwoord, veilig zijn op het internet is
                             belangrijk.</p>
                     </div>
                 </div>
