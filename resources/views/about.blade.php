@@ -108,7 +108,7 @@
                                         video's, het bewerken van foto's in Photoshop en het maken van webapplicaties. Ik maak het
                                         perfecte design voor uw droom website en zorg er voor dat alles op de pixel na
                                         klopt.</p>
-                                    <p>Ook zorg ik ervoor dat uw website hoog in de ranking van bijvoorbeeld Google komt te staan zodat u geen potentiële klanten verliest.</p>
+                                    <p>Ook zorg ik ervoor dat uw website hoog komt te staan in search engines zoals Google, zodat u geen potentiële klanten verliest en goed bereikbaar blijft.</p>
                                     <div class="social-media">
                                         <ul>
                                             <li><a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
