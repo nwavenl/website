@@ -157,6 +157,26 @@
                     <h2>Laatste blog posts</h2>
                 </div>
 
+                {{--Hoe veilig zijn mijn wachtwoorden?--}}
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/hoe-veilig-zijn-mijn-wachtwoorden">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/wachtwoord/hero-image.jpg')}}" alt="Hero image">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Hoe veilig zijn mij wachtwoorden?</h3>
+                                <div class="divider"></div>
+                                <p>86% van alle wachtwoorden die over de wereld gebruikt worden, voldoen niet aan de
+                                    huidige veiligheidsnormen. Vandaag zal ik wat vertellen over deze veiligheidsnormen en
+                                    waarom het gebruik van een 'password manager' jouw internet ervaring en stuk
+                                    aangenamer zal maken.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
                 {{--Zijn blogs effectief voor mijn SEO?--}}
                 <div class="col-lg-4 col-md-6 col-12">
                     <a href="/blog/waarom-zijn-webshops-zo-krachting">
@@ -197,24 +217,6 @@
                                     een appeltaart heb je een grote kans om naar een kook website te gaan waar hun in
                                     een blogpost een recept hebben voor een heerlijke appeltaart.
                                 </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                {{--onze nieuwe services--}}
-                <div class="col-lg-4 col-md-6 col-12">
-                    <a href="/blog/onze-nieuwe-services">
-                        <div class="blog_item">
-                            <div class="blog_item--header">
-                                <img src="{{asset('/images/blog/services/hero-image.jpg')}}" alt="Hero image">
-                            </div>
-                            <div class="blog_item--body">
-                                <h3>Onze services zijn veranderd!</h3>
-                                <div class="divider"></div>
-                                <p>Bij ons was te zien dat het deel “Onderhoud” niet aangevraagd werd, dit komt mede
-                                    omdat mensen het liefst gelijk en geheel nieuwe website willen, wat vaak ook een
-                                    makkelijkere optie is.</p>
                             </div>
                         </div>
                     </a>

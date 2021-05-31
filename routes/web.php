@@ -29,7 +29,9 @@ Route::get('/blog', function () {
     return view('blog');
 });
 //blog posts
-
+Route::get('/blog/hoe-veilig-zijn-mijn-wachtwoorden', function () {
+    return view('blog/wachtwoord');
+});
 Route::get('/blog/waarom-zijn-webshops-zo-krachting', function () {
     return view('blog/webshop-power');
 });

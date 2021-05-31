@@ -85,6 +85,14 @@ body.blog-post {
             margin: 0 0 20px;
             border-radius: 5px !important;
         }
+        ul {
+            list-style: inherit;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            li {
+                color: #474747 !important;
+            }
+        }
         a {
             text-decoration: underline;
             transition: .4s ease-in-out;

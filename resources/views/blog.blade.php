@@ -38,6 +38,26 @@
         <div class="container">
             <div class="row">
 
+                {{--Hoe veilig zijn mijn wachtwoorden?--}}
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="/blog/hoe-veilig-zijn-mijn-wachtwoorden">
+                        <div class="blog_item">
+                            <div class="blog_item--header">
+                                <img src="{{asset('/images/blog/wachtwoord/hero-image.jpg')}}" alt="Hero image">
+                            </div>
+                            <div class="blog_item--body">
+                                <h3>Hoe veilig zijn mij wachtwoorden?</h3>
+                                <div class="divider"></div>
+                                <p>86% van alle wachtwoorden die over de wereld gebruikt worden, voldoen niet aan de
+                                    huidige veiligheidsnormen. Vandaag zal ik wat vertellen over deze veiligheidsnormen en
+                                    waarom het gebruik van een 'password manager' jouw internet ervaring en stuk
+                                    aangenamer zal maken.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
                 {{--Zijn blogs effectief voor mijn SEO?--}}
                 <div class="col-lg-4 col-md-6 col-12">
                     <a href="/blog/waarom-zijn-webshops-zo-krachting">
