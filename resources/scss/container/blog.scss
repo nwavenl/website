@@ -71,6 +71,17 @@ body.blog-post {
     section.blog_post {
         padding: 50px 0;
 
+        @media (min-width: 1840px) {
+            .container {
+                max-width: 1240px !important;
+            }
+        }
+        @media (min-width: 2040px) {
+            .container {
+                max-width: 1240px  !important;
+            }
+        }
+
         h3 {
             margin-top: 60px;
             font-weight: 800 !important;
