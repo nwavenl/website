@@ -57,7 +57,7 @@
     <meta property="og:description" content=@yield('description')>
     <meta property="og:url" content="@php echo(Request::url()) @endphp">
     <meta property="og:site_name" content="nwave">
-    <meta property="og:image" content="{{asset('/images/global/logo.png')}}">
+    <meta property="og:image" content=@yield('twitter-hero')>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description" content=@yield('description')>
     <meta name="twitter:title" content="@yield('title') - nwave">
