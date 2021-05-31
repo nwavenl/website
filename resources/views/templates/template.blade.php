@@ -81,7 +81,7 @@
 <main>
     @yield('content')
 
-    <section class="cookies-popup">
+    <section class="cookies-popup hide">
         <div class="container">
             <div class="row">
                 <div class="col-12">

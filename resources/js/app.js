@@ -62,11 +62,8 @@ var cookieCurrentStatus = getCookie("cookieAccept");
 
 // hide popup cookie accept if already chosen
 (function () {
-    if (cookieCurrentStatus === "true") {
-        $('.cookies-popup').addClass('hide')
-    }
-    if (cookieCurrentStatus === "false") {
-        $('.cookies-popup').addClass('hide')
+    if ((cookieCurrentStatus !== "true") && (cookieCurrentStatus !== "false")) {
+        $('.cookies-popup').removeClass('hide')
     }
 })();
 
