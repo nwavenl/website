@@ -46,7 +46,7 @@
                                 <img src="{{asset('/images/blog/wachtwoord/hero-image.jpg')}}" alt="Hero image">
                             </div>
                             <div class="blog_item--body">
-                                <h3>Hoe veilig zijn mij wachtwoorden?</h3>
+                                <h3>Hoe veilig zijn mijn wachtwoorden?</h3>
                                 <div class="divider"></div>
                                 <p>86% van alle wachtwoorden die over de wereld gebruikt worden, voldoen niet aan de
                                     huidige veiligheidsnormen. Vandaag zal ik wat vertellen over deze veiligheidsnormen en
