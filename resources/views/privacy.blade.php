@@ -4,6 +4,8 @@
 
 @section('title') Ons privacy beleid @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') privacy @endsection
 
 @section('content')

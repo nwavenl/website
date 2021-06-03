@@ -4,6 +4,8 @@
 
 @section('title')Ons laatste werk @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') portfolio @endsection
 
 @section('content')
@@ -66,5 +68,7 @@
             </div>
         </div>
     </section>
+
+    @include('includes.s-cta')
 
 @endsection

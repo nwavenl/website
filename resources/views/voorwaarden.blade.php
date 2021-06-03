@@ -4,6 +4,8 @@
 
 @section('title') Download de algemene voorwaarden @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') voorwaarden @endsection
 
 @section('content')
