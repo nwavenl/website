@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Download Algemene voorwaarden</h2>
+                    <h2>Download onze algemene voorwaarden</h2>
                     <a download href="{{asset('Algemene-voorwaarden.pdf')}}"><img src="{{asset('/images/voorwaarden/file.png')}}" alt="Download icon">Download PDF</a>
                 </div>
             </div>
