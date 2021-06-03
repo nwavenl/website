@@ -4,6 +4,8 @@
 
 @section('title') Onze diensten @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') services scroll @endsection
 
 @section('content')

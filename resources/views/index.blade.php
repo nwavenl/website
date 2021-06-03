@@ -4,6 +4,8 @@
 
 @section('title') Websites op maat voor elk platform @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') home @endsection
 
 @section('content')
@@ -225,6 +227,8 @@
             </div>
         </div>
     </section>
+
+    @include('includes.s-cta')
 
 
 @endsection

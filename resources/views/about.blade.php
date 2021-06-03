@@ -4,6 +4,8 @@
 
 @section('title') Kom meer te weten over het team @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') about @endsection
 
 @section('content')

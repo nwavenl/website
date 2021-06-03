@@ -4,6 +4,8 @@
 
 @section('title') Onze laatse blog artikelen @endsection
 
+@section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
+
 @section('bodyClass') blog @endsection
 
 @section('content')

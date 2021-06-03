@@ -1,0 +1,47 @@
+section.secundairy-cta {
+    // padding: 30px 0;
+    position: relative;
+    top: 55px;
+    z-index: 99;
+
+    @media (max-width: 850px) {
+        display: none;
+    }
+
+    .cta {
+        padding: 55px;
+        background: linear-gradient(
+            90deg,
+            rgba(255, 130, 76, 1) 0%,
+            rgba(255, 99, 99, 1) 100%
+        );
+        border-radius: 10px;
+        width: 100%;
+        h3 {
+            color: #fff;
+            font-weight: 800;
+            transition: 0.3s;
+
+            a {
+                color: #fff;
+                transition: 0.3s;
+            }
+
+            &:nth-last-of-type(1) {
+                border-bottom: 5px solid #fff;
+                display: inline;
+
+                &:hover {
+                    border-bottom: 5px solid rgb(255, 217, 200);
+                    a {
+                        // color: #ffdc91;
+                        color: rgb(255, 217, 200);
+                    }
+                }
+            }
+        }
+        img {
+            filter: brightness(100);
+        }
+    }
+}
