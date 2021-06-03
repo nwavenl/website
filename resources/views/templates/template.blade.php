@@ -100,7 +100,7 @@
                                     <a class="cookie-btn top" id="cookieAccept">Accepteer<img
                                             src="{{asset('/images/global/done.png')}}" alt="Äccept icon"></a>
                                     <a class="cookie-btn bottom" id="cookieDecline">Afwijzen<img class="small"
-                                                                                                 src="{{asset('/images/global/close.png')}}" alt="Decline icon"></a>
+                                    src="{{asset('/images/global/close.png')}}" alt="Decline icon"></a>
                                 </div>
                             </div>
                         </div>
