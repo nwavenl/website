@@ -113,7 +113,7 @@
                                     <p>Ook zorg ik ervoor dat uw website hoog komt te staan in search engines zoals Google, zodat u geen potentiële klanten verliest en goed bereikbaar blijft.</p>
                                     <div class="social-media">
                                         <ul>
-                                            <li><a href="https://www.linkedin.com/in/jelle-stekelenburg-1887ba178/"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
+                                            <li><a href="https://www.linkedin.com/in/jelle-stekelenburg"><img src="{{asset('images/icons/linkedin.png')}}" alt="Linkedin Logo"></a></li>
                                         </ul>
                                     </div>
                                 </div>
