@@ -152,7 +152,3 @@ var cookieStatusOfferte = getCookie("popupClosed");
         $(".member-yeno").removeClass('hidden')
     });
 })();
-
-$(window).on("load", function () {
-    $(".loader-wrapper").fadeOut("slow");
-});
