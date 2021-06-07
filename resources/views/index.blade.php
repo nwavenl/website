@@ -15,8 +15,9 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-12">
                     <div class="hero-content">
-                        <h1 data-aos="fade-right"><span class="main">n</span>wave, websites op maat voor elk platform
+                        <h1 data-aos="fade-right">nwave
                         </h1>
+                        <h4 data-aos="fade-right">Websites op maat voor elk platform.</h4>
                         <p data-aos="fade-right">nwave kan al uw online vraagstukken oplossen en verwerken in digitale
                             form. Denk hierbij aan websites, webshops, SEO en onderhoud aan uw huidige site. Dit doen
                             we voor beide bedrijf en particulier.</p>
