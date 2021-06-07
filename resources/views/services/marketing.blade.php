@@ -2,7 +2,7 @@
 
 @section('description') "Marketing nodig voor uw bedrijf of product? wij helpen u om meer bezoekers en/ of kopers uw kant op te sturen." @endsection
 
-@section('title') Marketing - Onze diensten @endsection
+@section('title')Marketing - Onze diensten @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 

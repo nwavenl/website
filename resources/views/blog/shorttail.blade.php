@@ -2,7 +2,7 @@
 
 @section('description') "nwave blogs, Wat is het verschil tussen Shorttail en Longtail zoekopdrachten?" @endsection
 
-@section('title') Shorttail vs Longtail - Blog @endsection
+@section('title')Shorttail vs Longtail - Blog @endsection
 
 @section('twitter-hero') "{{asset('/images/blog/tail/hero-image.jpg')}}" @endsection
 

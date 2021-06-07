@@ -1,3 +1,16 @@
+const $ = require('jquery');
+require('slick-carousel');
+
+$('.slickslider-hero').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    centerMode: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+});
+
+
 // hamburger menu - aub niet zomaar aan komen
 (function () {
     $('.menu-wrapper').on('click', function () {
@@ -140,3 +153,6 @@ var cookieStatusOfferte = getCookie("popupClosed");
     });
 })();
 
+$(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+});

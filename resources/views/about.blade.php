@@ -2,7 +2,7 @@
 
 @section('description') "Wij zijn de personen achter nwave, en wat doen zij. Lees het hier." @endsection
 
-@section('title') Kom meer te weten over het team @endsection
+@section('title')Kom meer te weten over het team @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 

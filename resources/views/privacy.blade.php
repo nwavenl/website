@@ -2,7 +2,7 @@
 
 @section('description') "Privacybeleid van nwave, lees alle kleine lettertjes hier." @endsection
 
-@section('title') Ons privacy beleid @endsection
+@section('title')Ons privacy beleid @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 

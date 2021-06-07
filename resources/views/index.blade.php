@@ -1,8 +1,8 @@
 @extends('templates/template')
 
-@section('description') "nwave kan al uw online vraagstukken oplossen en verwerken in digitale form. Denk hierbij aan websites, webshops, SEO en onderhoud aan uw huidige site. Dit doen wij voor beide bedrijf en particulier" @endsection
+@section('description') "nwave kan al uw online vraagstukken oplossen en verwerken in digitale form. Denk hierbij aan websites, webshops, SEO, onderhoud aan uw huidige site en adverteren via social media en Google. Dit doen wij voor beide bedrijf en particulier" @endsection
 
-@section('title') Websites op maat voor elk platform @endsection
+@section('title')Websites op maat voor elk platform @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 
@@ -25,8 +25,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
-                    <img data-aos="fade-left" src="{{asset('/images/homepage/hero-image.png')}}"
-                         alt="Nieuwe website nodig? Wij regelen het voor u">
+
+                    @include('includes.hero-slick')
 
                 </div>
             </div>
@@ -112,7 +112,7 @@
                             <img src="{{asset('/images/service-images/marketing.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te andventeren voor uw bedrijf.</p>
+                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te adverteren voor uw bedrijf.</p>
                             <ul>
                                 <li>Gemakkelijke advertenties</li>
                                 <li>Gericht op uw doelgroep(en)</li>

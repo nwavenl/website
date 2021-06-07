@@ -2,7 +2,7 @@
 
 @section('description') "Webshops zijn de toekomst, maar ook vaak een grote stap, wij helpen u graag verder uw producten/ diensten op de online markt te zetten!" @endsection
 
-@section('title') Webshop - Onze diensten @endsection
+@section('title')Webshop - Onze diensten @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 

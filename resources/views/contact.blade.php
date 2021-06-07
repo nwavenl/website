@@ -2,7 +2,7 @@
 
 @section('description') "Neem contact met ons op, en wij helpen u zo snel mogelijk verder" @endsection
 
-@section('title') Neem contact met ons op @endsection
+@section('title')Neem contact met ons op @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 

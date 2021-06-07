@@ -2,7 +2,7 @@
 
 @section('description') "nwave blogs, Waarom zijn webshops zo krachtig?" @endsection
 
-@section('title') Waarom zijn webshops zo krachtig - Blog @endsection
+@section('title')Waarom zijn webshops zo krachtig - Blog @endsection
 
 @section('twitter-hero') "{{asset('/images/blog/webshoppower/hero-image.jpg')}}" @endsection
 

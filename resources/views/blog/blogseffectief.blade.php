@@ -2,7 +2,7 @@
 
 @section('description') "nwave blogs, Zijn blogs effectief voor jouw seo?" @endsection
 
-@section('title') Zijn blogs effectief voor mijn SEO - Blog @endsection
+@section('title')Zijn blogs effectief voor mijn SEO - Blog @endsection
 
 @section('twitter-hero') "{{asset('/images/blog/blogseffectief/hero-image.jpg')}}" @endsection
 

@@ -2,7 +2,7 @@
 
 @section('description') "nwave blogs, Hoe veilig zijn mijn wachtwoorden precies, lees tips over het maken van een stek en veilig wachtwoord." @endsection
 
-@section('title') Hoe veilig zijn mijn wachtwoorden - Blog @endsection
+@section('title')Hoe veilig zijn mijn wachtwoorden - Blog @endsection
 
 @section('twitter-hero') "{{asset('/images/blog/wachtwoord/hero-image.jpg')}}" @endsection
 

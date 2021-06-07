@@ -2,7 +2,7 @@
 
 @section('description') "Wat kunnen wij voor u betekenen? bekijk onze diensten." @endsection
 
-@section('title') Onze diensten @endsection
+@section('title')Onze diensten @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 
@@ -111,7 +111,7 @@
                         </div>
                         <div class="card_content">
                             <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te
-                                andventeren voor uw bedrijf.</p>
+                                adverteren voor uw bedrijf.</p>
                             <ul>
                                 <li>Gemakkelijke advertenties</li>
                                 <li>Gericht op uw doelgroep(en)</li>

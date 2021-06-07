@@ -22,6 +22,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('/css/loader.css')}}">
     <link rel="stylesheet" href="{{asset('/css/main.css')}}">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
     <link rel="icon"
           type="image/png"
           href="{{asset('/images/global/favicon.png')}}">
@@ -114,13 +119,6 @@
 
 @include('includes.footer')
 <script src="https://apps.elfsight.com/p/platform.js" defer></script> {{--  Whatsapp chat box script --}}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script>
-    $(window).on("load", function () {
-        $(".loader-wrapper").fadeOut("slow");
-    });
-</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>
 <script>
@@ -128,6 +126,7 @@
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189490181-1">
 </script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
