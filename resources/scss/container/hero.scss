@@ -6,6 +6,25 @@ section.hero {
         .hero-content {
             max-width: 580px;
 
+            h1 {
+                //border-bottom: 5px solid $main;
+                text-decoration: underline;
+                text-decoration-color: $main;
+                display: inline-block;
+                font-size: 100px;
+                margin: 0 !important;
+                @media (max-width: 918px) {
+                    font-size: 75px;
+                }
+                @media (max-width: 345px) {
+                    font-size: 50px;
+                }
+            }
+            h4 {
+                color: #3b3b3b;
+                font-weight: 700;
+            }
+
             p {
                 color: $sub;
             }
