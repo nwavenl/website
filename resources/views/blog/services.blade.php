@@ -2,7 +2,7 @@
 
 @section('description') "nwave blogs, Lees meer over onze nieuwe services in deze nieuwe blog post." @endsection
 
-@section('title') Onze nieuwe services - Blog @endsection
+@section('title')Onze nieuwe services - Blog @endsection
 
 @section('twitter-hero') "{{asset('/images/blog/services/hero-image.jpg')}}" @endsection
 

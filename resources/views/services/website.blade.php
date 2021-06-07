@@ -2,7 +2,7 @@
 
 @section('description') "Een website nodig? wij helpen u graag aan de website van uw dromen binnen elk budget." @endsection
 
-@section('title') Website - Onze diensten @endsection
+@section('title')Website - Onze diensten @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 

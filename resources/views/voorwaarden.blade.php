@@ -2,7 +2,7 @@
 
 @section('description') "Bekijk onze algemene voorwaarden hier." @endsection
 
-@section('title') Download de algemene voorwaarden @endsection
+@section('title')Download de algemene voorwaarden @endsection
 
 @section('twitter-hero') "{{asset('/images/global/OG.jpg')}}" @endsection
 
