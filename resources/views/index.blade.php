@@ -19,14 +19,18 @@
                         </h1>
                         <h4 data-aos="fade-right">Websites op maat voor elk platform.</h4>
                         <p data-aos="fade-right">nwave kan al uw online vraagstukken oplossen en verwerken in digitale
-                            form. Denk hierbij aan websites, webshops, SEO en onderhoud aan uw huidige site. Dit doen
-                            we voor beide bedrijf en particulier.</p>
+                            form. Denk hierbij aan websites, webshops, SEO, onderhoud aan uw huidige site en adverteren
+                            via social media en Google. Dit doen wij voor beide bedrijf en particulier</p>
                         <a data-aos="fade-up" class="btn" href="/contact">Neem contact op</a>
                     </div>
                 </div>
                 <div class="col-lg-6 image-holder-fix col-lg-rm">
 
                     @include('includes.hero-slick')
+                    <div class="under-text">
+                        <img src="{{asset('/images/icons/arrow.png')}}" alt="Arrow">
+                        <p class="under">Waarmee kunnen wij u helpen?</p>
+                    </div>
 
                 </div>
             </div>
@@ -74,7 +78,8 @@
                             <img src="{{asset('/images/service-images/seo.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Hoger in de google charts staan? Dat kunnen wij voor u regelen, zodat uw doelgroep en uw (bestaande) website makkelijker kan vinden.</p>
+                            <p>Hoger in de google charts staan? Dat kunnen wij voor u regelen, zodat uw doelgroep en uw
+                                (bestaande) website makkelijker kan vinden.</p>
                             <ul>
                                 <li>Hoger in Google</li>
                                 <li>Meer bereik in doelgroep</li>
@@ -92,7 +97,8 @@
                             <img src="{{asset('/images/service-images/website.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Denk hierbij aan een portfolio of informatieve website. Wij maken een website voor u en zorgen dat deze website op elk platform te bekijken is.</p>
+                            <p>Denk hierbij aan een portfolio of informatieve website. Wij maken een website voor u en
+                                zorgen dat deze website op elk platform te bekijken is.</p>
                             <ul>
                                 <li>Design naar uw smaak</li>
                                 <li>Gebruiksvriendelijk</li>
@@ -112,7 +118,8 @@
                             <img src="{{asset('/images/service-images/marketing.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te adverteren voor uw bedrijf.</p>
+                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te
+                                adverteren voor uw bedrijf.</p>
                             <ul>
                                 <li>Gemakkelijke advertenties</li>
                                 <li>Gericht op uw doelgroep(en)</li>
@@ -131,7 +138,8 @@
                             <img src="{{asset('/images/service-images/webshop.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
+                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en
+                                duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
                             <ul>
                                 <li>Op maat gemaakte wwebshop</li>
                                 <li>Design naar uw smaak</li>
@@ -171,7 +179,8 @@
                                 <h3>Hoe veilig zijn mijn wachtwoorden?</h3>
                                 <div class="divider"></div>
                                 <p>86% van alle wachtwoorden die over de wereld gebruikt worden, voldoen niet aan de
-                                    huidige veiligheidsnormen. Vandaag zal ik wat vertellen over deze veiligheidsnormen en
+                                    huidige veiligheidsnormen. Vandaag zal ik wat vertellen over deze veiligheidsnormen
+                                    en
                                     waarom het gebruik van een 'password manager' jouw internet ervaring en stuk
                                     aangenamer zal maken.
                                 </p>
