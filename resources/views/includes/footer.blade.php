@@ -30,8 +30,8 @@
                         <p>BTWid: NL003601184B27</p>
                     </div>
                     <div class="col-12 footer-socials-box">
-                        <a href=""><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
-                        <a href=""><img src="{{asset('/images/icons/mail.png')}}" alt=""></a>
+                        <a href="https://www.linkedin.com/company/nwave/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                        <a href="mailto:contact@nwave.nl"><img src="{{asset('/images/icons/mail.png')}}" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -52,8 +52,8 @@
                                 </ul>
                             </div>
                             <div class="socialmedia">
-                                <a href=""><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
-                                <a href=""><img src="{{asset('/images/icons/mail.png')}}" alt=""></a>
+                                <a href="https://www.linkedin.com/company/nwave/"><img src="{{asset('/images/icons/linkedin.png')}}" alt=""></a>
+                                <a href="mailto:contact@nwave.nl"><img src="{{asset('/images/icons/mail.png')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
