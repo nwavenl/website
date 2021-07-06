@@ -238,7 +238,5 @@
         </div>
     </section>
 
-    @include('includes.s-cta')
-
 
 @endsection
