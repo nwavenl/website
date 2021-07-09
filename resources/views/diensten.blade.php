@@ -133,7 +133,7 @@
                             <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en
                                 duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
                             <ul>
-                                <li>Op maat gemaakte wwebshop</li>
+                                <li>Op maat gemaakte webshop</li>
                                 <li>Design naar uw smaak</li>
                                 <li>Modern en toekomstgericht</li>
                                 <li>Snelle onderhoud indien nodig</li>
