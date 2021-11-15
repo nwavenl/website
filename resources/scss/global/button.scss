@@ -19,6 +19,15 @@
             color: #000 !important;
         }
     }
+    &.blue {
+        background: rgb(40,103,178);
+        color: #fff;
+
+        &:hover {
+            color: rgb(40,103,178);
+            background: #fff;
+        }
+    }
     &.hollow {
         background: transparent !important;
         border: 3px solid #ffffff;
@@ -27,6 +36,18 @@
         &:hover {
             background: #ffffff !important;
             color: #000000 !important;
+        }
+    }
+    &.empty {
+        background: transparent !important;
+        color: #333;
+        text-decoration: underline;
+        border-radius: 0 !important;
+        padding: 8px 20px;
+
+        &:hover {
+            box-shadow: none !important;
+
         }
     }
 }

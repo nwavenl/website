@@ -97,7 +97,8 @@
                                     <a class="cookie-btn top" id="cookieAccept">Accepteer<img
                                             src="{{asset('/images/global/done.png')}}" alt="Äccept icon"></a>
                                     <a class="cookie-btn bottom" id="cookieDecline">Afwijzen<img class="small"
-                                    src="{{asset('/images/global/close.png')}}" alt="Decline icon"></a>
+                                                                                                 src="{{asset('/images/global/close.png')}}"
+                                                                                                 alt="Decline icon"></a>
                                 </div>
                             </div>
                         </div>
@@ -106,11 +107,24 @@
             </div>
         </div>
     </section>
-    <div class="elfsight-app-c18f512d-2452-49df-af1c-9a5267620a33"></div> {{--  Whatsapp chat box --}}
+    <div class="linkedin-pop_up" id="linkedin_POP">
+        <div class="__title">
+            <h2>Hey!</h2>
+            <div class="divider"></div>
+            <div class="close" id="linkedin_close">&times</div>
+        </div>
+        <div class="__body">
+            <h4>wij zijn te vinden op Linkedin</h4>
+            <p>Volg ons werk, bekijk updates en meer!</p>
+            <div class="flex">
+                <a href="https://nl.linkedin.com/company/nwave" target="_blank" class="btn blue">Naar profiel</a>
+                <a id="linkedin_close_two"  class="btn empty">sluiten</a>
+            </div>
+        </div>
+    </div>
 </main>
 
 @include('includes.footer')
-<script src="https://apps.elfsight.com/p/platform.js" defer></script> {{--  Whatsapp chat box script --}}
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="{{asset('/js/app.js')}}"></script>
 <script>

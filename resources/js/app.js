@@ -102,11 +102,40 @@ var cookieStatusOfferte = getCookie("popupClosed");
 })();
 
 //cookie if page is cached
-(function() {
+(function () {
     var isCached = performance.getEntriesByType("navigation")[0].transferSize === 0;
     if (isCached == true) {
         $('.loader-wrapper').addClass("hide")
     }
+})();
+
+//Linkedin popup
+
+if (window.location.pathname == "/") {
+
+    setTimeout(
+        function () {
+            $('#linkedin_POP').addClass('active');
+            setTimeout(function () {
+                $('#linkedin_POP').addClass('fixedPOS');
+            }, 1000)
+        }, 4000
+    )
+}
+
+(function() {
+    $('#linkedin_close').on('click', function() {
+        $('#linkedin_POP').addClass('close');
+        setTimeout(function (){
+            $('#linkedin_POP').addClass('hidden');
+        }, 900)
+    });
+    $('#linkedin_close_two').on('click', function() {
+        $('#linkedin_POP').addClass('close');
+        setTimeout(function (){
+            $('#linkedin_POP').addClass('hidden');
+        }, 900)
+    });
 })();
 
 //About
@@ -152,3 +181,4 @@ var cookieStatusOfferte = getCookie("popupClosed");
         $(".member-yeno").removeClass('hidden')
     });
 })();
+

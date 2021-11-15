@@ -1,0 +1,82 @@
+.linkedin-pop_up {
+    background: #fff;
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    color: #fff;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    transform: translateY(100%);
+
+    @media (max-width: 45em) {
+        right: 15px;
+        width: calc(100% - 30px);
+    }
+
+    //active (animation)
+
+    &.active {
+        animation: pop_up 1s;
+    }
+    &.fixedPOS {
+        transform: translateY(0) !important;
+    }
+    &.close {
+        animation: pop_up_close 1s;
+    }
+    &.hidden {
+        display: none;
+    }
+
+    //end
+
+    .__title {
+        background: rgb(40,103,178);
+        padding: 15px 30px;
+        position: relative;
+
+        h2 {
+          margin: 0;
+        }
+        .close {
+            position: absolute;
+            right: 30px;
+            top: 50%;
+            transform: translateY(-50%) scale(2);
+        }
+    }
+
+    .__body {
+        padding: 15px 30px;
+        color: #333;
+
+        .flex {
+            display: flex;
+
+            a:last-child {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    #linkedin_close, #linkedin_close_two {
+        cursor: pointer;
+    }
+}
+@keyframes pop_up {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes pop_up_close {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
