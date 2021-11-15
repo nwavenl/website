@@ -47,7 +47,7 @@ class ContactController extends Controller
             'test' => "Testing"
         ];
 
-        Mail::to('contact@nwave.nl')->send(new ContactMail($data));
+        Mail::to('forward@nwave.nl')->send(new ContactMail($data));
 
         // Redirect after sending the email.
         return redirect(route('contact'));

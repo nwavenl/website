@@ -69,7 +69,7 @@ class OfferteController extends Controller
                 break;
         }
 
-        Mail::to('contact@nwave.nl')->send(new OfferteMail($data));
+        Mail::to('forward@nwave.nl')->send(new OfferteMail($data));
 
         // Redirect after sending the email.
         if ($data['type'] === 'webshop') {
