@@ -41,6 +41,6 @@ class OfferteMail extends Mailable
             $this
                 ->view('mail.offerte', ['data' => $this->data])
                 ->subject($title)
-                ->from('forward@nwave.nl', 'Offerte formulier');
+                ->from('contact@nwave.nl', 'Offerte formulier');
     }
 }
