@@ -48,10 +48,9 @@
                 <div class="col-lg-6 col-12">
                     <div class="content">
                         <h2>Over nwave, en wat wij doen.</h2>
-                        <p>nwave is een bedrijf opgericht door vier eindejaars- studenten van het Mediacollege in
-                            Amsterdam.
-                            Iedereen binnen het team heeft een passie voor het programmeren van websites.
-                            Voor ons is het werken met klanten, projecten en documentatie niks nieuws.</p>
+                        <p>nwave is een verfrissend en jong bedrijf dat zich focust op online creaties. Wij
+                            specialiseren in het creëren van websites en webshops, marketing en het halen van betere
+                            prestaties binnen zoekmachines waaronder Google.</p>
                         <a class="btn white" href="/over-ons">Lees meer</a>
                     </div>
                 </div>
@@ -78,8 +77,8 @@
                             <img src="{{asset('/images/service-images/seo.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Hoger in de google charts staan? Dat kunnen wij voor u regelen, zodat uw doelgroep en uw
-                                (bestaande) website makkelijker kan vinden.</p>
+                            <p>Meer halen uit zoekmachines waaronder Google? Hoger in de Google charts staan? Wij
+                                optimaliseren uw website volledig op uw doelgroep.</p>
                             <ul>
                                 <li>Hoger in Google</li>
                                 <li>Meer bereik in doelgroep</li>
@@ -97,14 +96,14 @@
                             <img src="{{asset('/images/service-images/website.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Denk hierbij aan een portfolio of informatieve website. Wij maken een website voor u en
-                                zorgen dat deze website op elk platform te bekijken is.</p>
+                            <p>Een website is een moderne maar nu ook must-have manier om klanten te trekken en
+                                vertrouwen te bouwen met uw doelgroep, wij maken en onderhouden een website naar uw
+                                wensen.</p>
                             <ul>
                                 <li>Design naar uw smaak</li>
                                 <li>Gebruiksvriendelijk</li>
                                 <li>Modern en toekomstgericht</li>
                                 <li>Snelle onderhoud indien nodig</li>
-                                <li>99.9% uptime van uw website</li>
                             </ul>
                             <a href="/dienst/website" class="btn">Lees meer</a>
                         </div>
@@ -118,8 +117,8 @@
                             <img src="{{asset('/images/service-images/marketing.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Social media, Google Ads en Google Analytics op de juiste manier gebruiken om te
-                                adverteren voor uw bedrijf.</p>
+                            <p>Via moderne wegen adventeren en de juiste doelgroep trekken is moeilijker dan het klinkt,
+                                wij maken een passende advertentie naar uw wensen.</p>
                             <ul>
                                 <li>Gemakkelijke advertenties</li>
                                 <li>Gericht op uw doelgroep(en)</li>
@@ -138,14 +137,13 @@
                             <img src="{{asset('/images/service-images/webshop.jpg')}}" alt="website card image">
                         </div>
                         <div class="card_content">
-                            <p>Webshops zijn de toekomst. Wij zorgen ervoor dat u uw webshop makkelijk kan bedienen en
-                                duidelijk te maken. Alles kan aangepast worden naar uw wensen.</p>
+                            <p>Het verkopen van online producten en services is een moeilijke taak, wij helpen u graag
+                                aan een snelle & easy-to-use webshop binnen uw wensen.</p>
                             <ul>
                                 <li>Op maat gemaakte webshop</li>
-                                <li>Design naar uw smaak</li>
+                                <li>Design naar uw wensen</li>
                                 <li>Modern en toekomstgericht</li>
-                                <li>Snelle onderhoud indien nodig</li>
-                                <li>99.9% uptime van uw webshop</li>
+                                <li>Snelle onderhoud</li>
                                 <li>Gemakkelijk te gebruiken</li>
                             </ul>
                             <a href="/dienst/webshop" class="btn">Lees meer</a>

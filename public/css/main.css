@@ -909,7 +909,7 @@ section.hero .under-text .under {
 }
 
 section.subhero {
-  min-height: 50vh;
+  min-height: 35vh;
   max-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -926,7 +926,7 @@ section.subhero .overlay {
   opacity: 0.65;
 }
 section.subhero .row {
-  height: calc(50vh - 64px);
+  height: 35vh;
 }
 @media (max-height: 959px) {
   section.subhero .row {
