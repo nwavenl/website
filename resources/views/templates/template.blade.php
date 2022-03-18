@@ -107,21 +107,6 @@
             </div>
         </div>
     </section>
-    <div class="linkedin-pop_up" id="linkedin_POP">
-        <div class="__title">
-            <h2>Hey!</h2>
-            <div class="divider"></div>
-            <div class="close" id="linkedin_close">&times</div>
-        </div>
-        <div class="__body">
-            <h4>wij zijn te vinden op Linkedin</h4>
-            <p>Volg ons werk, bekijk updates en meer!</p>
-            <div class="flex">
-                <a href="https://nl.linkedin.com/company/nwave" target="_blank" class="btn blue">Naar profiel</a>
-                <a id="linkedin_close_two"  class="btn empty">sluiten</a>
-            </div>
-        </div>
-    </div>
 </main>
 
 @include('includes.footer')
