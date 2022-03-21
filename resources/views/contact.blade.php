@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-12">
-                    <div class="content-parent" data-aos="fade-down">
+                    <!-- <div class="content-parent" data-aos="fade-down">
                         <div class="row">
                             <div class="col-xl-4 col-12">
                                 <div class="card-parent">
@@ -90,7 +90,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <h3>Sorry voor het ongemak, maar dit formulier staat voorlopig uit.</h3>
+                    <p>Mailen kan altijd nog wel, mail ons via: <a class="main" href="mailto:contact@nwave.nl">contact@nwave.nl</a></p>
                 </div>
             </div>
         </div>
